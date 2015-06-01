@@ -1,0 +1,202 @@
+.container {
+	width: 1280px;
+	margin: 0 auto;
+	overflow: hidden;
+
+}
+
+header {
+	width: 1280px;
+	height: 50px;
+	position: fixed;
+	background: white;
+	overflow: hidden;
+	
+}
+
+h1{
+	font-family: Helvetica;
+	font-size: 20px;
+	font-weight: bold;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+
+}
+
+.navmain {
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 10px;
+	float: right;
+	margin-right: 40px;
+	margin-top: 20px;
+
+}
+
+li {
+	float: left;
+	margin-right: 40px;
+
+}
+
+.main-photo {
+	max-width: 1280px;
+	height: 580px;
+	background: url("../images/main-photo.jpg");
+	background-size: cover;
+	margin-top: 50px;
+}
+
+h2{
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 30px;
+	width: 1280px;
+	text-align: center;
+
+}
+
+.ourcompany {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.starwarsactors {
+	max-width: 1280px;
+	margin-top: 60px;
+	
+}
+
+.han-box{
+	width: 200px;
+	float: left;
+	margin-left:100px;
+		
+}
+
+.hanphoto {
+	width: 200px;
+	height: 200px;
+	background: url("../images/han.jpg");
+	border-radius: 100px;
+
+}
+
+h3{
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+
+}
+
+.hanstext {
+	font-family: Helvetica;
+	font-size: 11px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+
+.chewy-box{
+	width: 200px;
+	margin-left: 240px;
+	margin-right: 240px;
+	float: left;
+	
+}
+
+.chewyphoto {
+	width: 200px;
+	height: 200px;
+	background: url("../images/chewbacca.jpg");
+	border-radius: 100px;
+	
+}
+
+.chewytext {
+	font-family: Helvetica;
+	font-size: 11px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.darth-box{
+	width: 200px;
+	float: left;
+
+
+
+}
+.darthphoto {
+	width: 200px;
+	height: 200px;
+	background: url("../images/darth.jpg");
+	border-radius: 100px;
+
+}
+
+.darthtext {
+	font-family: Helvetica;
+	font-size: 11px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+
+
+.mapbox {
+	width: 1280px;
+	height: 500px;
+	background: #f2ede5;
+	margin-top: 110px;
+	float: left;
+
+}
+
+.map {
+	width:640px;
+	height: 500px;
+	background: url("../images/map.png");
+	float: left;
+}
+
+.addressbox {
+	width:640px;
+	height: 500px;
+	margin-top: 180px;
+	float: right;
+
+}
+.address-text {
+	font-family: Helvetica;
+	font-size: 20px;
+	font-weight: bold;	
+	margin-left: 130px;
+
+}
+
+ h4{
+ 	font-family: Helvetica;
+	font-size: 30px;
+	font-weight: bold;
+
+}
+
+
+
+footer {
+	width: 1280px;
+	height: 130px;
+	float: left;
+	margin-top: 60px
+}
+
+.footer-text {
+	font-family: Helvetica;
+	font-size: 20px;
+	text-align: center;
+
+
+}

@@ -1,0 +1,40 @@
+body{
+	background: white;
+	font-family: Helvetica;
+	font-size:14px;	
+	color: #848687;
+	margin:20px;
+	padding:20px;
+}
+
+.alexthecat {
+	float: right;
+	width: 200px;
+}
+
+h1{
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	color: #0858fa;
+}
+
+h2{
+	font-size: 20px;
+	color: #0858fa;
+}
+
+p{
+	line-height: 1.5;
+}
+
+
+h3{
+	font-style: italic;
+	color:#0858fa;
+}
+
+li{ 
+	text-indent: 20px;
+	line-height: 1.5;
+}
