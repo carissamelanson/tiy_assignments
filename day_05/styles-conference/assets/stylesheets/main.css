@@ -27,6 +27,8 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
+
+
 body {
   line-height: 1;
 }
@@ -45,6 +47,14 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/*custom styles*/
+body {
+  color: #888;
+  font: 300 16px/22px "Open Sans", "helvetica neue", 
+  Helvetica, arial, sans-serif;
+}
+
 
 /*grid*/
 
@@ -68,6 +78,49 @@ table {
 
 h1, h3, h4, h5, p {
   margin-bottom: 22px;
+  color: #648880;
+}
+
+h1 { 
+  font-size: 36px;
+  line-height: 44px;
+}
+
+h2 { 
+  font-size: 24px;
+  line-height: 44px;
+}
+
+h3 { 
+  font-size: 21px;
+}
+
+h4 { 
+  font-size: 18px;
+}
+
+h5 { 
+  color: #a9b2b9;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+strong {
+  font-weight: 400;
+}
+
+cite, em {
+  font-style: italic;
+}
+
+
+/*links*/
+a:hover {
+  color: #a9b2b9;
+}
+
+a {
+  color: #648880;
 }
 
 /*buttons*/
@@ -104,15 +157,20 @@ h1, h3, h4, h5, p {
   float: left;
   border-top: 4px solid #648880;
   padding: 40px 0 22px 0;
+  font-size: 49px;
+  line-height: 44px;
 }
 
 /*primary footer*/
 
 .primary-footer small {
   float: left;
+  font-weight: 400;
 }
 
 .primary-footer {
+  color: #648880
+  font-size: 14px;
   padding-bottom: 44px;
   padding-top: 44px;
 }
@@ -134,5 +192,14 @@ h1, h3, h4, h5, p {
 .col-2-3 {
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.tagline {
+  margin: 66px 0 22px 0;
+}
+
+.primary-nav {
+  font-size: 14px;
+  font-weight: 400;
 }
 
