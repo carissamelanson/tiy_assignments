@@ -51,7 +51,7 @@ table {
 /*custom styles*/
 body {
   color: #888;
-  font: 300 16px/22px "Open Sans", "helvetica neue", 
+  font: 300 16px/22px "Lato", "Open Sans", "helvetica neue", 
   Helvetica, arial, sans-serif;
 }
 
@@ -75,10 +75,33 @@ body {
    padding-left: 30px;
   padding-right: 30px;
 }
+.col-1-3 {
+  width: 33.33%;
+}
+.col-2-3 {
+  width: 66.66%;
+}
+
+.col-1-3,
+.col-2-3 {
+  display: inline-block;
+  vertical-align: top;
+}
+.grid,
+.col-1-3,
+.col-2-3 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/*typography*/
+
+h1, h2, h3, h4 {
+  color: #648880;
+}
 
 h1, h3, h4, h5, p {
   margin-bottom: 22px;
-  color: #648880;
 }
 
 h1 { 
@@ -103,6 +126,7 @@ h5 {
   color: #a9b2b9;
   font-size: 14px;
   font-weight: 400;
+  text-transform: uppercase;
 }
 
 strong {
@@ -121,8 +145,15 @@ a:hover {
 
 a {
   color: #648880;
+  text-decoration: none;
+}
+p a { 
+  border-bottom: 1px solid #dfe2e5; 
 }
 
+.teaser a:hover h3 {
+  color: #a9b2b9;
+}
 /*buttons*/
 
 .btn {
@@ -137,6 +168,15 @@ a {
 
 .hero {
   padding: 22px 80px 66px 80px;
+  line-height: 44px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 36px;
+}
+.hero p {
+  font-size: 24px;
 }
 
 /*clearfix*/
@@ -144,7 +184,7 @@ a {
 .group:before,
 .group:after {
   content: "";
-  display:table;
+  display: table;
 }
 .group:after {
   clear: both;
@@ -169,37 +209,28 @@ a {
 }
 
 .primary-footer {
-  color: #648880
+  color: #648880:;
   font-size: 14px;
   padding-bottom: 44px;
   padding-top: 44px;
 }
 
-.col-1-3 {
-  width: 33.33%;
-}
-.col-2-3 {
-  width: 66.66%;
-}
 
-.col-1-3,
-.col-2-3 {
-  display: inline-block;
-  vertical-align: top;
-}
-.grid,
-.col-1-3,
-.col-2-3 {
-  padding-left: 15px;
-  padding-right: 15px;
-}
 
 .tagline {
   margin: 66px 0 22px 0;
+  text-align: right;
 }
 
 .primary-nav {
   font-size: 14px;
   font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: uppercase;
 }
 
+/*navigation*/
+
+.nav {
+  text-align: right;
+}
