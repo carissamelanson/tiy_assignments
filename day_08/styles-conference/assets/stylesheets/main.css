@@ -232,6 +232,17 @@ p a {
   color: #648880;
 }
 
+.btn-default {
+  border: 0;
+  background: #648880;
+  padding: 11px 30px;
+  font-size: 14px;
+}
+
+.btn-default: hover {
+  background: #77a198;
+}
+
 /*primary header*/
 
 .logo {
@@ -338,6 +349,31 @@ p a {
   vertical-align: top;
 }
 
+/*schedule*/
+  table {
+    margin-bottom: 44px;
+    width: 100%;
+  }
+
+  table:last-child {
+    margin-bottom: 0;
+  }
+
+  th,
+  td {
+    padding-bottom: 22px;
+    vertical-align: top;
+  }
+
+  th {
+    padding-right: 45px;
+    text-align: right;
+    width: 20%;
+  }
+
+  td {
+    width: 40%;
+  }
 
 /*venue*/
 
