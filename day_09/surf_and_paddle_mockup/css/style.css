@@ -4,7 +4,7 @@
 	overflow: hidden;
 }
 
-/*HEADER*/
+/*------HEADER------*/
 header {
 	width: 1300px;
 	height: 520px;
@@ -20,6 +20,7 @@ header {
 .logo {
 	margin-left: 100px;
 	float: left;
+	display: inline-block;
 	margin-top: 10px;	
 }
 
@@ -27,9 +28,12 @@ h5 {
 	font-family: helvetica;
 	font-size: 13px;
 	color: #083452;
-	float: left;
-	margin-top: 20px;
 	margin-left: 10px;
+	display: inline-block;
+	vertical-align: middle;
+	float: right;
+	margin-top: 10px;
+	
 }
 
 .primary-nav {
@@ -74,16 +78,14 @@ h3 {
 	text-align: center;
 }
 
-/*SECTION*/
+/*------SECTION------*/
 
 .content {
-	width: 1300px;
-	height: 1000px;
+	width: 1300px;	
 }
 
 .blogbox {
 	width: 860px;
-	height:1000px;
 	float: left;
 	padding-bottom: 70px;
 }
@@ -143,6 +145,7 @@ p {
 	line-height: 2;
 }
 
+/*-----BUTTONS------*/
 .buttons {
 	font-family: helvetica;
 	font-size: 10px;
@@ -210,43 +213,35 @@ p {
 	padding-top: 10px;
 }
 
+/*------ASIDE------*/
 aside {
 	width: 440px;
-	height: 1000px;
 	float: right;
 }
 
 .social-media-box {
 	width: 280px;
-	height: 270px;
 	margin-right: 160px;
 }
 
-.social-media {
+.social-media li {
 	font-family: helvetica;
 	font-size: 14px;
 	margin-top: 20px;
-	margin-left: 40px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 60px;
+	display: inline-block;
 	color: #a3b3bf;
+}
+
+.aside {
+	text-align: center;
 }
 
 .author-icon { 
 	padding-top: 90px;
 	margin-left: 100px;
-}
-
-.twitter {
-	float: left;
-	margin-right: 20px;
-}
-
-.facebook {
-	float: left;
-	margin-right: 20px;
-}
-
-.instagram {
-	float: left;
 }
 
 .ad-box {
@@ -268,7 +263,7 @@ aside {
 	float: left;
 	margin-top: 50px;
 	font-family: helvetica;
-	font-size: 10px;
+	font-size: 13px;
 	color: #a3b3bf;
 	line-height: 1.5;
 }
@@ -360,7 +355,7 @@ h4 {
 	margin-top: 290px;
 }
 
-/*FOOTER*/
+/*------FOOTER------*/
 
 footer {
 	width: 1300px;
@@ -386,13 +381,14 @@ small {
 
 .nav {
 	margin-right: 160px;
+	float: right;
 }
 
 .nav li {
 	font-family: helvetica;
 	font-size: 10px;
 	color: #a3b3bf;
-	float: right;
+	float: left;
 	margin-right: 10px;
 	margin-top: 50px;
 }
