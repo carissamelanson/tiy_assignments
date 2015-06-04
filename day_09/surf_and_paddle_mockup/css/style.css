@@ -4,87 +4,81 @@
 	overflow: hidden;
 }
 
+/*HEADER*/
 header {
 	width: 1300px;
 	height: 520px;
 }
 
-
 .surfphoto {
 	max-width: 1300px;
 	height: 520px;
 	background-image: url("../images/surf.jpg");
-	position: absolute;
-	
+	position: absolute;	
 }
 
 .logo {
 	margin-left: 100px;
 	float: left;
-	margin-top: 10px;
-	
+	margin-top: 10px;	
 }
+
 h5 {
-	font-family:helvetica;
-	font-size: 10px;
+	font-family: helvetica;
+	font-size: 13px;
 	color: #083452;
 	float: left;
 	margin-top: 20px;
 	margin-left: 10px;
-	
-	
 }
 
-.navmain {
+.primary-nav {
 	color: #083452;
+	display: inline-block;
+	vertical-align: middle;
 	float: right;
-	margin-right: 100px;
+	margin: 150px;
+	margin-top: 10px;	
 }
 
-li {
-	font-family:helvetica;
-	font-size: 10px;
+.primary-nav li {
+	font-family: helvetica;
+	font-size: 13px;
 	color: #083452;
-	float:left;
-	margin-right: 20px;	
-	margin-top: 20px;
+	display: inline-block;
+	margin-right: 10px;
 }
 
-.magglass {
-	float:right;
-	margin-left: 10px;
-
-
-
+.search {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 10px;	
 }
 
 h1 { 
-	font-family:helvetica;
-	font-size: 100px;
+	font-family: helvetica;
+	font-size: 110px;
 	font-weight: bold;
-	color: white;
+	color: #fff;
 	width: 1300px;
 	text-align: center;
 	margin-top: 220px;
-
 }
 
 h3 {
-	font-family:helvetica;
+	font-family: helvetica;
 	font-size: 20px;
 	font-weight: bold;
 	color: white;
 	width: 1300px;
 	text-align: center;
-	
 }
+
+/*SECTION*/
 
 .content {
 	width: 1300px;
 	height: 1000px;
-	
-	
-
 }
 
 .blogbox {
@@ -93,13 +87,13 @@ h3 {
 	float: left;
 	padding-bottom: 70px;
 }
+
 .blogtext {
 	margin-left: 160px;
 	margin-right: 80px;
 	margin-top: 90px;
-
-
 }
+
 h2 {
 	font-family:helvetica;
 	font-size: 40px;
@@ -107,26 +101,25 @@ h2 {
 	line-height:44px;
 }
 
-.author{
+.author {
 	float: left;
 	width: 20px;
 	margin-top: 20px;
 }
 
 h6 {
-	font-family:helvetica;
-	font-size: 14px;
+	font-family: helvetica;
+	font-size: 16px;
 	color: #a3b3bf;
 	margin-left: 120px;
 	margin-top: 30px;
-
 }
 
 a {
 	text-decoration: underline;
 }
 
-.pquote{
+.pquote {
 	font-family: helvetica;
 	font-style: italic;
 	font-size: 30px;
@@ -135,7 +128,7 @@ a {
 	margin-top: 40px;
 	margin-bottom: 40px;
 }
-.verticalLine {
+.vertical-line {
     border-left: thin solid #a3b3bf;
 }
 
@@ -144,7 +137,7 @@ a {
 }
 
 p {
-	font-family:helvetica;
+	font-family: helvetica;
 	font-size: 14px;
 	color: #5e686f;
 	line-height: 2;
@@ -158,18 +151,18 @@ p {
 	margin-left: 160px;	
 }
 
-.comments-button{
+.comments-button {
 	width: 160px;
 	height: 30px;
 	background: #a3b3bf;
 	float: left;
-	
 }
+
 .comments-icon {
-	width:30px;
-	height:30px;
+	width: 30px;
+	height: 30px;
 	background: #5e686f;
-	float:left;
+	float: left;
 	margin-right: 10px;
 }
 
@@ -177,18 +170,19 @@ p {
 	padding-top: 10px;
 }
 
-.read-later-button{
+.read-later-button {
 	width: 130px;
 	height: 30px;
 	background: #a3b3bf;
 	margin-left: 10px;
 	float: left;
 }
+
 .read-later-icon {
-	width:30px;
-	height:30px;
+	width: 30px;
+	height: 30px;
 	background: #5e686f;
-	float:left;
+	float: left;
 	margin-right: 10px;
 }
 
@@ -196,64 +190,59 @@ p {
 	padding-top: 10px;
 }
 
-.share-button{
+.share-button {
 	width: 150px;
 	height: 30px;
 	background: #106db3;
 	margin-left: 10px;
 	float: left;
 }
+
 .share-icon {
-	width:30px;
-	height:30px;
+	width: 30px;
+	height: 30px;
 	background: #083452;
-	float:left;
+	float: left;
 	margin-right: 10px;
 }
 
-.share{
+.share {
 	padding-top: 10px;
 }
 
-.sidebar {
-	width:440px;
-	height:1000px;
-	float:right;
-}
-.social-media-box {
-	width:280px;
-	height:270px;
-	margin-right:160px;
-	
-	
+aside {
+	width: 440px;
+	height: 1000px;
+	float: right;
 }
 
+.social-media-box {
+	width: 280px;
+	height: 270px;
+	margin-right: 160px;
+}
 
 .social-media {
-	font-family:helvetica;
+	font-family: helvetica;
 	font-size: 14px;
 	margin-top: 20px;
 	margin-left: 40px;
 	color: #a3b3bf;
-	
 }
 
-.author-icon {
-	padding-top:90px;
+.author-icon { 
+	padding-top: 90px;
 	margin-left: 100px;
-	
 }
 
 .twitter {
 	float: left;
 	margin-right: 20px;
-
 }
 
 .facebook {
 	float: left;
 	margin-right: 20px;
-	
 }
 
 .instagram {
@@ -261,147 +250,149 @@ p {
 }
 
 .ad-box {
-	width:280px;
-	height:330px;
-	float:left;
+	width: 280px;
+	height: 330px;
+	float: left;
 }
+
 .ad-text {
-	font-family:helvetica;
+	font-family: helvetica;
 	font-size: 10px;
-	float:right;
+	float: right;
 	color: #a3b3bf;
 	margin-top: 10px;
 }
-.sidebar-section{
-	width:280px;
-	float:left;
+
+.sidebar-section {
+	width: 280px;
+	float: left;
 	margin-top: 50px;
-	font-family:helvetica;
+	font-family: helvetica;
 	font-size: 10px;
 	color: #a3b3bf;
 	line-height: 1.5;
 }
 
-h4{
-	font-family:helvetica;
-	font-weight:bold;
+h4 {
+	font-family: helvetica;
+	font-weight: bold;
 	font-size: 18px;
 	color: #106db3;
 }
 
-.popular-posts-box{
-	clear:left;
-	width:1300px;
-	height:150px;
+.popular-posts-box {
+	clear: left;
+	width: 1300px;
+	height: 150px;
 }
+
 .line-separator {
-	height:1px;
-	background:#a3b3bf;
-	border-bottom:1px solid #a3b3bf;
-
-
-
+	height: 1px;
+	background: #a3b3bf;
+	border-bottom: 1px solid #a3b3bf;
 }
-
-
-
 
 .post-text {
-  	font-family:helvetica;
+  	font-family: helvetica;
 	font-size: 50px;
 	color: #083452;
   	text-align: center;
-  	padding-top:50px;
+  	padding-top: 50px;
 }
 
 .surfer-stories {
-	width:325px;
-	height:330px;
+	width: 325px;
+	height: 330px;
 	float: left;
-	background-image: url("../images/surfer.jpg");
-	
+	background-image: url("../images/surfer.jpg");	
 }
 
 .surfing-text {
 	margin-left: 20px;
-	font-family:helvetica;
+	font-family: helvetica;
 	font-size: 30px;
-	color:#083452;
-	margin-top:290px;
+	color: #083452;
+	margin-top: 290px;
 }
 
-.surf-brews{
-	width:325px;
-	height:330px;
+.surf-brews {
+	width: 325px;
+	height: 330px;
 	float: left;
 	background-image: url("../images/beer.jpg");
-	
 }
 
 .surf-brews-text {
 	margin-left: 20px;
-	font-family:helvetica;
+	font-family: helvetica;
 	font-size: 30px;
-	color:white;
-	margin-top:290px;
+	color: #fff;
+	margin-top: 290px;
 }
 
-.zack{
-	width:325px;
-	height:330px;
+.zack {
+	width: 325px;
+	height: 330px;
 	float: left;
 	background-image: url("../images/zack.jpg");
-	
 }
 
 .zack-text {
 	margin-left: 20px;
-	font-family:helvetica;
+	font-family: helvetica;
 	font-size: 30px;
-	color:#083452;
-	margin-top:260px;
+	color: #083452;
+	margin-top: 260px;
 }
 
 .surf-shots{
-	width:325px;
-	height:330px;
+	width: 325px;
+	height: 330px;
 	float: left;
 	background-image: url("../images/booze.jpg");
-	
 }
 
 .surf-shots-text {
 	margin-left: 20px;
-	font-family:helvetica;
+	font-family: helvetica;
 	font-size: 30px;
-	color:#083452;
-	margin-top:290px;
+	color: #083452;
+	margin-top: 290px;
 }
 
+/*FOOTER*/
+
 footer {
-	width:1300px;
-	height:100px;
-	background-color:#083452;
+	width: 1300px;
+	height: 100px;
+	background-color: #083452;
 	float: left;
 }
+
 .ironyard-logo {
 	margin-top: 30px;
 	margin-left: 160px;
-	float:left;
+	float: left;
 }
-.copyright{
-	font-family:helvetica;
+
+small {
+	font-family: helvetica;
 	font-size: 10px;
-	color:#a3b3bf;
+	color: #a3b3bf;
 	float: left;
 	margin-left: 18px;
 	margin-top: 50px;
 }
 
-.contact {
-	font-family:helvetica;
-	font-size: 10px;
-	color:#a3b3bf;
-	float: right;
+.nav {
 	margin-right: 160px;
+}
+
+.nav li {
+	font-family: helvetica;
+	font-size: 10px;
+	color: #a3b3bf;
+	float: right;
+	margin-right: 10px;
 	margin-top: 50px;
+}
