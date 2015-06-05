@@ -10,30 +10,30 @@ header {
 	height: 520px;
 }
 
-.surfphoto {
+.header-image {
 	max-width: 1300px;
 	height: 520px;
 	background-image: url("../images/surf.jpg");
 	position: absolute;	
 }
 
-.logo {
-	margin-left: 100px;
+.logo-header {
 	float: left;
-	display: inline-block;
-	margin-top: 10px;	
+  	margin-left: 100px;		
+}
+
+.logo {
+  	float:left;
+  	margin-top: 10px;
 }
 
 h5 {
 	font-family: helvetica;
 	font-size: 13px;
 	color: #083452;
-	margin-left: 10px;
-	display: inline-block;
-	vertical-align: middle;
-	float: right;
-	margin-top: 10px;
-	
+  	float: right;
+  	margin-left: 10px;  
+  	margin-top: 17px;
 }
 
 .primary-nav {
@@ -41,7 +41,7 @@ h5 {
 	display: inline-block;
 	vertical-align: middle;
 	float: right;
-	margin: 150px;
+	margin-right: 150px;
 	margin-top: 10px;	
 }
 
@@ -80,11 +80,11 @@ h3 {
 
 /*------SECTION------*/
 
-.content {
+section {
 	width: 1300px;	
 }
 
-.blogbox {
+article {
 	width: 860px;
 	float: left;
 	padding-bottom: 70px;
@@ -134,7 +134,7 @@ a {
     border-left: thin solid #a3b3bf;
 }
 
-.copy{
+.article-copy{
 	margin-top: 40px;
 }
 
