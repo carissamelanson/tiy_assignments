@@ -1,0 +1,95 @@
+.container {
+	width: 1280px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+header {
+	width: 1280px;
+
+}
+
+.main-header {
+	width: 1280px;
+	height: 50px;
+}
+
+.twitter-logo {
+	width: 26px;
+	height: 24px;
+	margin-left: 192px;
+	margin-top: 20px;
+	float: left;
+	display: inline-block;
+	vertical-align: middle;
+	margin-bottom: 15px;
+
+}
+
+.search-nav {
+	width: 236px;
+	height: 34px;
+	background: #f5f8fa;
+	border-radius: 20px;
+	font-family: helvetica;
+	color: #7a8d9b;
+	font-size: 14px;
+	border: 1px solid #afbbc4;
+	margin-top: 10px;
+	margin-left: 442px;
+	float: left;
+}
+
+.search {
+	padding: 10px;
+}
+
+.magglass {
+	width: 15px;
+	height: 15px;
+	float: right;	
+}
+
+.log-in {
+	float: right;
+	color: #495b67;
+	font-family: helvetica;
+	font-size: 14px;
+	display: inline-block;
+	margin-right: 192px;
+	margin-top: 20px;
+}
+
+strong {
+	font-weight: bold;
+}
+
+.banner {
+	max-width: 1280px;
+	height: 324px;
+	background-image: url("../images/banner.jpg");
+	background-position: -50px;
+	background-size: cover;
+}
+
+.info {
+	height: 64px;
+	width: 1280px;
+	background: blue;
+}
+
+.profile-photo {
+	background: #fff;
+	width: 226px;
+	height: 226px;
+	position: absolute;
+	margin-left: 172px;
+	border-radius: 20px;
+	top: 250px;
+}
+.profile-info {
+	width: 314px;
+	height: 230px;
+	margin-left: 172px;
+	background: #bada55;
+}
