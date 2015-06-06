@@ -84,14 +84,22 @@ h1 {
 	font-size: 1.375em;
 }
 
+h3 {
+	font-size: 1.125em;
+}
+h4 {
+	color: #000;
+	font-size: .875em;
+	font-weight: bold;
+}
 h5 {
 	color: #7a8d9b;
 	font-size: 0.875em;
 }
 
 h6 {
-	color: #7a8d9b;
-	font-size: 0.875em;
+	color: #20a3d9;
+	font-size: 0.75em;
 
 }
 
@@ -134,7 +142,7 @@ section {
 }
 
 a {
-	color: #008fd1;
+	color: #20a3d9;
 	text-decoration: none;
 }
 .photo-album-container {
@@ -198,4 +206,91 @@ a {
 	font-size: 1em;
 	text-align: center;
 	padding: 14px;
+}
+
+.suggest-box {
+	width: 312px;
+	height: 302px;
+	background-color: #fff;
+	margin-left: 162px;
+	margin-top: 12px;
+	border-radius: 10px;
+	border: 1px solid #e1e8ed;
+}
+
+.suggest-box h3,
+.trends h3 {
+	color: #495b67;
+	font-weight: 100;
+	margin-top: 20px;
+}
+
+.suggest-box h3,
+.suggest-box h6,
+.trends h3, 
+.trends h6 {
+ 	float: left;
+ 	margin-bottom: 16px;
+}
+
+ .suggest-box h6,
+ .trends h6 {
+ 	margin-left: 6px;
+ 	margin-top: 24px;
+}
+
+.suggest-box h3,
+.trends h3,
+.profile-image {
+	margin-left: 16px;
+}
+
+.profile-image {
+	clear: left;
+	float:left;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	width: 38px;
+	height: 38px;
+}
+
+.users {
+	float: left;
+	margin-left: 16px;
+	line-height: 1.2;
+}
+
+.trends {
+	width: 312px;
+	height: 316px;
+	background-color: #fff;
+	margin-left: 162px;
+	margin-top: 12px;
+	border-radius: 10px;
+	border: 1px solid #e1e8ed;
+}
+
+.trends-list li {
+	clear:left;
+	font-family: helvetica;
+	color: #20a3d9;
+	font-size: 0.875em;
+	line-height: 1.5;
+	margin-left: 16px;
+
+}
+
+.promote {
+	width: 16px;
+	height: 12px;
+	margin-right: 8px;
+
+}
+
+.entourage {
+	color: #7a8d9b;
+}
+
+.small-nav {
+	float: left;
 }
