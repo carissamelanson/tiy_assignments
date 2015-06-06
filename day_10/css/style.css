@@ -9,9 +9,9 @@ header {
 
 }
 
-.main-header {
-	width: 1280px;
+.main-header {	
 	height: 50px;
+	margin-bottom: 10px;
 }
 
 .twitter-logo {
@@ -20,10 +20,6 @@ header {
 	margin-left: 192px;
 	margin-top: 20px;
 	float: left;
-	display: inline-block;
-	vertical-align: middle;
-	margin-bottom: 15px;
-
 }
 
 .search-nav {
@@ -33,7 +29,7 @@ header {
 	border-radius: 20px;
 	font-family: helvetica;
 	color: #7a8d9b;
-	font-size: 14px;
+	font-size: .75em;
 	border: 1px solid #afbbc4;
 	margin-top: 10px;
 	margin-left: 442px;
@@ -54,10 +50,9 @@ header {
 	float: right;
 	color: #495b67;
 	font-family: helvetica;
-	font-size: 14px;
-	display: inline-block;
+	font-size: .75em;
 	margin-right: 192px;
-	margin-top: 20px;
+	margin-top: 20px;	
 }
 
 strong {
@@ -78,6 +73,36 @@ strong {
 	background: blue;
 }
 
+/*------TYPOGRAPHY------*/
+h1, h2, h3, h4, h5, h6 {
+	font-family: helvetica;
+
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 1.375em;
+}
+
+h5 {
+	color: #7a8d9b;
+	font-size: 0.875em;
+}
+
+h6 {
+	color: #7a8d9b;
+	font-size: 0.875em;
+
+}
+
+/*------SECTION------*/
+
+section {
+	max-width: 1280px;
+	background-color: #f5f8fa;
+}
+/*------profile info------*/
+
 .profile-photo {
 	background: #fff;
 	width: 226px;
@@ -89,7 +114,88 @@ strong {
 }
 .profile-info {
 	width: 314px;
-	height: 230px;
 	margin-left: 172px;
-	background: #bada55;
+	padding-top: 44px;
+}
+.profile-info p,
+.profile-info-list {
+	font-family: helvetica;
+	font-size: 0.875em;
+	line-height: 1.5;
+}
+
+.location-icon,
+.chains-icon,
+.clock-icon,
+.photo-icon {
+	width: 18px;
+	margin-right: 8px;
+
+}
+
+a {
+	color: #008fd1;
+	text-decoration: none;
+}
+.photo-album-container {
+	width: 314px;
+	height: 186px;	
+	margin-bottom: 28px;
+}
+.photo-album {
+	float: left;
+}
+
+.box {
+	border-radius: 10px;
+	width: 90px;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+/*------sign up------*/
+.sign-up-box {
+	clear: left;
+	margin-left: 162px;
+	width: 312px;
+	height: 160px;
+	background-color: #e1e8ed;
+	border-radius: 10px;
+}
+
+.sign-up {
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.sign-up h1 {
+	color: #495b67;
+	font-weight: 100;
+	margin-bottom: 10px;
+}
+
+.sign-up p {
+	color: #7a8d9b;
+	font-family: helvetica;
+	font-size: 0.875em;
+	line-height: 1.4;
+	margin-bottom: 14px;
+}
+
+.sign-up-btn {
+	float: left;
+	width: 278px;
+	height: 40px;
+	background-color: #55acee;
+	border-radius: 10px;
+	margin-left: 16px;
+	margin-right: 16px;
+}
+
+.sign-up-btn p {
+	color: #fff;
+	font-family: helvetica;
+	font-size: 1em;
+	text-align: center;
+	padding: 14px;
 }
