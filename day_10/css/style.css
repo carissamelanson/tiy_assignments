@@ -6,7 +6,6 @@
 /*------TYPOGRAPHY------*/
 h1, h2, h3, h4, h5, h6, p, li {
 	font-family: "helvetica neue", helvetica, arial, sans-serif;
-
 }
 
 h1 {
@@ -16,7 +15,6 @@ h1 {
 
 h2 {
 	font-size: 1.625em;
-
 }
 
 h3 {
@@ -26,7 +24,6 @@ h4 {
 	color: #000;
 	font-size: .875em;
 	font-weight: bold;
-
 }
 h5 {
 	color: #7a8d9b;
@@ -35,7 +32,6 @@ h5 {
 
 h6 {
 	font-size: 0.75em;
-
 }
 
 small {
@@ -46,7 +42,6 @@ small {
 /*------HEADER------*/
 header {
 	width: 1280px;
-
 }
 
 .main-header {	
@@ -110,7 +105,7 @@ strong {
 .info {
 	height: 64px;
 	width: 1280px;
-	border: 1px solid #e1e8ed;
+	border-bottom: 1px solid #e1e8ed;
 }
 
 .tweets, .following, .followers,
@@ -133,7 +128,6 @@ strong {
 .tweets {
 	margin-left: 500px;
 	border-bottom: 4px solid #20a3d9;
-
 }
 
 .tweets, .following, .followers,
@@ -182,8 +176,6 @@ aside {
 	float: left;
 }
 
-
-
 /*------profile info------*/
 
 .profile-photo {
@@ -213,7 +205,6 @@ aside {
 .photo-icon {
 	width: 18px;
 	margin-right: 8px;
-
 }
 
 a {
@@ -304,7 +295,6 @@ a {
 .trends h6 {
  	float: left;
  	margin-bottom: 16px;
-
 }
 
  .suggest-box h6,
@@ -352,14 +342,12 @@ a {
 	font-size: 0.875em;
 	line-height: 1.5;
 	margin-left: 16px;
-
 }
 
 .promote {
 	width: 16px;
 	height: 12px;
 	margin-right: 8px;
-
 }
 
 .entourage {
@@ -380,7 +368,7 @@ a {
 
 /*------ARTICLE------*/
 
-.tweet-box {
+article {
 	width: 634px;
 	height: 1916px;
 	background-color: #fff;
@@ -390,7 +378,7 @@ a {
 	border-radius: 5px;
 	border: 1px solid #e1e8ed;
 }
-.tweet-box h3 {
+article h3 {
 	font-weight: 300;
 	color: #292f33;
 
@@ -408,7 +396,6 @@ a {
 	margin-top: 18px;
 }
 
-
 .tweets-header h3 {
 	margin-left: 16px;
 	font-weight: 500;
@@ -421,13 +408,12 @@ a {
 	border-bottom: 1px thin #e1e8ed;
 }
 
-.pin-icon {
+.twitter-icon {
 	width: 18px;
 	height: 18px;
 	margin-left: 50px;
 	margin-right: 10px;
 	margin-top: 14px;
-
 }
 
 .profile-icon {
@@ -446,17 +432,16 @@ a {
 	margin-top: -30px;
 	margin-left: 78px;
 	margin-bottom: 14px;
-
 }
 
-.post-box-1 h5 {
+.post-box-1 h5,
+.post-box-2 h5 {
 	margin-bottom: 4px;
 }
 
 .profile-name h4, 
 .profile-name h5 {
 	float: left;
-
 }
 
 .twitter-post {
@@ -473,11 +458,82 @@ a {
 .tiny-profile-icon {
 	width: 20px;
 	height: 20px;
+	margin-right: 4px;
+	vertical-align: middle;
 }
 .group-photo {
 	width: 120px;
 	height: 90px;
 	float: right;
 	margin-left: 50px;
+	margin-right: 14px;
+}
 
+.reply-icon {
+	clear: left;
+	margin-right: 38px;
+}
+
+.reply-icon,
+.retweet-icon,
+.favorites-icon,
+.more-icon {
+	margin-top: 10px;
+	float: left;
+	width: 20px;
+	height: 16px;	
+}
+
+.retweet h6,
+.star h6 {
+	float: left;
+	margin-left: 8px;
+	margin-top: 10px;
+	color: #7a8d9b;
+	font-weight: bold;
+}
+
+.favorites-icon h6,
+.retweet h6 {
+	margin-right: 38px;
+}
+
+.more-icon {
+	margin-left: 38px;
+}
+
+.line-separator-2 {
+	margin-top: 300px;
+	height: 1px;
+	background: #e1e8ed;
+	border-bottom: 1px thin #e1e8ed;
+}
+
+.post-box-2 p {
+	float: left;
+	font-size: 1em;
+	color: #292f33;
+	line-height: 1.3;	
+	margin-left: 78px;
+	margin-top: -30px;
+	margin-right: 46px;
+
+}
+
+.post-box-2-photo {
+	float:left;
+	margin-top: 6px;
+	margin-left: 78px;
+	width: 468px;
+	height: 270px;
+	background-image: url("../images/keep-calm.jpg");
+	background-position: -10px -30px;
+}
+.reply {
+	margin-left: 78px;
+}
+.view-photo {
+	float: right;
+	margin-right: 12px;
+	
 }
