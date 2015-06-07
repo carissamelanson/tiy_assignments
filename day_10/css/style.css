@@ -3,7 +3,46 @@
 	margin: 0 auto;
 	overflow: hidden;
 }
+/*------TYPOGRAPHY------*/
+h1, h2, h3, h4, h5, h6, p, li {
+	font-family: "helvetica neue", helvetica, arial, sans-serif;
 
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 1.375em;
+}
+
+h2 {
+	font-size: 1.625em;
+
+}
+
+h3 {
+	font-size: 1.125em;
+}
+h4 {
+	color: #000;
+	font-size: .875em;
+	font-weight: 500;
+}
+h5 {
+	color: #7a8d9b;
+	font-size: 0.813em;
+}
+
+h6 {
+	font-size: 0.75em;
+
+}
+
+small {
+	font-family: helvetica;
+	font-size: 0.75em;
+	color: #ccd6dd;
+}
+/*------HEADER------*/
 header {
 	width: 1280px;
 
@@ -56,7 +95,7 @@ header {
 }
 
 strong {
-	font-weight: bold;
+	font-weight: 500;
 }
 
 .banner {
@@ -70,36 +109,35 @@ strong {
 .info {
 	height: 64px;
 	width: 1280px;
-	background: blue;
+	
 }
 
-/*------TYPOGRAPHY------*/
-h1, h2, h3, h4, h5, h6 {
-	font-family: helvetica;
-
+.tweets, .following, .followers,
+.favorites, .lists {
+	float: left;
+	margin-right: 32px;
+	margin-top: 16px;
+	line-height: 1.4;
+	text-align: center;
 }
-
-h1 {
-	font-weight: bold;
-	font-size: 1.375em;
-}
-
-h3 {
-	font-size: 1.125em;
-}
-h4 {
-	color: #000;
-	font-size: .875em;
-	font-weight: bold;
-}
-h5 {
+.tweets h6, .following h6, .followers h6,
+.favorites h6, .lists h6 {
 	color: #7a8d9b;
-	font-size: 0.875em;
+	font-weight: 500;
 }
 
-h6 {
+.tweets h3 {
+	color: #292f33;
+}
+.tweets {
+	margin-left: 485px;
+
+}
+
+.tweets, .following, .followers,
+.favorites, .lists h3 {
 	color: #20a3d9;
-	font-size: 0.75em;
+	font-weight: 500;
 
 }
 
@@ -109,6 +147,13 @@ section {
 	max-width: 1280px;
 	background-color: #f5f8fa;
 }
+
+
+aside {
+	max-width: 484px;
+	float:left;
+}
+
 /*------profile info------*/
 
 .profile-photo {
@@ -127,7 +172,6 @@ section {
 }
 .profile-info p,
 .profile-info-list {
-	font-family: helvetica;
 	font-size: 0.875em;
 	line-height: 1.5;
 }
@@ -184,7 +228,6 @@ a {
 
 .sign-up p {
 	color: #7a8d9b;
-	font-family: helvetica;
 	font-size: 0.875em;
 	line-height: 1.4;
 	margin-bottom: 14px;
@@ -202,7 +245,6 @@ a {
 
 .sign-up-btn p {
 	color: #fff;
-	font-family: helvetica;
 	font-size: 1em;
 	text-align: center;
 	padding: 14px;
@@ -231,12 +273,14 @@ a {
 .trends h6 {
  	float: left;
  	margin-bottom: 16px;
+
 }
 
  .suggest-box h6,
  .trends h6 {
  	margin-left: 6px;
  	margin-top: 24px;
+ 	color: #20a3d9;
 }
 
 .suggest-box h3,
@@ -260,9 +304,10 @@ a {
 	line-height: 1.2;
 }
 
+/*------TRENDS------*/
 .trends {
 	width: 312px;
-	height: 316px;
+	/*height: 316px;*/
 	background-color: #fff;
 	margin-left: 162px;
 	margin-top: 12px;
@@ -272,7 +317,6 @@ a {
 
 .trends-list li {
 	clear:left;
-	font-family: helvetica;
 	color: #20a3d9;
 	font-size: 0.875em;
 	line-height: 1.5;
@@ -291,6 +335,28 @@ a {
 	color: #7a8d9b;
 }
 
-.small-nav {
+.small-nav li {
 	float: left;
+}
+.small-nav-list {
+	margin-left: 178px;
+	margin-top: 24px;
+}
+.small-nav-list a {
+	color: #ccd6dd;
+}
+
+/*------ARTICLE------*/
+article {
+	max-width: 796px;
+	float: left;
+	background: red;
+}
+
+.tweet-box {
+	width: 634px;
+	height: 1916px;
+	background-color: blue;
+	float: right;
+	margin-left: 20px;
 }
