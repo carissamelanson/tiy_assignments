@@ -24,7 +24,7 @@ h4 {
 	color: #000;
 	font-size: .875em;
 	font-weight: bold;
-	
+
 }
 h5 {
 	color: #7a8d9b;
@@ -376,7 +376,7 @@ a {
 
 article {
 	width: 634px;
-	height: 1916px;
+/*	height: 1916px;*/
 	background-color: #fff;
 	float: left;
 	margin-left: 16px;
@@ -562,7 +562,6 @@ article h3 {
 	background-position: -30px -80px;
 	border-radius: 5px;
 }
-
 
 .line-separator-4 {
 	margin-top: 340px;
