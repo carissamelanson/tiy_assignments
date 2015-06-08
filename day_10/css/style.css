@@ -24,6 +24,7 @@ h4 {
 	color: #000;
 	font-size: .875em;
 	font-weight: bold;
+	
 }
 h5 {
 	color: #7a8d9b;
@@ -447,14 +448,19 @@ article h3 {
 
 .twitter-post {
 	float:left;
+}
+
+.twitter-post h4 {
 	margin-left: 78px;
 }
+
 .twitter-post p {
 	float: left;
 	font-size: 0.875em;
 	color: #292f33;
 	line-height: 1.3;
 	margin-top: 6px;
+	margin-left: 78px;
 }
 .tiny-profile-icon {
 	width: 20px;
@@ -473,6 +479,7 @@ article h3 {
 .reply-icon {
 	clear: left;
 	margin-right: 38px;
+	margin-left: 78px;
 }
 
 .reply-icon,
@@ -531,9 +538,7 @@ article h3 {
 	background-position: -10px -30px;
 	border-radius: 5px;
 }
-.reply {
-	margin-left: 78px;
-}
+
 .view-photo {
 	float: right;
 	margin-right: 12px;
@@ -549,6 +554,7 @@ article h3 {
 
 .post-box-3-photo {
 	float:left;
+	margin-left: 78px;
 	margin-top: 6px;
 	width: 540px;
 	height: 270px;
