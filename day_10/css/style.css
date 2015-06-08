@@ -28,10 +28,15 @@ h4 {
 h5 {
 	color: #7a8d9b;
 	font-size: 0.813em;
+	line-height:1.2;
 }
 
 h6 {
 	font-size: 0.75em;
+}
+
+p {
+	line-height:1.2;
 }
 
 small {
@@ -422,6 +427,7 @@ article h3 {
 	margin-left: 16px;
 	float: left;
 	margin-right: 12px;
+	border-radius: 4px;
 
 }
 
@@ -432,11 +438,6 @@ article h3 {
 	margin-top: -30px;
 	margin-left: 78px;
 	margin-bottom: 14px;
-}
-
-.post-box-1 h5,
-.post-box-2 h5 {
-	margin-bottom: 4px;
 }
 
 .profile-name h4, 
@@ -528,6 +529,7 @@ article h3 {
 	height: 270px;
 	background-image: url("../images/keep-calm.jpg");
 	background-position: -10px -30px;
+	border-radius: 5px;
 }
 .reply {
 	margin-left: 78px;
@@ -535,5 +537,57 @@ article h3 {
 .view-photo {
 	float: right;
 	margin-right: 12px;
-	
+
 }
+
+.line-separator-3 {
+	margin-top: 400px;
+	height: 1px;
+	background: #e1e8ed;
+	border-bottom: 1px thin #e1e8ed;
+}
+
+.post-box-3-photo {
+	float:left;
+	margin-top: 6px;
+	width: 540px;
+	height: 270px;
+	background-image: url("../images/big-photo1.jpg");
+	background-position: -30px -80px;
+	border-radius: 5px;
+}
+
+
+.line-separator-4 {
+	margin-top: 340px;
+	height: 1px;
+	background: #e1e8ed;
+	border-bottom: 1px thin #e1e8ed;
+}
+.post-box-4-photo {
+	float:left;
+	margin-top: 6px;	
+	width: 540px;
+	height: 270px;
+	background-image: url("../images/big-photo2.jpg");
+	background-position: -20px -150px;
+	border-radius: 5px;
+}
+
+.line-separator-5 {
+	margin-top: 340px;
+	height: 1px;
+	background: #e1e8ed;
+	border-bottom: 1px thin #e1e8ed;
+}
+
+.line-separator-6 {
+	margin-top: 40px;
+	height: 1px;
+	background: #e1e8ed;
+	border-bottom: 1px thin #e1e8ed;
+}
+
+
+
+
