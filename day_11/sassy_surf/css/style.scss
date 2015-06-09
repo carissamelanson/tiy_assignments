@@ -1,81 +1,100 @@
+@import 'reset';
+
 .container {
 	width: 1300px;
 	margin: 0 auto;
 	overflow: hidden;
 }
 
+/* COLORS */
+$navy: #083452;
+$dkgrey: #5e686f;
+$lt-grey: #a3b3bf;
+$blue: #106db3;
+
+
+/* TYPOGRAPHY */
+h1, h2, h3, h4, h5, h6 , li, p {
+	font-family: helvetica;
+}
+h1 {
+	font-size: 6.875em;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	margin-top: 220px;
+}
+h2 {
+	font-size: 2.5em;
+	color: $navy;
+}
+
+h3 {
+	font-size: 1.25em;
+	font-weight: bold;
+	color: #fff;	
+}
+
+h5 {
+	font-size: 0.875em;
+	color: $navy;
+}
+h6 {
+	font-size: 1em;
+	color: $lt-grey;
+}
+p {
+	font-size: 14px;
+	color: $dkgrey;
+	line-height: 2;
+}
+
 /*------HEADER------*/
 header {
 	width: 1300px;
 	height: 520px;
-}
+	float: left;
 
-.header-image {
-	max-width: 1300px;
+	.header-image {
+	width: 1300px;
 	height: 520px;
 	background-image: url("../images/surf.jpg");
-	position: absolute;	
-}
+	position: absolute;
+	text-align: center;}
 
-.logo-header {
-	float: left;
-  	margin-left: 100px;		
-}
+	.logo {
+  	float: left;
+  	margin-left: 100px;
+  	margin-top: 10px;}
 
-.logo {
-  	float:left;
-  	margin-top: 10px;
-}
-
-h5 {
-	font-family: helvetica;
-	font-size: 13px;
-	color: #083452;
-  	float: right;
+	h5 {
+  	float: left;
   	margin-left: 10px;  
-  	margin-top: 17px;
+  	margin-top: 18px;}
 }
 
 .primary-nav {
-	color: #083452;
-	display: inline-block;
-	vertical-align: middle;
+	color: $navy;
 	float: right;
 	margin-right: 150px;
 	margin-top: 10px;	
 }
 
 .primary-nav li {
-	font-family: helvetica;
-	font-size: 13px;
-	color: #083452;
+	font-size: 0.875em;
+	color: $navy;
 	display: inline-block;
 	margin-right: 10px;
-}
 
-.search {
+	.search {
 	display: inline-block;
 	vertical-align: middle;
 	margin-left: 10px;	
 }
-
-h1 { 
-	font-family: helvetica;
-	font-size: 110px;
-	font-weight: bold;
-	color: #fff;
-	width: 1300px;
-	text-align: center;
-	margin-top: 220px;
+ a {
+ 	color: $navy;
+	text-decoration: none;
 }
-
-h3 {
-	font-family: helvetica;
-	font-size: 20px;
-	font-weight: bold;
-	color: white;
-	width: 1300px;
-	text-align: center;
 }
 
 /*------SECTION------*/
@@ -88,151 +107,114 @@ article {
 	width: 860px;
 	float: left;
 	padding-bottom: 70px;
-}
 
-.blogtext {
+	.blogtext {
 	margin-left: 160px;
 	margin-right: 80px;
 	margin-top: 90px;
 }
-
-h2 {
-	font-family:helvetica;
-	font-size: 40px;
-	color: #083452;
-	line-height:44px;
-}
-
-.author {
+	.author {
 	float: left;
 	width: 20px;
 	margin-top: 20px;
 }
-
 h6 {
-	font-family: helvetica;
-	font-size: 16px;
-	color: #a3b3bf;
 	margin-left: 120px;
 	margin-top: 30px;
+	margin-bottom: 34px;
 }
-
-a {
+.blog-text a {
 	text-decoration: underline;
 }
+}
 
-.pquote {
+.vertical-line {
+    border-left: thin solid $lt-grey;
+
+    .pquote {
 	font-family: helvetica;
 	font-style: italic;
-	font-size: 30px;
+	font-size: 1.875em;
 	color: #106db3;
 	margin-left: 20px;
 	margin-top: 40px;
 	margin-bottom: 40px;
 }
-.vertical-line {
-    border-left: thin solid #a3b3bf;
-}
-
-.article-copy{
-	margin-top: 40px;
-}
-
-p {
-	font-family: helvetica;
-	font-size: 14px;
-	color: #5e686f;
-	line-height: 2;
 }
 
 /*-----BUTTONS------*/
 .buttons {
 	font-family: helvetica;
-	font-size: 10px;
-	color: white;
+	font-size: 0.625em;
+	color: #fff;
 	margin-top: 20px;
 	margin-left: 160px;	
-}
 
-.comments-button {
+	.comments-button {
 	width: 160px;
 	height: 30px;
-	background: #a3b3bf;
+	background: $lt-grey;
 	float: left;
 }
-
-.comments-icon {
+	.btn-icon {
 	width: 30px;
 	height: 30px;
-	background: #5e686f;
+	background: $dkgrey;
 	float: left;
 	margin-right: 10px;
 }
 
-.comments {
+.btn-text {
 	padding-top: 10px;
 }
-
 .read-later-button {
 	width: 130px;
 	height: 30px;
-	background: #a3b3bf;
+	background: $lt-grey;
 	margin-left: 10px;
 	float: left;
-}
-
-.read-later-icon {
-	width: 30px;
-	height: 30px;
-	background: #5e686f;
-	float: left;
-	margin-right: 10px;
-}
-
-.read-later {
-	padding-top: 10px;
 }
 
 .share-button {
 	width: 150px;
 	height: 30px;
-	background: #106db3;
+	background: $blue;
 	margin-left: 10px;
 	float: left;
+	
+	.btn-icon {
+	background: $navy;
+}
 }
 
-.share-icon {
-	width: 30px;
-	height: 30px;
-	background: #083452;
-	float: left;
-	margin-right: 10px;
 }
 
-.share {
-	padding-top: 10px;
-}
+
 
 /*------ASIDE------*/
 aside {
 	width: 440px;
 	float: right;
+		
 }
 
 .social-media-box {
 	width: 280px;
 	margin-right: 160px;
-}
 
-.social-media li {
-	font-family: helvetica;
+	.social-media li {
 	font-size: 14px;
 	margin-top: 20px;
 	margin-right: 10px;
 	margin-left: 10px;
 	margin-bottom: 60px;
 	display: inline-block;
-	color: #a3b3bf;
+	color: $lt-grey;
+
+
+	a {
+	text-decoration: none;
+	color: $lt-grey; }
 }
 
 .aside {
@@ -243,6 +225,9 @@ aside {
 	padding-top: 90px;
 	margin-left: 100px;
 }
+}
+
+
 
 .ad-box {
 	width: 280px;

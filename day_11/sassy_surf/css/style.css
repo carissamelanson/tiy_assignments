@@ -1,71 +1,127 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
 .container {
   width: 1300px;
   margin: 0 auto;
   overflow: hidden; }
 
+/* COLORS */
+/* TYPOGRAPHY */
+h1, h2, h3, h4, h5, h6, li, p {
+  font-family: helvetica; }
+
+h1 {
+  font-size: 6.875em;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  margin-top: 220px; }
+
+h2 {
+  font-size: 2.5em;
+  color: #083452; }
+
+h3 {
+  font-size: 1.25em;
+  font-weight: bold;
+  color: #fff; }
+
+h5 {
+  font-size: 0.875em;
+  color: #083452; }
+
+h6 {
+  font-size: 1em;
+  color: #a3b3bf; }
+
+p {
+  font-size: 14px;
+  color: #5e686f;
+  line-height: 2; }
+
 /*------HEADER------*/
 header {
   width: 1300px;
-  height: 520px; }
-
-.header-image {
-  max-width: 1300px;
   height: 520px;
-  background-image: url("../images/surf.jpg");
-  position: absolute; }
-
-.logo-header {
-  float: left;
-  margin-left: 100px; }
-
-.logo {
-  float: left;
-  margin-top: 10px; }
-
-h5 {
-  font-family: helvetica;
-  font-size: 13px;
-  color: #083452;
-  float: right;
-  margin-left: 10px;
-  margin-top: 17px; }
+  float: left; }
+  header .header-image {
+    width: 1300px;
+    height: 520px;
+    background-image: url("../images/surf.jpg");
+    position: absolute;
+    text-align: center; }
+  header .logo {
+    float: left;
+    margin-left: 100px;
+    margin-top: 10px; }
+  header h5 {
+    float: left;
+    margin-left: 10px;
+    margin-top: 18px; }
 
 .primary-nav {
   color: #083452;
-  display: inline-block;
-  vertical-align: middle;
   float: right;
   margin-right: 150px;
   margin-top: 10px; }
 
 .primary-nav li {
-  font-family: helvetica;
-  font-size: 13px;
+  font-size: 0.875em;
   color: #083452;
   display: inline-block;
   margin-right: 10px; }
-
-.search {
-  display: inline-block;
-  vertical-align: middle;
-  margin-left: 10px; }
-
-h1 {
-  font-family: helvetica;
-  font-size: 110px;
-  font-weight: bold;
-  color: #fff;
-  width: 1300px;
-  text-align: center;
-  margin-top: 220px; }
-
-h3 {
-  font-family: helvetica;
-  font-size: 20px;
-  font-weight: bold;
-  color: white;
-  width: 1300px;
-  text-align: center; }
+  .primary-nav li .search {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px; }
+  .primary-nav li a {
+    color: #083452;
+    text-decoration: none; }
 
 /*------SECTION------*/
 section {
@@ -75,111 +131,66 @@ article {
   width: 860px;
   float: left;
   padding-bottom: 70px; }
-
-.blogtext {
-  margin-left: 160px;
-  margin-right: 80px;
-  margin-top: 90px; }
-
-h2 {
-  font-family: helvetica;
-  font-size: 40px;
-  color: #083452;
-  line-height: 44px; }
-
-.author {
-  float: left;
-  width: 20px;
-  margin-top: 20px; }
-
-h6 {
-  font-family: helvetica;
-  font-size: 16px;
-  color: #a3b3bf;
-  margin-left: 120px;
-  margin-top: 30px; }
-
-a {
-  text-decoration: underline; }
-
-.pquote {
-  font-family: helvetica;
-  font-style: italic;
-  font-size: 30px;
-  color: #106db3;
-  margin-left: 20px;
-  margin-top: 40px;
-  margin-bottom: 40px; }
+  article .blogtext {
+    margin-left: 160px;
+    margin-right: 80px;
+    margin-top: 90px; }
+  article .author {
+    float: left;
+    width: 20px;
+    margin-top: 20px; }
+  article h6 {
+    margin-left: 120px;
+    margin-top: 30px;
+    margin-bottom: 34px; }
+  article .blog-text a {
+    text-decoration: underline; }
 
 .vertical-line {
   border-left: thin solid #a3b3bf; }
-
-.article-copy {
-  margin-top: 40px; }
-
-p {
-  font-family: helvetica;
-  font-size: 14px;
-  color: #5e686f;
-  line-height: 2; }
+  .vertical-line .pquote {
+    font-family: helvetica;
+    font-style: italic;
+    font-size: 1.875em;
+    color: #106db3;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px; }
 
 /*-----BUTTONS------*/
 .buttons {
   font-family: helvetica;
-  font-size: 10px;
-  color: white;
+  font-size: 0.625em;
+  color: #fff;
   margin-top: 20px;
   margin-left: 160px; }
-
-.comments-button {
-  width: 160px;
-  height: 30px;
-  background: #a3b3bf;
-  float: left; }
-
-.comments-icon {
-  width: 30px;
-  height: 30px;
-  background: #5e686f;
-  float: left;
-  margin-right: 10px; }
-
-.comments {
-  padding-top: 10px; }
-
-.read-later-button {
-  width: 130px;
-  height: 30px;
-  background: #a3b3bf;
-  margin-left: 10px;
-  float: left; }
-
-.read-later-icon {
-  width: 30px;
-  height: 30px;
-  background: #5e686f;
-  float: left;
-  margin-right: 10px; }
-
-.read-later {
-  padding-top: 10px; }
-
-.share-button {
-  width: 150px;
-  height: 30px;
-  background: #106db3;
-  margin-left: 10px;
-  float: left; }
-
-.share-icon {
-  width: 30px;
-  height: 30px;
-  background: #083452;
-  float: left;
-  margin-right: 10px; }
-
-.share {
-  padding-top: 10px; }
+  .buttons .comments-button {
+    width: 160px;
+    height: 30px;
+    background: #a3b3bf;
+    float: left; }
+  .buttons .btn-icon {
+    width: 30px;
+    height: 30px;
+    background: #5e686f;
+    float: left;
+    margin-right: 10px; }
+  .buttons .btn-text {
+    padding-top: 10px; }
+  .buttons .read-later-button {
+    width: 130px;
+    height: 30px;
+    background: #a3b3bf;
+    margin-left: 10px;
+    float: left; }
+  .buttons .share-button {
+    width: 150px;
+    height: 30px;
+    background: #106db3;
+    margin-left: 10px;
+    float: left; }
+    .buttons .share-button .btn-icon {
+      background: #083452; }
 
 /*------ASIDE------*/
 aside {
@@ -189,23 +200,22 @@ aside {
 .social-media-box {
   width: 280px;
   margin-right: 160px; }
-
-.social-media li {
-  font-family: helvetica;
-  font-size: 14px;
-  margin-top: 20px;
-  margin-right: 10px;
-  margin-left: 10px;
-  margin-bottom: 60px;
-  display: inline-block;
-  color: #a3b3bf; }
-
-.aside {
-  text-align: center; }
-
-.author-icon {
-  padding-top: 90px;
-  margin-left: 100px; }
+  .social-media-box .social-media li {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 60px;
+    display: inline-block;
+    color: #a3b3bf; }
+    .social-media-box .social-media li a {
+      text-decoration: none;
+      color: #a3b3bf; }
+  .social-media-box .aside {
+    text-align: center; }
+  .social-media-box .author-icon {
+    padding-top: 90px;
+    margin-left: 100px; }
 
 .ad-box {
   width: 280px;
