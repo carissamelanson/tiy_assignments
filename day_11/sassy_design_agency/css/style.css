@@ -50,7 +50,7 @@ table {
   margin: 0 auto;
   overflow: hidden; }
 
-h1, h2, h3, h4, li {
+h1, h2, h3, h4, li, p {
   font-family: Helvetica; }
 
 h1 {
@@ -67,11 +67,16 @@ h3 {
   font-size: 18px; }
 
 h4 {
-  font-size: 30px; }
+  font-size: 30px;
+  font-weight: bold; }
 
 li {
   font-weight: bold;
   font-size: 10px; }
+
+p {
+  font-size: 11px;
+  line-height: 1.4; }
 
 header {
   width: 1280px;
@@ -95,8 +100,7 @@ header {
   max-width: 1280px;
   height: 580px;
   background: url("../images/main-photo.jpg");
-  background-size: cover;
-  margin-top: 50px; }
+  background-size: cover; }
 
 h2 {
   text-align: center;
@@ -107,63 +111,53 @@ h2 {
   width: 200px;
   float: left;
   margin-left: 100px;
-  font-family: Helvetica;
   text-align: center; }
   .han-box .hanphoto {
     height: 200px;
     background: url("../images/han.jpg");
-    border-radius: 100px; }
-  .han-box .hanstext {
-    font-size: 11px;
-    margin-top: 20px; }
+    border-radius: 100px;
+    margin-bottom: 20px; }
 
 .chewy-box {
   width: 200px;
   margin-left: 240px;
   margin-right: 240px;
-  float: left; }
+  float: left;
+  text-align: center; }
   .chewy-box .chewyphoto {
     height: 200px;
     background: url("../images/chewbacca.jpg");
-    border-radius: 100px; }
-  .chewy-box .chewytext {
-    font-family: Helvetica;
-    font-size: 11px;
-    text-align: center;
-    margin-top: 20px; }
+    border-radius: 100px;
+    margin-bottom: 20px; }
 
 .darth-box {
   width: 200px;
-  float: left; }
+  float: left;
+  text-align: center; }
   .darth-box .darthphoto {
     height: 200px;
     background: url("../images/darth.jpg");
-    border-radius: 100px; }
-  .darth-box .darthtext {
-    font-family: Helvetica;
-    font-size: 11px;
-    text-align: center;
-    margin-top: 20px; }
+    border-radius: 100px;
+    margin-bottom: 20px; }
 
 .mapbox {
   width: 1280px;
   height: 500px;
   background: #f2ede5;
   margin-top: 110px;
-  float: left;
-  font-family: Helvetica;
-  font-weight: bold; }
+  float: left; }
   .mapbox .map {
     width: 640px;
     height: 500px;
     background: url("../images/map.png");
     float: left; }
   .mapbox .address-text {
-    font-size: 20px;
     margin-left: 130px;
     margin-top: 180px;
-    float: left;
-    line-height: 1.4; }
+    float: left; }
+  .mapbox .address-text p {
+    font-size: 20px;
+    font-weight: bold; }
 
 footer {
   width: 1280px;
