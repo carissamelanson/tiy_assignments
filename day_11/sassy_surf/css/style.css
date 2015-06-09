@@ -52,7 +52,7 @@ table {
 
 /* COLORS */
 /* TYPOGRAPHY */
-h1, h2, h3, h4, h5, h6, li, p {
+h1, h2, h3, h4, h5, h6, li, p, small {
   font-family: helvetica; }
 
 h1 {
@@ -70,6 +70,11 @@ h3 {
   font-size: 1.25em;
   font-weight: bold;
   color: #fff; }
+
+h4 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #106db3; }
 
 h5 {
   font-size: 0.875em;
@@ -142,7 +147,8 @@ article {
   article h6 {
     margin-left: 120px;
     margin-top: 30px;
-    margin-bottom: 34px; }
+    margin-bottom: 34px;
+    text-decoration: underline; }
   article .blog-text a {
     text-decoration: underline; }
 
@@ -201,7 +207,7 @@ aside {
   width: 280px;
   margin-right: 160px; }
   .social-media-box .social-media li {
-    font-size: 14px;
+    font-size: 0.875em;
     margin-top: 20px;
     margin-right: 10px;
     margin-left: 10px;
@@ -221,97 +227,87 @@ aside {
   width: 280px;
   height: 330px;
   float: left; }
-
-.ad-text {
-  font-family: helvetica;
-  font-size: 10px;
-  float: right;
-  color: #a3b3bf;
-  margin-top: 10px; }
+  .ad-box .ad-text {
+    font-family: helvetica;
+    font-size: 10px;
+    float: right;
+    color: #a3b3bf;
+    margin-top: 10px; }
+    .ad-box .ad-text a {
+      color: #a3b3bf;
+      text-decoration: underline; }
 
 .sidebar-section {
+  font-family: helvetica;
   width: 280px;
   float: left;
   margin-top: 50px;
-  font-family: helvetica;
   font-size: 13px;
   color: #a3b3bf;
   line-height: 1.5; }
-
-h4 {
-  font-family: helvetica;
-  font-weight: bold;
-  font-size: 18px;
-  color: #106db3; }
 
 .popular-posts-box {
   clear: left;
   width: 1300px;
   height: 150px; }
-
-.line-separator {
-  height: 1px;
-  background: #a3b3bf;
-  border-bottom: 1px solid #a3b3bf; }
-
-.post-text {
-  font-family: helvetica;
-  font-size: 50px;
-  color: #083452;
-  text-align: center;
-  padding-top: 50px; }
+  .popular-posts-box .line-separator {
+    height: 1px;
+    background: #a3b3bf;
+    border-bottom: 1px solid #a3b3bf; }
+  .popular-posts-box .post-text {
+    font-family: helvetica;
+    font-size: 50px;
+    color: #083452;
+    text-align: center;
+    padding-top: 50px; }
 
 .surfer-stories {
   width: 325px;
   height: 330px;
   float: left;
   background-image: url("../images/surfer.jpg"); }
-
-.surfing-text {
-  margin-left: 20px;
-  font-family: helvetica;
-  font-size: 30px;
-  color: #083452;
-  margin-top: 290px; }
+  .surfer-stories .surfing-text {
+    margin-left: 20px;
+    font-family: helvetica;
+    font-size: 30px;
+    color: #083452;
+    margin-top: 290px; }
 
 .surf-brews {
   width: 325px;
   height: 330px;
   float: left;
   background-image: url("../images/beer.jpg"); }
-
-.surf-brews-text {
-  margin-left: 20px;
-  font-family: helvetica;
-  font-size: 30px;
-  color: #fff;
-  margin-top: 290px; }
+  .surf-brews .surf-brews-text {
+    margin-left: 20px;
+    font-family: helvetica;
+    font-size: 30px;
+    color: #fff;
+    margin-top: 290px; }
 
 .zack {
   width: 325px;
   height: 330px;
   float: left;
   background-image: url("../images/zack.jpg"); }
-
-.zack-text {
-  margin-left: 20px;
-  font-family: helvetica;
-  font-size: 30px;
-  color: #083452;
-  margin-top: 260px; }
+  .zack .zack-text {
+    margin-left: 20px;
+    font-family: helvetica;
+    font-size: 30px;
+    color: #083452;
+    margin-top: 260px; }
 
 .surf-shots {
   width: 325px;
   height: 330px;
   float: left;
   background-image: url("../images/booze.jpg"); }
-
-.surf-shots-text {
-  margin-left: 20px;
-  font-family: helvetica;
-  font-size: 30px;
-  color: #083452;
-  margin-top: 290px; }
+  .surf-shots .surf-shots-text {
+    margin-left: 20px;
+    font-family: helvetica;
+    font-size: 30px;
+    color: #083452;
+    margin-top: 290px; }
 
 /*------FOOTER------*/
 footer {
@@ -319,30 +315,25 @@ footer {
   height: 100px;
   background-color: #083452;
   float: left; }
+  footer .ironyard-logo {
+    margin-top: 30px;
+    margin-left: 160px;
+    float: left; }
+  footer small {
+    font-size: 10px;
+    color: #a3b3bf;
+    float: left;
+    margin-left: 18px;
+    margin-top: 50px; }
 
-.ironyard-logo {
-  margin-top: 30px;
-  margin-left: 160px;
-  float: left; }
-
-small {
-  font-family: helvetica;
-  font-size: 10px;
-  color: #a3b3bf;
-  float: left;
-  margin-left: 18px;
-  margin-top: 50px; }
-
-.nav {
+.bottom-nav {
   margin-right: 160px;
   float: right; }
-
-.nav li {
-  font-family: helvetica;
-  font-size: 10px;
-  color: #a3b3bf;
-  float: left;
-  margin-right: 10px;
-  margin-top: 50px; }
+  .bottom-nav li {
+    font-size: 10px;
+    color: #a3b3bf;
+    float: left;
+    margin-right: 10px;
+    margin-top: 50px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -14,7 +14,7 @@ $blue: #106db3;
 
 
 /* TYPOGRAPHY */
-h1, h2, h3, h4, h5, h6 , li, p {
+h1, h2, h3, h4, h5, h6 , li, p, small {
 	font-family: helvetica;
 }
 h1 {
@@ -33,6 +33,13 @@ h3 {
 	font-size: 1.25em;
 	font-weight: bold;
 	color: #fff;	
+}
+
+h4 {
+
+	font-weight: bold;
+	font-size: 18px;
+	color: $blue;
 }
 
 h5 {
@@ -122,6 +129,8 @@ h6 {
 	margin-left: 120px;
 	margin-top: 30px;
 	margin-bottom: 34px;
+	text-decoration: underline
+
 }
 .blog-text a {
 	text-decoration: underline;
@@ -186,16 +195,12 @@ h6 {
 	background: $navy;
 }
 }
-
 }
-
-
 
 /*------ASIDE------*/
 aside {
 	width: 440px;
 	float: right;
-		
 }
 
 .social-media-box {
@@ -203,14 +208,13 @@ aside {
 	margin-right: 160px;
 
 	.social-media li {
-	font-size: 14px;
+	font-size: 0.875em;
 	margin-top: 20px;
 	margin-right: 10px;
 	margin-left: 10px;
 	margin-bottom: 60px;
 	display: inline-block;
 	color: $lt-grey;
-
 
 	a {
 	text-decoration: none;
@@ -227,57 +231,53 @@ aside {
 }
 }
 
-
-
 .ad-box {
 	width: 280px;
 	height: 330px;
 	float: left;
-}
 
-.ad-text {
+	.ad-text {
 	font-family: helvetica;
 	font-size: 10px;
 	float: right;
-	color: #a3b3bf;
+	color:$lt-grey;
 	margin-top: 10px;
+
+a {
+ 	color: $lt-grey;
+	text-decoration: underline;
+}
+}
 }
 
 .sidebar-section {
+	font-family: helvetica;
 	width: 280px;
 	float: left;
 	margin-top: 50px;
-	font-family: helvetica;
 	font-size: 13px;
-	color: #a3b3bf;
+	color: $lt-grey;
 	line-height: 1.5;
-}
-
-h4 {
-	font-family: helvetica;
-	font-weight: bold;
-	font-size: 18px;
-	color: #106db3;
 }
 
 .popular-posts-box {
 	clear: left;
 	width: 1300px;
 	height: 150px;
-}
 
-.line-separator {
+	.line-separator {
 	height: 1px;
-	background: #a3b3bf;
-	border-bottom: 1px solid #a3b3bf;
+	background: $lt-grey;
+	border-bottom: 1px solid $lt-grey;
 }
 
 .post-text {
   	font-family: helvetica;
 	font-size: 50px;
-	color: #083452;
+	color: $navy;
   	text-align: center;
   	padding-top: 50px;
+}
 }
 
 .surfer-stories {
@@ -285,14 +285,14 @@ h4 {
 	height: 330px;
 	float: left;
 	background-image: url("../images/surfer.jpg");	
-}
 
-.surfing-text {
+	.surfing-text {
 	margin-left: 20px;
 	font-family: helvetica;
 	font-size: 30px;
-	color: #083452;
+	color: $navy;
 	margin-top: 290px;
+}
 }
 
 .surf-brews {
@@ -300,29 +300,28 @@ h4 {
 	height: 330px;
 	float: left;
 	background-image: url("../images/beer.jpg");
-}
 
-.surf-brews-text {
+	.surf-brews-text {
 	margin-left: 20px;
 	font-family: helvetica;
 	font-size: 30px;
 	color: #fff;
 	margin-top: 290px;
 }
-
+}
 .zack {
 	width: 325px;
 	height: 330px;
 	float: left;
 	background-image: url("../images/zack.jpg");
-}
 
-.zack-text {
+	.zack-text {
 	margin-left: 20px;
 	font-family: helvetica;
 	font-size: 30px;
-	color: #083452;
+	color: $navy;
 	margin-top: 260px;
+}
 }
 
 .surf-shots{
@@ -330,14 +329,14 @@ h4 {
 	height: 330px;
 	float: left;
 	background-image: url("../images/booze.jpg");
-}
 
-.surf-shots-text {
+	.surf-shots-text {
 	margin-left: 20px;
 	font-family: helvetica;
 	font-size: 30px;
-	color: #083452;
+	color: $navy;
 	margin-top: 290px;
+}
 }
 
 /*------FOOTER------*/
@@ -347,33 +346,30 @@ footer {
 	height: 100px;
 	background-color: #083452;
 	float: left;
-}
 
-.ironyard-logo {
+	.ironyard-logo {
 	margin-top: 30px;
 	margin-left: 160px;
 	float: left;
 }
-
-small {
-	font-family: helvetica;
+	small {
 	font-size: 10px;
-	color: #a3b3bf;
+	color: $lt-grey;
 	float: left;
 	margin-left: 18px;
 	margin-top: 50px;
 }
-
-.nav {
-	margin-right: 160px;
-	float: right;
 }
 
-.nav li {
-	font-family: helvetica;
+.bottom-nav {
+	margin-right: 160px;
+	float: right;
+
+ 	li {
 	font-size: 10px;
-	color: #a3b3bf;
+	color: $lt-grey;
 	float: left;
 	margin-right: 10px;
 	margin-top: 50px;
+}
 }
