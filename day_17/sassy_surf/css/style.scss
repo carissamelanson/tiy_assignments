@@ -1,0 +1,375 @@
+@import 'reset';
+
+.container {
+	width: 1300px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+/* COLORS */
+$navy: #083452;
+$dkgrey: #5e686f;
+$lt-grey: #a3b3bf;
+$blue: #106db3;
+
+
+/* TYPOGRAPHY */
+h1, h2, h3, h4, h5, h6 , li, p, small {
+	font-family: helvetica;
+}
+h1 {
+	font-size: 6.875em;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	margin-top: 220px;
+}
+h2 {
+	font-size: 2.5em;
+	color: $navy;
+}
+
+h3 {
+	font-size: 1.25em;
+	font-weight: bold;
+	color: #fff;	
+}
+
+h4 {
+
+	font-weight: bold;
+	font-size: 18px;
+	color: $blue;
+}
+
+h5 {
+	font-size: 0.875em;
+	color: $navy;
+}
+h6 {
+	font-size: 1em;
+	color: $lt-grey;
+}
+p {
+	font-size: 14px;
+	color: $dkgrey;
+	line-height: 2;
+}
+
+/*------HEADER------*/
+header {
+	width: 1300px;
+	height: 520px;
+	float: left;
+
+	.header-image {
+	width: 1300px;
+	height: 520px;
+	background-image: url("../images/surf.jpg");
+	position: absolute;
+	text-align: center;}
+
+	.logo {
+  	float: left;
+  	margin-left: 100px;
+  	margin-top: 10px;}
+
+	h5 {
+  	float: left;
+  	margin-left: 10px;  
+  	margin-top: 18px;}
+}
+
+.primary-nav {
+	color: $navy;
+	float: right;
+	margin-right: 150px;
+	margin-top: 10px;	
+}
+
+.primary-nav li {
+	font-size: 0.875em;
+	color: $navy;
+	display: inline-block;
+	margin-right: 10px;
+
+	.search {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 10px;	
+}
+ a {
+ 	color: $navy;
+	text-decoration: none;
+}
+}
+
+/*------SECTION------*/
+
+section {
+	width: 1300px;	
+}
+
+article {
+	width: 860px;
+	float: left;
+	padding-bottom: 70px;
+
+	.blogtext {
+	margin-left: 160px;
+	margin-right: 80px;
+	margin-top: 90px;
+}
+	.author {
+	float: left;
+	width: 20px;
+	margin-top: 20px;
+}
+h6 {
+	margin-left: 120px;
+	margin-top: 30px;
+	margin-bottom: 34px;
+	text-decoration: underline
+
+}
+.blog-text a {
+	text-decoration: underline;
+}
+}
+
+.vertical-line {
+    border-left: thin solid $lt-grey;
+
+    .pquote {
+	font-family: helvetica;
+	font-style: italic;
+	font-size: 1.875em;
+	color: #106db3;
+	margin-left: 20px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+}
+
+/*-----BUTTONS------*/
+.buttons {
+	font-family: helvetica;
+	font-size: 0.625em;
+	color: #fff;
+	margin-top: 20px;
+	margin-left: 160px;	
+
+	.comments-button {
+	width: 160px;
+	height: 30px;
+	background: $lt-grey;
+	float: left;
+}
+	.btn-icon {
+	width: 30px;
+	height: 30px;
+	background: $dkgrey;
+	float: left;
+	margin-right: 10px;
+}
+
+.btn-text {
+	padding-top: 10px;
+}
+.read-later-button {
+	width: 130px;
+	height: 30px;
+	background: $lt-grey;
+	margin-left: 10px;
+	float: left;
+}
+
+.share-button {
+	width: 150px;
+	height: 30px;
+	background: $blue;
+	margin-left: 10px;
+	float: left;
+	
+	.btn-icon {
+	background: $navy;
+}
+}
+}
+
+/*------ASIDE------*/
+aside {
+	width: 440px;
+	float: right;
+}
+
+.social-media-box {
+	width: 280px;
+	margin-right: 160px;
+
+	.social-media li {
+	font-size: 0.875em;
+	margin-top: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 60px;
+	display: inline-block;
+	color: $lt-grey;
+
+	a {
+	text-decoration: none;
+	color: $lt-grey; }
+}
+
+.aside {
+	text-align: center;
+}
+
+.author-icon { 
+	padding-top: 90px;
+	margin-left: 100px;
+}
+}
+
+.ad-box {
+	width: 280px;
+	height: 330px;
+	float: left;
+
+	.ad-text {
+	font-family: helvetica;
+	font-size: 10px;
+	float: right;
+	color:$lt-grey;
+	margin-top: 10px;
+
+a {
+ 	color: $lt-grey;
+	text-decoration: underline;
+}
+}
+}
+
+.sidebar-section {
+	font-family: helvetica;
+	width: 280px;
+	float: left;
+	margin-top: 50px;
+	font-size: 13px;
+	color: $lt-grey;
+	line-height: 1.5;
+}
+
+.popular-posts-box {
+	clear: left;
+	width: 1300px;
+	height: 150px;
+
+	.line-separator {
+	height: 1px;
+	background: $lt-grey;
+	border-bottom: 1px solid $lt-grey;
+}
+
+.post-text {
+  	font-family: helvetica;
+	font-size: 50px;
+	color: $navy;
+  	text-align: center;
+  	padding-top: 50px;
+}
+}
+
+.surfer-stories {
+	width: 325px;
+	height: 330px;
+	float: left;
+	background-image: url("../images/surfer.jpg");	
+
+	.surfing-text {
+	margin-left: 20px;
+	font-family: helvetica;
+	font-size: 30px;
+	color: $navy;
+	margin-top: 290px;
+}
+}
+
+.surf-brews {
+	width: 325px;
+	height: 330px;
+	float: left;
+	background-image: url("../images/beer.jpg");
+
+	.surf-brews-text {
+	margin-left: 20px;
+	font-family: helvetica;
+	font-size: 30px;
+	color: #fff;
+	margin-top: 290px;
+}
+}
+.zack {
+	width: 325px;
+	height: 330px;
+	float: left;
+	background-image: url("../images/zack.jpg");
+
+	.zack-text {
+	margin-left: 20px;
+	font-family: helvetica;
+	font-size: 30px;
+	color: $navy;
+	margin-top: 260px;
+}
+}
+
+.surf-shots{
+	width: 325px;
+	height: 330px;
+	float: left;
+	background-image: url("../images/booze.jpg");
+
+	.surf-shots-text {
+	margin-left: 20px;
+	font-family: helvetica;
+	font-size: 30px;
+	color: $navy;
+	margin-top: 290px;
+}
+}
+
+/*------FOOTER------*/
+
+footer {
+	width: 1300px;
+	height: 100px;
+	background-color: #083452;
+	float: left;
+
+	.ironyard-logo {
+	margin-top: 30px;
+	margin-left: 160px;
+	float: left;
+}
+	small {
+	font-size: 10px;
+	color: $lt-grey;
+	float: left;
+	margin-left: 18px;
+	margin-top: 50px;
+}
+}
+
+.bottom-nav {
+	margin-right: 160px;
+	float: right;
+
+ 	li {
+	font-size: 10px;
+	color: $lt-grey;
+	float: left;
+	margin-right: 10px;
+	margin-top: 50px;
+}
+}
