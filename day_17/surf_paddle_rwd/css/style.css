@@ -301,7 +301,8 @@ footer {
   width: 100%;
   background-color: #083452;
   float: left;
-  /* margin-top: 20px; */ }
+  /* margin-top: 20px; */
+  margin: 0 auto; }
   footer .ironyard-logo {
     margin-top: 20px;
     margin-left: 10px;
@@ -309,20 +310,19 @@ footer {
   footer small {
     font-size: 0.625em;
     color: #a3b3bf;
-    float: left;
+    /* 	float: left; */
     margin-left: 10px;
     margin-top: 30px; }
-
-.bottom-nav {
-  margin-right: 10px;
-  float: right; }
-  .bottom-nav li {
-    font-size: 0.625em;
-    color: #a3b3bf;
-    float: left;
+  footer .bottom-nav {
     margin-right: 10px;
-    margin-top: 30px;
-    margin-bottom: 30px; }
+    /* float: right; */ }
+    footer .bottom-nav li {
+      font-size: 0.625em;
+      color: #a3b3bf;
+      float: left;
+      margin-right: 10px;
+      margin-top: 30px;
+      margin-bottom: 30px; }
 
 /* MEDIA QUERY */
 @media screen and (min-width: 500px) {
