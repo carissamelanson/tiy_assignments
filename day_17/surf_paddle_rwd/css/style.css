@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6, li, p, small {
   font-family: helvetica; }
 
 h1 {
-  font-size: 1.8em;
+  font-size: 2em;
   font-weight: bold;
   color: #fff; }
 
@@ -70,15 +70,15 @@ h4 {
   color: #106db3; }
 
 h5 {
-  font-size: 0.75em;
+  font-size: 0.688em;
   color: #083452; }
 
 h6 {
-  font-size: 1em;
+  font-size: 0.875em;
   color: #a3b3bf; }
 
 p {
-  font-size: 14px;
+  font-size: 0.875em;
   color: #5e686f;
   line-height: 2; }
 
@@ -103,24 +103,24 @@ header .logo {
   margin-top: 10px; }
 header h5 {
   float: left;
-  margin-left: 10px;
+  margin-left: 5px;
   margin-top: 18px; }
 
 .primary-nav {
   color: #083452;
   float: right;
-  margin-right: 10px;
+  margin-right: 5px;
   margin-top: 10px; }
 
 .primary-nav li {
-  font-size: 0.75em;
+  font-size: 0.688em;
   color: #083452;
   display: inline-block;
-  margin-right: 10px; }
+  margin-right: 5px; }
   .primary-nav li .search {
     display: inline-block;
     vertical-align: middle;
-    margin-left: 10px; }
+    margin-left: 5px; }
   .primary-nav li a {
     color: #083452;
     text-decoration: none; }
@@ -150,7 +150,7 @@ article {
   .vertical-line .pquote {
     font-family: helvetica;
     font-style: italic;
-    font-size: 1em;
+    font-size: 1.5em;
     color: #106db3;
     margin-left: 20px;
     margin-top: 20px;
@@ -162,9 +162,10 @@ article {
   font-size: 0.625em;
   color: #fff;
   margin-top: 20px;
-  margin-left: 20px; }
+  margin-left: 10px;
+  float: left; }
   .buttons .comments-button {
-    width: 130px;
+    width: 120px;
     height: 30px;
     background: #a3b3bf;
     float: left; }
@@ -173,20 +174,20 @@ article {
     height: 30px;
     background: #5e686f;
     float: left;
-    margin-right: 10px; }
+    margin-right: 5px; }
   .buttons .btn-text {
     padding-top: 10px; }
   .buttons .read-later-button {
-    width: 130px;
+    width: 120px;
     height: 30px;
     background: #a3b3bf;
-    margin-left: 10px;
+    margin-left: 5px;
     float: left; }
   .buttons .share-button {
-    width: 130px;
+    width: 120px;
     height: 30px;
     background: #106db3;
-    margin-left: 10px;
+    margin-left: 5px;
     float: left; }
     .buttons .share-button .btn-icon {
       background: #083452; }
