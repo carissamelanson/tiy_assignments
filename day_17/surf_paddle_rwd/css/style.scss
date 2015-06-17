@@ -37,7 +37,7 @@ h4 {
 }
 
 h5 {
-	font-size: 0.688em;
+	font-size: 0.625em;
 	color: $navy;
 }
 h6 {
@@ -65,11 +65,10 @@ header {
 
 .header-image{
 	max-width: 100%;
-/* 	height: 100%; */
 	background-image: url("../images/surf.jpg");
 	text-align: center;
 	overflow: hidden;
-	/* background: absolute; */	
+	
 }
 	.logo {
   	float: left;
@@ -89,7 +88,7 @@ header {
 }
 
 	.primary-nav li {
-	font-size: 0.688em;
+	font-size: 0.625em;
 	color: $navy;
 	display: inline-block;
 	margin-right: 1%;
@@ -218,8 +217,7 @@ h6 {
 }
 	.author-icon { 
 	padding-top: 10px;
-	/* margin-left: 80px; */
-		margin-left: 40%;	
+	margin-left: 40%;	
 }
 }
 
@@ -273,7 +271,7 @@ a {
 }
 }
 .surfer-stories {
-	max-width: 325px;
+	width: 325px;
 	height: 330px;
 	margin: 0 auto;
 	background-image: url("../images/surfer.jpg");
@@ -284,12 +282,13 @@ a {
 	font-family: helvetica;
 	font-size: 1.875em;
 	color: $navy;
-	margin-top: 10px;	
+	margin-top: 10px;
+
 }
 }
 
 .surf-brews {
-	max-width: 325px;
+	width: 325px;
 	height: 330px;
 	margin: 0 auto;
 	background-image: url("../images/beer.jpg");
@@ -305,7 +304,7 @@ a {
 }
 }
 .zack {
-	max-width: 325px;
+	width: 325px;
 	height: 330px;
 	margin: 0 auto;
 	background-image: url("../images/zack.jpg");
@@ -320,7 +319,7 @@ a {
 }
 }
 	.surf-shots{
-	max-width: 325px;
+	width: 325px;
 	height: 330px;
 	margin: 0 auto;
 	background-image: url("../images/booze.jpg");
@@ -369,7 +368,8 @@ small {
 	margin-top: 20px;	
 }
 } 
-/* MEDIA QUERY */
+
+/* SMALL MEDIA QUERY */
 
 @media screen and(min-width:500px){
 
@@ -389,12 +389,6 @@ h5 {font-size: 0.875em;}
 
 h6 {
 	font-size: 1em;
-	color: $lt-grey;
-}
-p {
-	font-size: 14px;
-	color: $dkgrey;
-	line-height: 2;
 }
 
 .container {
@@ -417,54 +411,29 @@ header {
 	width: 1300px;
 	height: 520px;
 	background-image: url("../images/surf.jpg");
-	/* position: absolute; */
-	overflow:hidden;
-	text-align: center;}
-
-	.logo {
-  	float: left;
-  	margin-left: 100px;
-  	margin-top: 10px;}
-
-	h5 {
-  	float: left;
-  	margin-left: 10px;  
-  	margin-top: 18px;}
 }
 
-.primary-nav {
-	color: $navy;
-	float: right;
-	margin-right: 150px;
-	margin-top: 10px;	
+	.logo {margin-left: 100px;}
+
+	h5 {margin-left: 10px;}
 }
+
+.primary-nav {margin-right: 150px;}
 
 .primary-nav li {
 	font-size: 0.875em;
-	color: $navy;
-	display: inline-block;
 	margin-right: 10px;
 
 	.search {
 	display: inline-block;
-	vertical-align: middle;
 	margin-left: 10px;	
-}
- a {
- 	color: $navy;
-	text-decoration: none;
 }
 }
 
 /*------SECTION------*/
 
-/* section {
-	width: 1300px;	
-} */
-
 article {
 	width: 860px;
-	float: left;
 	padding-bottom: 70px;
 
 	.blogtext {
@@ -473,19 +442,13 @@ article {
 	margin-top: 90px;
 }
 	.author {
-	float: left;
 	width: 20px;
-	margin-top: 20px;
 }
+
 h6 {
 	margin-left: 120px;
 	margin-top: 30px;
 	margin-bottom: 34px;
-	text-decoration: underline
-
-}
-.blog-text a {
-	text-decoration: underline;
 }
 }
 
@@ -502,45 +465,26 @@ h6 {
 
 /*-----BUTTONS------*/
 .buttons {
-	font-family: helvetica;
-	font-size: 0.625em;
-	color: #fff;
 	margin-top: 20px;
 	margin-left: 160px;	
 
 	.comments-button {
 	width: 160px;
-	height: 30px;
-	background: $lt-grey;
-	float: left;
 }
 	.btn-icon {
-	width: 30px;
-	height: 30px;
-	background: $dkgrey;
-	float: left;
 	margin-right: 10px;
 }
 
-.btn-text {
-	padding-top: 10px;
-}
 .read-later-button {
 	width: 130px;
-	height: 30px;
-	background: $lt-grey;
 	margin-left: 10px;
-	float: left;
 	clear: none;
 	margin-top: 0%;
 }
 
 .share-button {
 	width: 150px;
-	height: 30px;
-	background: $blue;
 	margin-left: 10px;
-	float: left;
 	clear: none;
 	margin-top: 0%;
 	
@@ -566,12 +510,6 @@ aside {
 	margin-right: 10px;
 	margin-left: 10px;
 	margin-bottom: 60px;
-	display: inline-block;
-	color: $lt-grey;
-
-	a {
-	text-decoration: none;
-	color: $lt-grey; }
 }
 
 .aside {
@@ -591,99 +529,56 @@ aside {
 	margin-bottom: 0px;
 
 	.ad-text {
-	font-family: helvetica;
 	font-size: 10px;
-	float: right;
-	color:$lt-grey;
-	margin-top: 10px;
-
-a {
- 	color: $lt-grey;
-	text-decoration: underline;
-}
 }
 }
 
 .sidebar-section {
-	font-family: helvetica;
 	width: 280px;
 	float: left;
 	margin-top: 50px;
 	font-size: 13px;
-	color: $lt-grey;
 	line-height: 1.5;
 }
 
 .popular-posts-box {
-	clear: left;
 	width: 1300px;
 	height: 150px;
 	margin-bottom: 0px;
 
 .post-text {
-  	font-family: helvetica;
 	font-size: 50px;
-	color: $navy;
-  	text-align: center;
   	padding-top: 50px;
 }
 }
 
 .surfer-stories {
-	width: 325px;
-	height: 330px;
 	float: left;
-	background-image: url("../images/surfer.jpg");	
 
 	.surfing-text {
-	margin-left: 20px;
-	font-family: helvetica;
-	font-size: 30px;
-	color: $navy;
 	margin-top: 290px;
 }
 }
 
 .surf-brews {
-	width: 325px;
-	height: 330px;
 	float: left;
-	background-image: url("../images/beer.jpg");
 
 	.surf-brews-text {
-	margin-left: 20px;
-	font-family: helvetica;
-	font-size: 30px;
-	color: #fff;
 	margin-top: 290px;
 }
 }
 .zack {
-	width: 325px;
-	height: 330px;
 	float: left;
-	background-image: url("../images/zack.jpg");
 
 	.zack-text {
-	margin-left: 20px;
-	font-family: helvetica;
-	font-size: 30px;
-	color: $navy;
 	margin-top: 260px;
 }
 }
 
 .surf-shots{
-	width: 325px;
-	height: 330px;
 	float: left;
-	background-image: url("../images/booze.jpg");
 
 	.surf-shots-text {
-	margin-left: 20px;
-	font-family: helvetica;
-	font-size: 30px;
-	color: $navy;
 	margin-top: 290px;
 }
 }
@@ -693,19 +588,13 @@ a {
 footer {
 	width: 1300px;
 	height: 100px;
-	background-color: #083452;
-	float: left;
 	margin-top: 0px;
 
 	.ironyard-logo {
 	margin-top: 30px;
 	margin-left: 160px;
-	float: left;
 }
 	small {
-	font-size: 10px;
-	color: $lt-grey;
-	float: left;
 	margin-left: 18px;
 	margin-top: 50px;
 }
@@ -716,11 +605,8 @@ footer {
 	float: right;
 
  	li {
-	font-size: 10px;
-	color: $lt-grey;
-	float: left;
-	margin-right: 10px;
 	margin-top: 50px;
 }
 }
 }
+/* END OF SMALL MEDIA QUERY */
