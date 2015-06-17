@@ -199,14 +199,13 @@ h6 {
 }
 
 .social-media-box {
-	width: 56%;
-	margin: 0 auto;
+	width: 100%;
 
 	.social-media li {
 	font-size: 0.75em;
 	margin-top: 10px;
-	margin-right: 10px;
-	margin-left: 10px;
+	margin-right: 2%;
+	margin-left: 2%;
 	margin-bottom: 20px;
 	display: inline-block;
 	color: $lt-grey;
@@ -217,22 +216,26 @@ h6 {
 }
 .aside {
 	text-align: center;
+	width: 100%;
+		margin: 0 auto;
+}
+	.author-icon { 
+	padding-top: 10px;
+	/* margin-left: 80px; */
+		margin-left: 40%;
+	
 }
 
-.author-icon { 
-	padding-top: 10px;
-	margin-left: 100px;
-}
 }
 
 .ad-box {
-	width: 280px;
+	width: 56%;
 	height: 330px;
 	margin: 0 auto;
 
 	.ad-text {
 	font-family: helvetica;
-	font-size: 10px;
+	font-size: 0.625em;
 	float: right;
 	color:$lt-grey;
 	margin-top: 10px;
@@ -246,7 +249,7 @@ a {
 
 .sidebar-section {
 	font-family: helvetica;
-	width: 280px;
+	width: 56%;
 	margin: 0 auto;
 	margin-top: 10px;
 	font-size: 0.75em;
@@ -273,7 +276,7 @@ a {
 }
 }
 .surfer-stories {
-	width: 325px;
+	width: 65%;
 	height: 330px;
 	margin: 0 auto;
 	background-image: url("../images/surfer.jpg");	
@@ -289,7 +292,7 @@ a {
 }
 
 .surf-brews {
-	width: 325px;
+	width: 65%;
 	height: 330px;
 	margin: 0 auto;
 	background-image: url("../images/beer.jpg");
@@ -303,7 +306,7 @@ a {
 }
 }
 .zack {
-	width: 325px;
+	width: 65%;
 	height: 330px;
 	margin: 0 auto;
 	background-image: url("../images/zack.jpg");
@@ -318,7 +321,7 @@ a {
 }
 
 .surf-shots{
-	width: 325px;
+	width: 65%;
 	height: 330px;
 	margin: 0 auto;
 	background-image: url("../images/booze.jpg");

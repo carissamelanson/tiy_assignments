@@ -195,13 +195,12 @@ article {
       background: #083452; }
 
 .social-media-box {
-  width: 56%;
-  margin: 0 auto; }
+  width: 100%; }
   .social-media-box .social-media li {
     font-size: 0.75em;
     margin-top: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 2%;
+    margin-left: 2%;
     margin-bottom: 20px;
     display: inline-block;
     color: #a3b3bf; }
@@ -209,18 +208,21 @@ article {
       text-decoration: none;
       color: #a3b3bf; }
   .social-media-box .aside {
-    text-align: center; }
+    text-align: center;
+    width: 100%;
+    margin: 0 auto; }
   .social-media-box .author-icon {
     padding-top: 10px;
-    margin-left: 100px; }
+    /* margin-left: 80px; */
+    margin-left: 40%; }
 
 .ad-box {
-  width: 280px;
+  width: 56%;
   height: 330px;
   margin: 0 auto; }
   .ad-box .ad-text {
     font-family: helvetica;
-    font-size: 10px;
+    font-size: 0.625em;
     float: right;
     color: #a3b3bf;
     margin-top: 10px; }
@@ -230,7 +232,7 @@ article {
 
 .sidebar-section {
   font-family: helvetica;
-  width: 280px;
+  width: 56%;
   margin: 0 auto;
   margin-top: 10px;
   font-size: 0.75em;
@@ -253,7 +255,7 @@ article {
     padding-top: 20px; }
 
 .surfer-stories {
-  width: 325px;
+  width: 65%;
   height: 330px;
   margin: 0 auto;
   background-image: url("../images/surfer.jpg"); }
@@ -265,7 +267,7 @@ article {
     margin-top: 10px; }
 
 .surf-brews {
-  width: 325px;
+  width: 65%;
   height: 330px;
   margin: 0 auto;
   background-image: url("../images/beer.jpg"); }
@@ -277,7 +279,7 @@ article {
     margin-top: 10px; }
 
 .zack {
-  width: 325px;
+  width: 65%;
   height: 330px;
   margin: 0 auto;
   background-image: url("../images/zack.jpg"); }
@@ -289,7 +291,7 @@ article {
     margin-top: 10px; }
 
 .surf-shots {
-  width: 325px;
+  width: 65%;
   height: 330px;
   margin: 0 auto;
   background-image: url("../images/booze.jpg"); }
