@@ -20,7 +20,7 @@ h1 {
 	
 }
 h2 {
-	font-size: 2.5em;
+	font-size: 1.5em;
 	color: $navy;
 }
 
@@ -38,7 +38,7 @@ h4 {
 }
 
 h5 {
-	font-size: 0.875em;
+	font-size: 0.75em;
 	color: $navy;
 }
 h6 {
@@ -92,7 +92,7 @@ header {
 }
 
 .primary-nav li {
-	font-size: 0.875em;
+	font-size: 0.75em;
 	color: $navy;
 	display: inline-block;
 	margin-right: 10px;
@@ -108,38 +108,194 @@ header {
 }
 }
 
+article {
+	width: 100%;
+	float: left;
+	padding-bottom: 20px;
+
+	.blogtext {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+	.author {
+	float: left;
+	width: 20px;
+	margin-top: 20px;
+}
+h6 {
+	margin-left: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-decoration: underline
+
+}
+.blog-text a {
+	text-decoration: underline;
+}
+}
+
+.vertical-line {
+    border-left: thin solid $lt-grey;
+
+    .pquote {
+	font-family: helvetica;
+	font-style: italic;
+	font-size: 1em;
+	color: #106db3;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+}
+/* BUTTONS */
+
+.buttons {
+	font-family: helvetica;
+	font-size: 0.625em;
+	color: #fff;
+	margin-top: 20px;
+	margin-left: 20px;	
+
+	.comments-button {
+	width: 130px;
+	height: 30px;
+	background: $lt-grey;
+	float: left;
+}
+	.btn-icon {
+	width: 30px;
+	height: 30px;
+	background: $dkgrey;
+	float: left;
+	margin-right: 10px;
+}
+
+.btn-text {
+	padding-top: 10px;
+}
+.read-later-button {
+	width: 130px;
+	height: 30px;
+	background: $lt-grey;
+	margin-left: 10px;
+	float: left;
+}
+
+.share-button {
+	width: 130px;
+	height: 30px;
+	background: $blue;
+	margin-left: 10px;
+	float: left;
+	
+	.btn-icon {
+	background: $navy;
+}
+}
+}
+
+.social-media-box {
+	width: 280px;
+	margin: 0 auto;
+
+	.social-media li {
+	font-size: 0.75em;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	display: inline-block;
+	color: $lt-grey;
+
+	a {
+	text-decoration: none;
+	color: $lt-grey; }
+}
+.aside {
+	text-align: center;
+}
+
+.author-icon { 
+	padding-top: 10px;
+	margin-left: 100px;
+}
+}
+
+.ad-box {
+	width: 280px;
+	height: 330px;
+	margin: 0 auto;
+
+	.ad-text {
+	font-family: helvetica;
+	font-size: 10px;
+	float: right;
+	color:$lt-grey;
+	margin-top: 10px;
+
+a {
+ 	color: $lt-grey;
+	text-decoration: underline;
+}
+}
+}
+
+.sidebar-section {
+	font-family: helvetica;
+	width: 280px;
+	margin: 0 auto;
+	margin-top: 10px;
+	font-size: 0.75em;
+	color: $lt-grey;
+	line-height: 1.4;
+	margin-bottom: 20px;
+}
+.popular-posts-box {
+	clear: left;
+	width: 100%;
+	
+	.line-separator {
+	height: 1px;
+	background: $lt-grey;
+	border-bottom: 1px solid $lt-grey;
+}
+
+.post-text {
+  	font-family: helvetica;
+	font-size: 1.5em;
+	color: $navy;
+  	text-align: center;
+  	padding-top: 20px;
+}
+}
+
+
 /* MEDIA QUERY */
 
 @media screen and(min-width:500px){
+
 	/* TYPOGRAPHY */
-h1, h2, h3, h4, h5, h6 , li, p, small {
-	font-family: helvetica;
-}
+
 h1 {
 	font-size: 6.875em;
 	margin-top: 220px;
 }
 h2 {
 	font-size: 2.5em;
-	color: $navy;
+
 }
 
-h3 {
-	font-size: 1.25em;
-	font-weight: bold;
-	color: #fff;	
+h3 {font-size: 1.25em;
 }
 
 h4 {
-
-	font-weight: bold;
 	font-size: 18px;
-	color: $blue;
-}
+	}
 
 h5 {
 	font-size: 0.875em;
-	color: $navy;
+
 }
 h6 {
 	font-size: 1em;
@@ -154,7 +310,7 @@ p {
 .container {
 	width: 1300px;
 	margin: 0 auto;
-	overflow: hidden;
+
 }
 
 
@@ -218,9 +374,9 @@ header {
 
 /*------SECTION------*/
 
-section {
+/* section {
 	width: 1300px;	
-}
+} */
 
 article {
 	width: 860px;
@@ -253,10 +409,7 @@ h6 {
     border-left: thin solid $lt-grey;
 
     .pquote {
-	font-family: helvetica;
-	font-style: italic;
 	font-size: 1.875em;
-	color: #106db3;
 	margin-left: 20px;
 	margin-top: 40px;
 	margin-bottom: 40px;

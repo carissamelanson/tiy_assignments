@@ -56,7 +56,7 @@ h1 {
   color: #fff; }
 
 h2 {
-  font-size: 2.5em;
+  font-size: 1.5em;
   color: #083452; }
 
 h3 {
@@ -70,7 +70,7 @@ h4 {
   color: #106db3; }
 
 h5 {
-  font-size: 0.875em;
+  font-size: 0.75em;
   color: #083452; }
 
 h6 {
@@ -113,7 +113,7 @@ header h5 {
   margin-top: 10px; }
 
 .primary-nav li {
-  font-size: 0.875em;
+  font-size: 0.75em;
   color: #083452;
   display: inline-block;
   margin-right: 10px; }
@@ -125,33 +125,148 @@ header h5 {
     color: #083452;
     text-decoration: none; }
 
+article {
+  width: 100%;
+  float: left;
+  padding-bottom: 20px; }
+  article .blogtext {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px; }
+  article .author {
+    float: left;
+    width: 20px;
+    margin-top: 20px; }
+  article h6 {
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline; }
+  article .blog-text a {
+    text-decoration: underline; }
+
+.vertical-line {
+  border-left: thin solid #a3b3bf; }
+  .vertical-line .pquote {
+    font-family: helvetica;
+    font-style: italic;
+    font-size: 1em;
+    color: #106db3;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+
+/* BUTTONS */
+.buttons {
+  font-family: helvetica;
+  font-size: 0.625em;
+  color: #fff;
+  margin-top: 20px;
+  margin-left: 20px; }
+  .buttons .comments-button {
+    width: 130px;
+    height: 30px;
+    background: #a3b3bf;
+    float: left; }
+  .buttons .btn-icon {
+    width: 30px;
+    height: 30px;
+    background: #5e686f;
+    float: left;
+    margin-right: 10px; }
+  .buttons .btn-text {
+    padding-top: 10px; }
+  .buttons .read-later-button {
+    width: 130px;
+    height: 30px;
+    background: #a3b3bf;
+    margin-left: 10px;
+    float: left; }
+  .buttons .share-button {
+    width: 130px;
+    height: 30px;
+    background: #106db3;
+    margin-left: 10px;
+    float: left; }
+    .buttons .share-button .btn-icon {
+      background: #083452; }
+
+.social-media-box {
+  width: 280px;
+  margin: 0 auto; }
+  .social-media-box .social-media li {
+    font-size: 0.75em;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+    color: #a3b3bf; }
+    .social-media-box .social-media li a {
+      text-decoration: none;
+      color: #a3b3bf; }
+  .social-media-box .aside {
+    text-align: center; }
+  .social-media-box .author-icon {
+    padding-top: 10px;
+    margin-left: 100px; }
+
+.ad-box {
+  width: 280px;
+  height: 330px;
+  margin: 0 auto; }
+  .ad-box .ad-text {
+    font-family: helvetica;
+    font-size: 10px;
+    float: right;
+    color: #a3b3bf;
+    margin-top: 10px; }
+    .ad-box .ad-text a {
+      color: #a3b3bf;
+      text-decoration: underline; }
+
+.sidebar-section {
+  font-family: helvetica;
+  width: 280px;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-size: 0.75em;
+  color: #a3b3bf;
+  line-height: 1.4;
+  margin-bottom: 20px; }
+
+.popular-posts-box {
+  clear: left;
+  width: 100%; }
+  .popular-posts-box .line-separator {
+    height: 1px;
+    background: #a3b3bf;
+    border-bottom: 1px solid #a3b3bf; }
+  .popular-posts-box .post-text {
+    font-family: helvetica;
+    font-size: 1.5em;
+    color: #083452;
+    text-align: center;
+    padding-top: 20px; }
+
 /* MEDIA QUERY */
 @media screen and (min-width: 500px) {
   /* TYPOGRAPHY */
-  h1, h2, h3, h4, h5, h6, li, p, small {
-    font-family: helvetica; }
-
   h1 {
     font-size: 6.875em;
     margin-top: 220px; }
 
   h2 {
-    font-size: 2.5em;
-    color: #083452; }
+    font-size: 2.5em; }
 
   h3 {
-    font-size: 1.25em;
-    font-weight: bold;
-    color: #fff; }
+    font-size: 1.25em; }
 
   h4 {
-    font-weight: bold;
-    font-size: 18px;
-    color: #106db3; }
+    font-size: 18px; }
 
   h5 {
-    font-size: 0.875em;
-    color: #083452; }
+    font-size: 0.875em; }
 
   h6 {
     font-size: 1em;
@@ -164,8 +279,7 @@ header h5 {
 
   .container {
     width: 1300px;
-    margin: 0 auto;
-    overflow: hidden; }
+    margin: 0 auto; }
 
   /*------HEADER------*/
   header {
@@ -212,9 +326,9 @@ header h5 {
       text-decoration: none; }
 
   /*------SECTION------*/
-  section {
-    width: 1300px; }
-
+  /* section {
+  	width: 1300px;	
+  } */
   article {
     width: 860px;
     float: left;
@@ -238,10 +352,7 @@ header h5 {
   .vertical-line {
     border-left: thin solid #a3b3bf; }
     .vertical-line .pquote {
-      font-family: helvetica;
-      font-style: italic;
       font-size: 1.875em;
-      color: #106db3;
       margin-left: 20px;
       margin-top: 40px;
       margin-bottom: 40px; }
