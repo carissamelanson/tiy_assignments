@@ -64,7 +64,7 @@ header {
 	}
 
 .header-image{
-	width: 100%;
+	max-width: 100%;
 /* 	height: 100%; */
 	background-image: url("../images/surf.jpg");
 	text-align: center;
@@ -74,20 +74,20 @@ header {
 
 	.logo {
   	float: left;
-  	margin-left: 10px;
+  	margin-left: 2%;
   	margin-top: 10px;}
 
 	h5 {
   	float: left;
-  	margin-left: 5px;  
+  	margin-left: 1%;  
   	margin-top: 18px;}
 
   }
 
   	.primary-nav {
-	color: $navy;
+  	color: $navy;
 	float: right;
-	margin-right: 5px;
+	margin-right: 1%;
 	margin-top: 10px;	
 }
 
@@ -95,12 +95,12 @@ header {
 	font-size: 0.688em;
 	color: $navy;
 	display: inline-block;
-	margin-right: 5px;
+	margin-right: 1%;
 
 	.search {
-	display: inline-block;
+	display: block;
 	vertical-align: middle;
-	margin-left: 5px;	
+	margin-left: 1%;	
 }
  a {
  	color: $navy;
@@ -114,19 +114,19 @@ article {
 	padding-bottom: 20px;
 
 	.blogtext {
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-left: 4%;
+	margin-right: 4%;
 	margin-top: 20px;
 }
 	.author {
 	float: left;
-	width: 20px;
+	width: 4%;
 	margin-top: 20px;
 }
 h6 {
-	margin-left: 30px;
+	margin-left: 6%;
 	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 4%;
 	text-decoration: underline
 
 }
@@ -143,7 +143,7 @@ h6 {
 	font-style: italic;
 	font-size: 1.5em;
 	color: #106db3;
-	margin-left: 20px;
+	margin-left: 4%;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
@@ -154,12 +154,12 @@ h6 {
 	font-family: helvetica;
 	font-size: 0.625em;
 	color: #fff;
-	margin-top: 20px;
-	margin-left: 10px;	
+	margin-top: 4%;
+	margin-left: 2%;	
 	float: left;
 
 	.comments-button {
-	width: 120px;
+	width: 200%;
 	height: 30px;
 	background: $lt-grey;
 	float: left;
@@ -169,26 +169,28 @@ h6 {
 	height: 30px;
 	background: $dkgrey;
 	float: left;
-	margin-right: 5px;
+	margin-right: 4%;
 }
 
 .btn-text {
 	padding-top: 10px;
 }
 .read-later-button {
-	width: 120px;
+	width: 200%;
 	height: 30px;
 	background: $lt-grey;
-	margin-left: 5px;
 	float: left;
+	clear: left;
+	margin-top: 5%;
 }
 
 .share-button {
-	width: 120px;
+	width: 200%;
 	height: 30px;
 	background: $blue;
-	margin-left: 5px;
 	float: left;
+	clear: left;
+	margin-top: 5%;
 	
 	.btn-icon {
 	background: $navy;
@@ -197,7 +199,7 @@ h6 {
 }
 
 .social-media-box {
-	width: 280px;
+	width: 56%;
 	margin: 0 auto;
 
 	.social-media li {
@@ -546,6 +548,8 @@ h6 {
 	background: $lt-grey;
 	margin-left: 10px;
 	float: left;
+	clear: none;
+	margin-top: 0%;
 }
 
 .share-button {
@@ -554,6 +558,8 @@ h6 {
 	background: $blue;
 	margin-left: 10px;
 	float: left;
+	clear: none;
+	margin-top: 0%;
 	
 	.btn-icon {
 	background: $navy;
