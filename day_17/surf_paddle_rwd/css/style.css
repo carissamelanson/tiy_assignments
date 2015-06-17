@@ -217,9 +217,11 @@ article {
     margin-left: 40%; }
 
 .ad-box {
-  width: 56%;
-  height: 330px;
-  margin: 0 auto; }
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 40px; }
+  .ad-box .paddle-ad {
+    width: 100%; }
   .ad-box .ad-text {
     font-family: helvetica;
     font-size: 0.625em;
@@ -232,7 +234,7 @@ article {
 
 .sidebar-section {
   font-family: helvetica;
-  width: 56%;
+  width: 80%;
   margin: 0 auto;
   margin-top: 10px;
   font-size: 0.75em;

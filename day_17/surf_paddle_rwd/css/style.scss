@@ -217,7 +217,7 @@ h6 {
 .aside {
 	text-align: center;
 	width: 100%;
-		margin: 0 auto;
+	margin: 0 auto;
 }
 	.author-icon { 
 	padding-top: 10px;
@@ -229,27 +229,33 @@ h6 {
 }
 
 .ad-box {
-	width: 56%;
-	height: 330px;
+	width: 80%;
 	margin: 0 auto;
+	margin-bottom: 40px;
 
-	.ad-text {
+	.paddle-ad {
+		width:100%;
+	}
+
+	.ad-text {	
 	font-family: helvetica;
 	font-size: 0.625em;
 	float: right;
+	
 	color:$lt-grey;
 	margin-top: 10px;
 
 a {
  	color: $lt-grey;
 	text-decoration: underline;
+
 }
 }
 }
 
 .sidebar-section {
 	font-family: helvetica;
-	width: 56%;
+	width: 80%;
 	margin: 0 auto;
 	margin-top: 10px;
 	font-size: 0.75em;
