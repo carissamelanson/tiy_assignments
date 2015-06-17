@@ -263,12 +263,107 @@ a {
 
 .post-text {
   	font-family: helvetica;
-	font-size: 1.5em;
+	font-size: 2em;
 	color: $navy;
   	text-align: center;
   	padding-top: 20px;
 }
 }
+.surfer-stories {
+	width: 325px;
+	height: 330px;
+	margin: 0 auto;
+	background-image: url("../images/surfer.jpg");	
+
+	.surfing-text {
+	margin-left: 20px;
+	font-family: helvetica;
+	font-size: 1.875em;
+	color: $navy;
+	margin-top: 10px;
+	
+}
+}
+
+.surf-brews {
+	width: 325px;
+	height: 330px;
+	margin: 0 auto;
+	background-image: url("../images/beer.jpg");
+
+	.surf-brews-text {
+	margin-left: 20px;
+	font-family: helvetica;
+	font-size: 1.875em;
+	color: #fff;
+	margin-top: 10px;
+}
+}
+.zack {
+	width: 325px;
+	height: 330px;
+	margin: 0 auto;
+	background-image: url("../images/zack.jpg");
+
+	.zack-text {
+	margin-left: 20px;
+	font-family: helvetica;
+	font-size: 30px;
+	color: $navy;
+	margin-top: 10px;
+}
+}
+
+.surf-shots{
+	width: 325px;
+	height: 330px;
+	margin: 0 auto;
+	background-image: url("../images/booze.jpg");
+
+	.surf-shots-text {
+	margin-left: 20px;
+	font-family: helvetica;
+	font-size: 30px;
+	color: $navy;
+	margin-top: 20px;
+}
+}
+
+footer {
+	width: 100%;
+	background-color: #083452;
+	float: left;
+	/* margin-top: 20px; */
+
+	.ironyard-logo {
+	margin-top: 20px;
+	margin-left: 10px;
+	float: left;
+}
+
+small {
+	font-size: 0.625em;
+	color: $lt-grey;
+	float: left;
+	margin-left: 10px;
+	margin-top: 30px;
+}
+}
+
+.bottom-nav {
+	margin-right: 10px;
+	float: right;
+
+ 	li {
+	font-size: 0.625em;
+	color: $lt-grey;
+	float: left;
+	margin-right: 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+}
+
 
 
 /* MEDIA QUERY */
