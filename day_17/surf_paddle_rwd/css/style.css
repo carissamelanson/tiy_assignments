@@ -60,7 +60,7 @@ h2 {
   color: #083452; }
 
 h3 {
-  font-size: 0.875em;
+  font-size: 0.75em;
   font-weight: bold;
   color: #fff; }
 
@@ -86,40 +86,49 @@ p {
   width: 100%;
   overflow: hidden; }
 
-header h1 {
-  margin-top: 24%; }
-header h3 {
-  margin-top: 2%;
-  margin-bottom: 40px; }
-header .header-image {
-  max-width: 100%;
-  background-image: url("../images/surf.jpg");
-  text-align: center;
-  overflow: hidden; }
-header .logo {
-  float: left;
-  margin-left: 2%;
-  margin-top: 10px; }
-header h5 {
-  float: left;
-  margin-left: 1%;
-  margin-top: 18px; }
+header {
+  width: 100%;
+  margin: 0 auto; }
+  header h1 {
+    margin-top: 40px; }
+  header h3 {
+    margin-top: 1%;
+    margin-bottom: 60px; }
+  header .header-image {
+    width: 100%;
+    background-image: url("../images/surf.jpg");
+    text-align: center;
+    overflow: hidden; }
+  header .logo {
+    width: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
+    margin-left: 2%;
+    margin-top: 8px; }
+  header h5 {
+    float: left;
+    margin-left: 1%;
+    margin-top: 12px; }
 
 .primary-nav {
   color: #083452;
-  float: right;
-  margin-right: 1%;
-  margin-top: 10px; }
+  margin-right: 5px;
+  display: inline-block;
+  margin-top: 12px; }
 
 .primary-nav li {
   font-size: 0.625em;
   color: #083452;
   display: inline-block;
-  margin-right: 1%; }
+  margin-right: 5px;
+  /* margin-top: 10px; */
+  float: left; }
   .primary-nav li .search {
-    display: block;
+    display: inline-block;
     vertical-align: middle;
-    margin-left: 1%; }
+    margin-left: 5px;
+    float: right; }
   .primary-nav li a {
     color: #083452;
     text-decoration: none; }
@@ -374,18 +383,27 @@ footer {
       height: 520px;
       background-image: url("../images/surf.jpg"); }
     header .logo {
-      margin-left: 100px; }
+      margin-left: 100px;
+      width: 46px;
+      height: 47px;
+      margin-top: 10px; }
     header h5 {
-      margin-left: 10px; }
+      margin-left: 10px;
+      margin-top: 18px; }
 
   .primary-nav {
-    margin-right: 150px; }
+    margin-right: 150px;
+    float: right;
+    margin-top: 20px; }
 
   .primary-nav li {
     font-size: 0.875em;
-    margin-right: 10px; }
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle; }
     .primary-nav li .search {
       display: inline-block;
+      vertical-align: middle;
       margin-left: 10px; }
 
   /*------SECTION------*/
