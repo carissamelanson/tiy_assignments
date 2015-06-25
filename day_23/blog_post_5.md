@@ -9,18 +9,18 @@ Concepts for Blue Dahlia's website redesign:
 [Parisian Cafe Culture]: https://typecast.com/PZ6w74Qgm7/parisian-cafe-culture
 
 
-2. Date Night
-<a href="http://typecast.com/PZ6w74Qgm7/blue-dahlia-3" title="Date Night"></a>
+[Date Night]
+[Date Night]: http://typecast.com/PZ6w74Qgm7/blue-dahlia-3
 
 
-3. Fancy Cheap Happy Hour
-<a href="http://typecast.com/PZ6w74Qgm7/blue-dahlia-2" title="Fancy Cheap happy hour"></a>
+[Fancy Cheap Happy Hour]
+[Fancy Cheap Happy Hour]: http://typecast.com/PZ6w74Qgm7/blue-dahlia-2
 
 
 
-4. Austin cool meets French chic
-<a href="http://typecast.com/PZ6w74Qgm7/blue-dahlia-5" title="Austin cool meets French chic"></a>
+[Austin cool meets French chic]
+[Austin cool meets French chic]: http://typecast.com/PZ6w74Qgm7/blue-dahlia-5
 
 
-5. Local Farm to Table
-<a href="http://typecast.com/PZ6w74Qgm7/blue-dahlia-4" title="Austin cool meets French chic"></a>
+[Local Farm to Table]
+[Local Farm to Table]: http://typecast.com/PZ6w74Qgm7/blue-dahlia-4
