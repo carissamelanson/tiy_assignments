@@ -5,8 +5,9 @@ Typecast seems tricky, it's not really intuitive. It seems like it could be a re
 
 Concepts for Blue Dahlia's website redesign:
 
-1. Parisian Cafe Culture 
-<a href="https://typecast.com/PZ6w74Qgm7/parisian-cafe-culture" title="Parisian Cafe Culture"></a>
+[Parisian Cafe Culture]
+[Parisian Cafe Culture]: https://typecast.com/PZ6w74Qgm7/parisian-cafe-culture
+
 
 2. Date Night
 <a href="http://typecast.com/PZ6w74Qgm7/blue-dahlia-3" title="Date Night"></a>
