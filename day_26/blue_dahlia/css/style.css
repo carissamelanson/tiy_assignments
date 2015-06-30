@@ -1,0 +1,206 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*! responsive-nav.js 1.0.39 by @viljamis */
+.nav-collapse ul {
+  padding: 0;
+  width: 180px;
+  display: block;
+  list-style: none;
+  border: 2px dotted #003471;
+  padding: 10px;
+  margin-left: 20px; }
+
+.nav-collapse li {
+  width: 100%;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px; }
+
+.nav-collapse a {
+  color: #003471;
+  text-decoration: none; }
+
+.js .nav-collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1; }
+
+.nav-collapse.opened {
+  max-height: 9999px;
+  text-decoration: none;
+  clear: left; }
+
+.nav-toggle {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  text-decoration: none;
+  color: #003471;
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 20px; }
+
+@media screen and (min-width: 40em) {
+  .js .nav-collapse {
+    position: relative; }
+
+  .js .nav-collapse.closed {
+    max-height: none; }
+
+  .nav-toggle {
+    display: none; } }
+/* COLORS */
+/* FONTS */
+/* font-weight: 600;
+font-style: italic; */
+/* TYPOGRAPHY */
+h1 {
+  font-family: "aw-conqueror-carved";
+  font-size: 3.2em;
+  line-height: 1.2;
+  color: #003471; }
+
+h2 {
+  font-family: "aw-conqueror-carved-one";
+  font-size: 2.4em;
+  line-height: 1.2;
+  color: #0076a3; }
+
+h3 {
+  font-family: "adobe-caslon-pro";
+  font-size: 1.8em;
+  line-height: 1.6;
+  color: #003471; }
+
+h4 {
+  font-family: "aw-conqueror-carved-one";
+  font-size: 2em;
+  line-height: 2;
+  color: #0076a3; }
+
+h5 {
+  font-family: "aw-conqueror-carved-one";
+  font-size: 1.3em;
+  line-height: 2;
+  color: #003471; }
+
+p {
+  font-family: "adobe-caslon-pro";
+  font-size: 1.4em;
+  line-height: 1.6;
+  color: #003471; }
+
+footer {
+  font-family: "adobe-caslon-pro";
+  font-size: 1em;
+  line-height: 1.6;
+  color: #003471; }
+
+body {
+  background: #fcfae8; }
+
+header {
+  width: 100%;
+  font-family: "aw-conqueror-carved-one";
+  padding: 5%; }
+  header .logo {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 30px; }
+
+/* ABOUT PAGE */
+section .home-image,
+section .community-image,
+section .dinner-image {
+  width: 100%;
+  margin-bottom: 30px;
+  /* background-image: url("../images/blue-dahlia-2.jpg"); */ }
+section h1 {
+  text-align: center;
+  padding: 10px; }
+section p {
+  padding: 50px; }
+
+.location-hours {
+  padding-left: 50px; }
+  .location-hours h5 {
+    margin-top: 30px; }
+  .location-hours p {
+    padding: 0;
+    font-size: 1em; }
+
+/* COMMUNITY PAGE */
+section li {
+  font-family: "adobe-caslon-pro";
+  font-size: 1.4em;
+  line-height: 1.6;
+  margin-left: 100px;
+  color: #0076a3; }
+
+/* MENU PAGE */
+section h2, section h3 {
+  text-align: center;
+  padding: 10px; }
+section h4 {
+  display: inline-block;
+  margin-right: 60px;
+  margin-left: 50px; }
+
+footer {
+  text-align: center;
+  margin-top: 100px; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,144 @@
+@import 'reset';
+@import 'responsive-nav';
+
+
+
+/* COLORS */
+$dkblue: #003471;
+$blue: #0076a3;
+
+/* FONTS */
+$carved-one: "aw-conqueror-carved-one";
+$carved: "aw-conqueror-carved";
+$caslon: "adobe-caslon-pro";
+	/* font-weight: 600;
+	font-style: italic; */
+
+/* TYPOGRAPHY */
+h1 {
+	font-family: $carved;
+	font-size: 3.2em;
+	line-height: 1.2;
+	color: $dkblue;
+}
+h2 {
+	font-family: $carved-one;
+	font-size: 2.4em;
+	line-height: 1.2;
+	color: $blue;
+
+}
+h3 {
+	font-family: $caslon;
+	font-size: 1.8em;
+	line-height: 1.6;
+	color: $dkblue;
+
+}
+h4{
+	font-family: $carved-one;
+	font-size: 2em;
+	line-height: 2;
+	color: $blue;
+
+}
+
+h5 {
+	font-family: $carved-one;
+	font-size: 1.3em;
+	line-height: 2;
+	color: $dkblue;
+}
+
+p {
+	font-family: $caslon;
+	font-size: 1.4em;
+	line-height: 1.6;
+	color: $dkblue;
+}
+
+
+footer{
+	font-family: $caslon;
+	font-size: 1em;
+	line-height: 1.6;
+	color: $dkblue;
+}
+
+body {background: #fcfae8;}
+
+header {
+	width: 100%;
+	font-family: $carved-one;
+	padding: 5%;
+
+	.logo {
+		margin: 0 auto;
+		display: block;
+		margin-bottom: 30px;		
+	}
+
+}
+
+/* ABOUT PAGE */
+section {
+	.home-image,
+	.community-image,
+	.dinner-image {
+	width: 100%;
+	margin-bottom: 30px;
+	/* background-image: url("../images/blue-dahlia-2.jpg"); */
+	}
+
+	h1{
+		text-align: center;
+		padding: 10px;
+	}
+
+	p{padding: 50px;}
+
+}
+
+.location-hours{
+	padding-left: 50px;
+
+	h5 {margin-top: 30px;}
+
+	p {
+		padding: 0;
+		font-size: 1em;
+	}
+}
+
+/* COMMUNITY PAGE */
+section {
+
+	li {
+	font-family: $caslon;
+	font-size: 1.4em;
+	line-height: 1.6;
+	margin-left: 100px;
+	color: $blue;
+	}
+}
+
+
+/* MENU PAGE */
+section {
+	h2,h3,{
+		text-align: center;
+		padding: 10px;
+	}
+
+	h4{
+		display: inline-block;
+		margin-right: 60px;
+		margin-left: 50px;
+	}
+}
+
+
+footer {
+	text-align: center;
+	margin-top: 100px;
+}
