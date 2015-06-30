@@ -48,19 +48,21 @@ table {
 /*! responsive-nav.js 1.0.39 by @viljamis */
 .nav-collapse ul {
   padding: 0;
-  width: 180px;
-  display: block;
-  list-style: none;
-  border: 2px dotted #003471;
-  padding: 10px;
-  margin-left: 20px; }
-
-.nav-collapse li {
   width: 100%;
   display: block;
+  list-style: none;
+  overflow: hidden;
+  /*   border: 2px dotted #003471;
+    padding: 10px;
+    margin-left: 20px; */ }
+
+.nav-collapse li {
+  /*   width: 100%; */
+  /*   display: block; */
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: 20px; }
+  margin-left: 30px;
+  float: left; }
 
 .nav-collapse a {
   color: #003471;
@@ -89,9 +91,10 @@ table {
   user-select: none;
   text-decoration: none;
   color: #003471;
-  float: left;
-  margin-left: 20px;
-  margin-bottom: 20px; }
+  /* float: left; */
+  /*   margin-left: 10px; */
+  margin-bottom: 20px;
+  display: block; }
 
 @media screen and (min-width: 40em) {
   .js .nav-collapse {
@@ -109,7 +112,7 @@ font-style: italic; */
 /* TYPOGRAPHY */
 h1 {
   font-family: "aw-conqueror-carved";
-  font-size: 3.2em;
+  font-size: 2.6em;
   line-height: 1.2;
   color: #003471; }
 
@@ -167,24 +170,37 @@ body {
 header {
   width: 100%;
   font-family: "aw-conqueror-carved-one";
-  padding: 5%; }
+  /* 	padding: 5%; */ }
+  header h1 {
+    font-size: 3em;
+    text-align: center;
+    color: #0076a3;
+    margin-top: 30px; }
   header .logo {
     margin: 0 auto;
     display: block;
     margin-bottom: 30px; }
 
+.container {
+  padding: 30px; }
+
 /* ABOUT PAGE */
 section .home-image,
 section .community-image,
-section .dinner-image {
+section .dinner-image,
+section .lunch-image {
   width: 100%;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
+  padding-top: 30px;
   /* background-image: url("../images/blue-dahlia-2.jpg"); */ }
-section h1 {
-  text-align: center;
-  padding: 30px; }
 section p {
   padding: 50px; }
+
+.main-image p {
+  text-align: right;
+  font-size: 1em;
+  padding-right: 10px;
+  font-style: italic; }
 
 .location-hours {
   padding-left: 50px; }
@@ -203,7 +219,7 @@ section li {
   color: #0076a3; }
 
 /* MENU PAGE */
-section h2, section h3 {
+section h1, section h2, section h3 {
   text-align: center;
   /* padding: 10px; */
   margin-bottom: 24px; }
@@ -228,10 +244,20 @@ section p {
   height: 1px;
   background: #003471;
   border-bottom: 1px solid #003471;
-  margin-bottom: 24px; }
+  margin-bottom: 24px;
+  width: 100%; }
 
 footer {
   text-align: center;
   margin-top: 100px; }
+
+/* MEDIUM MEDIA QUERY */
+@media screen and (min-width: 800px) {
+  .container {
+    padding: 50px; } }
+/* LARGE MEDIA QUERY */
+@media screen and (min-width: 1200px) {
+  .container {
+    padding: 80px; } }
 
 /*# sourceMappingURL=style.css.map */
