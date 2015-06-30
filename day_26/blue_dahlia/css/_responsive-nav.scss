@@ -7,6 +7,8 @@
   display: block;
   list-style: none;
   overflow: hidden;
+
+ text-align: center;
 /*   border: 2px dotted #003471;
   padding: 10px;
   margin-left: 20px; */
@@ -18,11 +20,14 @@
 
 .nav-collapse li {
 /*   width: 100%; */
-/*   display: block; */
+  display: inline-block;
   margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 30px;
-  float: left;
+ /*  margin-bottom: 20px; */
+ /*  margin-left: 30px; */
+  /* float: left; */
+  margin-right: 30px;
+
+
 
 }
 
@@ -42,12 +47,13 @@
   overflow: hidden;
   zoom: 1;
 
+
 }
 
 .nav-collapse.opened {
   max-height: 9999px;
   text-decoration: none;
-  clear: left;
+ 
 }
 
 .nav-toggle {
@@ -62,7 +68,7 @@
   color: #003471;
   /* float: left; */
 /*   margin-left: 10px; */
-  margin-bottom: 20px;
+
   display: block;
 
 
