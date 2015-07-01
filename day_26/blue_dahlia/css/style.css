@@ -196,7 +196,7 @@ section .dinner-image,
 section .lunch-image,
 section .breakfast-image {
   width: 100%;
-  padding-bottom: 10px;
+  padding-bottom: 0;
   padding-top: 30px;
   /* background-image: url("../images/blue-dahlia-2.jpg"); */ }
 section p {
