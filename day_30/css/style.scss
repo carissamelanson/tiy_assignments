@@ -1,0 +1,206 @@
+
+@import 'reset';
+
+@font-face {
+	font-family: "Block";
+	src: local("block-berthold-regular.ttf"),
+	url('block-berthold-regular.ttf');
+}
+
+@font-face {
+	font-family: "Block-thin";
+	src: local("block-berthold-extra-condensed.ttf"),
+	url('block-berthold-extra-condensed.ttf');
+}
+
+@font-face {
+	font-family: "tight";
+	src: local("Tightrope-Regular.ttf"),
+	url('Tightrope-Regular.ttf');
+}
+
+$red: #b95d3e;
+$black: #464646;
+
+
+
+@mixin font($em){
+    font-size: ($em*16) + px;
+    font-size: ($em) + em;
+}
+
+/* TYPOGRAPHY */
+h1{
+	font-family: "Block", "Arial", sans-serif;
+	text-transform: uppercase;
+	color: $black;
+	@include font(5)
+}
+
+h2{
+	font-family: "block-thin";
+	color: $red;
+	@include font(3.4)
+
+
+}
+
+h3 {
+	font-family: "block-thin";
+	color: $black;
+	text-transform: uppercase;
+	@include font(2.4)
+
+
+}
+p {
+	font-family: "didot";
+	color: $black;
+}
+
+
+body{
+	padding: 60px;
+	background-color: #d9ce96;
+
+}
+footer {
+	font-family: "didot";
+	color: $red;
+	@include font(2)
+}
+li {
+	font-family: "didot";
+	line-height: 1.4;
+	@include font(1.3)
+
+
+}
+
+
+header{
+	h1,h2 {
+	 -webkit-transform: rotate(-10deg); 
+    -moz-transform: rotate(-10deg);  
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=5); /*for IE*/
+}
+	h2 {
+		margin-top: 20px;
+		margin-left: 16px;
+		text-transform: lowercase;
+	}
+
+	
+}
+
+.summary {
+	width: 40%;
+	margin-top: 100px;
+	margin-left: 180px;
+	margin-bottom: 80px;
+
+	p {
+		font-family: "block-thin";
+		line-height: 1.6;
+		margin-bottom: 20px;
+		-webkit-transform: rotate(-8deg); 
+    	-moz-transform: rotate(-8deg);  
+    	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=5); /*for IE*/
+		@include font(2)
+	}
+	
+}
+
+.summary a {
+	font-family: "tight";
+	color: $red;
+	text-decoration: none;}
+
+
+.preamble,
+.explanation, .participation,
+.benefits,
+.requirements {
+	p {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		line-height: 1.6;}
+
+}
+
+.preamble,
+.explanation, .participation,
+.benefits {
+	width: 60%;
+	float: left;
+}
+
+
+.requirements {
+	clear: left;
+	float: right;
+	width: 60%;
+}
+
+footer {
+	clear: right;
+	float: left;
+	margin-bottom: 80px;
+	margin-top: 80px;
+
+	a{
+		text-decoration: none;
+		color: $red;
+	}
+}
+
+.sidebar{
+	float: left;
+	clear: left;
+}
+
+.design-selection {
+	margin-left: 40px;
+	margin-bottom: 80px;
+	line-height: 1.6;
+	-webkit-transform: rotate(-8deg); 
+    	-moz-transform: rotate(-8deg);  
+    	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=5); /*for IE*/
+    	@include font(1.2)
+
+}
+
+.design-selection {
+	h3 {
+	font-family: "tight";
+	color: $red;
+	@include font(1.3)}
+
+}
+
+.design-selection,
+.design-archives,
+.zen-resources {
+	nav a {text-decoration: none;}
+
+	li {color: $red;}
+}
+
+.design-selection {
+	.design-name,
+    .designer-name{
+    		color: $red;
+    	}
+
+}
+.design-archives {
+	float: right;
+	.next,
+	.viewall {
+		a {color: $black;}
+}}
+
+.zen-resources {
+	float: right;
+	
+}

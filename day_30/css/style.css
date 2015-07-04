@@ -1,0 +1,200 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@font-face {
+  font-family: "Block";
+  src: local("block-berthold-regular.ttf"), url("block-berthold-regular.ttf"); }
+@font-face {
+  font-family: "Block-thin";
+  src: local("block-berthold-extra-condensed.ttf"), url("block-berthold-extra-condensed.ttf"); }
+@font-face {
+  font-family: "tight";
+  src: local("Tightrope-Regular.ttf"), url("Tightrope-Regular.ttf"); }
+/* TYPOGRAPHY */
+h1 {
+  font-family: "Block", "Arial", sans-serif;
+  text-transform: uppercase;
+  color: #464646;
+  font-size: 80px;
+  font-size: 5em; }
+
+h2 {
+  font-family: "block-thin";
+  color: #b95d3e;
+  font-size: 54.4px;
+  font-size: 3.4em; }
+
+h3 {
+  font-family: "block-thin";
+  color: #464646;
+  text-transform: uppercase;
+  font-size: 38.4px;
+  font-size: 2.4em; }
+
+p {
+  font-family: "didot";
+  color: #464646; }
+
+body {
+  padding: 60px;
+  background-color: #d9ce96; }
+
+footer {
+  font-family: "didot";
+  color: #b95d3e;
+  font-size: 32px;
+  font-size: 2em; }
+
+li {
+  font-family: "didot";
+  line-height: 1.4;
+  font-size: 20.8px;
+  font-size: 1.3em; }
+
+header h1, header h2 {
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=5);
+  /*for IE*/ }
+header h2 {
+  margin-top: 20px;
+  margin-left: 16px;
+  text-transform: lowercase; }
+
+.summary {
+  width: 40%;
+  margin-top: 100px;
+  margin-left: 180px;
+  margin-bottom: 80px; }
+  .summary p {
+    font-family: "block-thin";
+    line-height: 1.6;
+    margin-bottom: 20px;
+    -webkit-transform: rotate(-8deg);
+    -moz-transform: rotate(-8deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=5);
+    /*for IE*/
+    font-size: 32px;
+    font-size: 2em; }
+
+.summary a {
+  font-family: "tight";
+  color: #b95d3e;
+  text-decoration: none; }
+
+.preamble p,
+.explanation p, .participation p,
+.benefits p,
+.requirements p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 1.6; }
+
+.preamble,
+.explanation, .participation,
+.benefits {
+  width: 60%;
+  float: left; }
+
+.requirements {
+  clear: left;
+  float: right;
+  width: 60%; }
+
+footer {
+  clear: right;
+  float: left;
+  margin-bottom: 80px;
+  margin-top: 80px; }
+  footer a {
+    text-decoration: none;
+    color: #b95d3e; }
+
+.sidebar {
+  float: left;
+  clear: left; }
+
+.design-selection {
+  margin-left: 40px;
+  margin-bottom: 80px;
+  line-height: 1.6;
+  -webkit-transform: rotate(-8deg);
+  -moz-transform: rotate(-8deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=5);
+  /*for IE*/
+  font-size: 19.2px;
+  font-size: 1.2em; }
+
+.design-selection h3 {
+  font-family: "tight";
+  color: #b95d3e;
+  font-size: 20.8px;
+  font-size: 1.3em; }
+
+.design-selection nav a,
+.design-archives nav a,
+.zen-resources nav a {
+  text-decoration: none; }
+.design-selection li,
+.design-archives li,
+.zen-resources li {
+  color: #b95d3e; }
+
+.design-selection .design-name,
+.design-selection .designer-name {
+  color: #b95d3e; }
+
+.design-archives {
+  float: right; }
+  .design-archives .next a,
+  .design-archives .viewall a {
+    color: #464646; }
+
+.zen-resources {
+  float: right; }
+
+/*# sourceMappingURL=style.css.map */
