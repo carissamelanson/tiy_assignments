@@ -114,6 +114,11 @@ header h2 {
   margin-left: 16px;
   text-transform: lowercase; }
 
+h1::first-letter {
+  font-family: "tight";
+  font-size: 32px;
+  font-size: 2em; }
+
 h2::first-letter {
   font-family: "tight"; }
 
@@ -126,8 +131,23 @@ h3:after {
   width: 60%; }
 
 h3::first-letter {
-  font-family: "tight"; }
+  font-family: "tight";
+  font-size: 38.4px;
+  font-size: 2.4em; }
 
+h2, h3 {
+  animation-duration: 3s;
+  animation-name: slidein;
+  /* animation-iteration-count: infinite;
+    animation-direction: alternate; */ }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
 header h2:after {
   content: "";
   width: 0;
@@ -173,6 +193,14 @@ header h2:after {
 .preamble p {
   font-size: 25.6px;
   font-size: 1.6em; }
+
+.explanation,
+.participation,
+.benefits,
+.requirements,
+.design-archives,
+.zen-resources {
+  margin-top: 40px; }
 
 .preamble,
 .explanation, .participation,
@@ -233,10 +261,12 @@ header h2:after {
 
 footer {
   float: left;
-  margin-bottom: 80px; }
+  margin-bottom: 60px; }
   footer a:hover {
     color: #b95d3e; }
   footer a {
+    display: inline-block;
+    vertical-align: middle;
     text-decoration: none;
     color: #464646;
     font-family: "tight";
@@ -245,17 +275,18 @@ footer {
 footer:before {
   content: "";
   width: 0;
-  height: 0;
+  height: 100%;
   border-top: 100px solid transparent;
   border-bottom: 100px solid transparent;
   border-left: 100px solid #b95d3e;
   margin-right: 40px;
-  float: left; }
+  display: inline-block;
+  vertical-align: middle; }
 
 .design-selection {
+  margin: 0 auto;
+  width: 60%;
   clear: left;
-  margin-left: 40px;
-  margin-bottom: 80px;
   line-height: 1.6;
   -webkit-transform: rotate(-8deg);
   -moz-transform: rotate(-8deg);
@@ -291,6 +322,9 @@ footer:before {
 .design-selection .design-name,
 .design-selection .designer-name {
   color: #b95d3e; }
+
+.design-selection .designer-name {
+  font-family: "block-thin"; }
 
 .design-archives,
 .zen-resources {

@@ -64,6 +64,7 @@ body{
 	padding: 60px;
 	background-color: #d9ce96;
 
+
 }
 footer {
 	font-family: "didot";
@@ -99,9 +100,14 @@ header{
 	}
 }
 
+h1::first-letter{
+	font-family: "tight";
+	@include font(2)}
+
 h2::first-letter{
 	font-family: "tight";
 }
+
 
 h3:after {
   background: $black;
@@ -112,10 +118,31 @@ h3:after {
   width: 60%;
 
 }
+
 h3::first-letter{
 	font-family: "tight";
+	@include font(2.4)
+
 }
 
+h2,h3 {
+	 animation-duration: 3s;
+  animation-name: slidein;
+  /* animation-iteration-count: infinite;
+    animation-direction: alternate; */
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
 
 header h2:after {
 	content: "";
@@ -166,6 +193,17 @@ header h2:after {
 
 .preamble p {
 	@include font(1.6)
+}
+
+
+.explanation, 
+.participation,
+.benefits,
+.requirements,
+.design-archives,
+.zen-resources {
+	margin-top: 40px;
+
 }
 
 .preamble,
@@ -219,15 +257,18 @@ header h2:after {
   	border-top: 100px solid $red;
  	float: left;
  	margin-bottom: 100px;
+
 }
 
 footer {
 	float: left;
-	margin-bottom: 80px;
+	margin-bottom: 60px;
 
 	a:hover{color: $red;}
 
 	a{
+		display: inline-block;
+  		vertical-align: middle;
 		text-decoration: none;
 		color:$black;
 		font-family: "tight";
@@ -235,21 +276,23 @@ footer {
 	}
 }
 
+
 footer:before {
 	content: "";
   	width: 0;
-  	height: 0;
+  	height: 100%;
   	border-top: 100px solid transparent;
   	border-bottom: 100px solid transparent;
   	border-left: 100px solid $red;
   	margin-right: 40px;
-  	float: left; 
+  	display: inline-block;
+  	vertical-align: middle;
 }
 
 .design-selection {
+	margin:0 auto;
+	width: 60%;
 	clear: left;
-	margin-left: 40px;
-	margin-bottom: 80px;
 	line-height: 1.6;
 	-webkit-transform: rotate(-8deg); 
     	-moz-transform: rotate(-8deg);  
@@ -266,9 +309,9 @@ footer:before {
 	@include font(1.3)}
 
 }
-.design-selection h3:after {
 
-  content: "";
+.design-selection h3:after {
+	content: "";
   display: block;
   height: 0px;
   position: absolute;
@@ -288,6 +331,12 @@ footer:before {
     .designer-name{color: $red;}
 
 }
+.design-selection {
+	.designer-name{
+	font-family: "block-thin";
+}
+}
+
 .design-archives,
 .zen-resources {
 	width: 40%;
