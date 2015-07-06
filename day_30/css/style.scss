@@ -70,7 +70,7 @@ footer {
 	font-family: "didot";
 	font-weight: bold;
 	color: $red;
-	@include font(2)
+	@include font(2.2)
 }
 li {
 	font-family: "didot";
@@ -264,6 +264,7 @@ footer {
 	float: left;
 	margin-bottom: 60px;
 
+
 	a:hover{color: $red;}
 
 	a{
@@ -273,6 +274,7 @@ footer {
 		color:$black;
 		font-family: "tight";
 		margin-right: 30px;
+	
 	}
 }
 
