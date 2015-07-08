@@ -105,6 +105,24 @@ Joined because another reader recommended it. Liked all the reviews. Thinks high
 ###Charlie
 Immediately attracted by the book covers. Liked the genre features and reviews, spent a lot of time reading reviews. Didn't seem to care about the social media part of the site or seeing updates from friends. Also didn't care too much for the profile page. Enjoyed the explore feature. Uses another site cheap reads for finding books. Likes not being sold anything, but appreciates the option to buy on the good reads site.
 
+###Rachel
+I use this site for book club.  In fact, I only signed up for this site right after it was maybe my turn to choose and I wanted to come up with a good book. 
+
+Do you use it socially?
+Since it's new for me, I haven't used it socially at all.  I really just use it for recommendations and reviews.  Connecting with others digitally is not something that I feel comfortable with...not for folks I've never met.
+
+Do you use good reads for discovering new reads?
+Absolutely.  I love using it for discovering new books I should check out.  There are so many books but few that really captivate; I love that Goodreads cut through some of the less pleasing reads.
+
+What features do you like about the site?
+Again, I like the recommendations and suggestions (ie. the subject genres).  I love reading some book and then finding more suggestions like that book...like Netflix.
+
+What features do you dislike?
+Hmmm....maybe...right now, embarrassingly, I'm into teeny-bopper novels and I would love to find more of the same.  Where are they?  Wish they were easier to find.
+
+Other things I'd like to see...Really, I haven't looked at Goodreads and possibly it already exists however, are there questions for reading novels?  Questions for book clubs?  I'd be interested in that aspect.  
+
+
 
 
 
