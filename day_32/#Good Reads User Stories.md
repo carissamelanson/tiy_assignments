@@ -87,11 +87,12 @@ Do you use good reads for discovering new reads?
 I did. 
 What features do you like about the site?
 
-You can see what books your friends have read. I think I registered with Facebook, which made it easy to sign up, easy to log back in and connect with friends. I was able
-to successfully find out what my friends had read. I'm not sure I ever obtained any new books based on this. It's doubtful that I ever  actually read anything new via this site. This was probably many years ago. 
+You can see what books your friends have read. I think I registered with Facebook, which made it easy to sign up, easy to log back in and connect with friends. I was able to successfully find out what my friends had read. I'm not sure I ever obtained any new books based on this. It's doubtful that I ever  actually read anything new via this site. This was probably many years ago. 
+
 What features do you dislike?
 
 I don't recall any particular frustrations, but it's been a while. 
+
 What features would you like to see?
 
 At the time, I was mostly listening to books on tape via Audible or reading books on my Kindle. I think there was some sort of integration there with Kindle, perhaps. Anything that makes it easier for me to go from "I should read that" to actually reading would be handy.
@@ -120,7 +121,37 @@ Again, I like the recommendations and suggestions (ie. the subject genres).  I l
 What features do you dislike?
 Hmmm....maybe...right now, embarrassingly, I'm into teeny-bopper novels and I would love to find more of the same.  Where are they?  Wish they were easier to find.
 
-Other things I'd like to see...Really, I haven't looked at Goodreads and possibly it already exists however, are there questions for reading novels?  Questions for book clubs?  I'd be interested in that aspect.  
+Other things I'd like to see...Really, I haven't looked at Goodreads and possibly it already exists however, are there questions for reading novels?  Questions for book clubs?  I'd be interested in that aspect. 
+
+###Mark
+Why do you use this site? 
+
+I use it to keep track of all the books I've read, manage my too long to-read list, and cross-post SF reviews from my personal blog.
+
+Do you use it socially?
+
+Just a little bit. I have less than 20 friends, but I do enjoy seeing what those friends think of books they read.
+
+Do you use good reads for discovering new reads?
+
+I don't really like the recommendations or user lists that goodreads provides. I get my recommendations from elsewhere (usually from blog posts, friends, or reddit comment threads) and then I'll go to goodreads to read more about the book and see what people have rated it. I find their ratings incredibly useful. Usually I know if a book has 4 or more average stars, I'll definitely like, but if it has less than that, it's not as likely.
+
+What features do you like about the site?
+
+I like the ratings, the user reviews, and my personal lists that I manage.
+
+What features do you dislike?
+
+I don't really like the recommendations or user lists. I've never used the groups.
+
+What features would you like to see?
+
+I would like to be able to change the cover that's displayed for the books in my lists so I can see the edition that I own (or that I think has the coolest cover).
+
+Any other thoughts?
+
+Goodreads is a great site! I'm worried about what will happen to it now that Amazon has bought it. I think the definitions of the ratings could be more prominent, it's not intuitive what each star means.
+ 
 
 
 
