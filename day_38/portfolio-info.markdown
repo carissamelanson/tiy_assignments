@@ -35,6 +35,7 @@ Royal Blue
 ###Charlie
 Indigo Blue, Robins egg blue
 Mysterious
+bubbly
 sweet
 imaginative
 visionary
@@ -58,6 +59,14 @@ eclectic, creative and adventurous
 ###Denise
 Color: Aqua
 Adjectives: Vibrant, charming and fun
+
+###Alaina
+Is cream puff an adjective ;)??
+
+I'd say you are bubbly yet reserved and very loyal.
+
+and obviously your color is turquoise.
+
 
 
 
