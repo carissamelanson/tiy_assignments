@@ -20,11 +20,9 @@ MELLOW
 driven
 
 ###Naomi
-Sharp-witted, practical, fearless...color is black lol from your goth days
+Sharp-witted, practical, fearless...color is black 
 
 ###Beatrice
-What are three adjectives that you would use to describe me?
-
 1.Practical/ No Nonsense
 
 2.Caring
@@ -32,7 +30,6 @@ What are three adjectives that you would use to describe me?
 3. Cute
 
 If you could choose one color that represents me, what color would it be?
-
 Royal Blue
 
 ###Charlie
@@ -40,11 +37,28 @@ Indigo Blue, Robins egg blue
 Mysterious
 sweet
 imaginative
-
-
+visionary
+dependable
 
 ###Marisol
-I would say blue like the color from your wedding invitation. 
-Witty, creative, determined
+Clever, creative, resilient. And blue because you're a water baby
+
+###Rachel
+Color: pinkish-orange, tequila sunrise
+Adjectives: generous, organized, reserved
+
+###GR
+Turquoise
+Trendy, creative, strong willed
+
+###Mom
+beautiful turquoise
+eclectic, creative and adventurous
+
+###Denise
+Color: Aqua
+Adjectives: Vibrant, charming and fun
+
+
 
 
