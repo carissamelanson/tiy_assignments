@@ -35,9 +35,12 @@ adventurous
 vibrant
 charming
 fun
+composed
+bubbly
+loyal
 
 
 themes
-clever & cute
-practical & organized
-vibrant & fun
+clever & cute: bright blues, 
+practical & organized: royal blue, futura, straight lines
+vibrant & fun: colorful, turquoise and orange, hand drawn elements
