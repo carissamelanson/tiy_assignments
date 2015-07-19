@@ -7,6 +7,7 @@ blue
 pinkish-orange
 turquoise
 aqua
+black
 
 
 ###Adjectives
@@ -38,6 +39,9 @@ fun
 composed
 bubbly
 loyal
+graceful
+glowing
+authentic
 
 
 themes

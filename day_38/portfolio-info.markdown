@@ -67,6 +67,15 @@ I'd say you are bubbly yet reserved and very loyal.
 
 and obviously your color is turquoise.
 
+###Julianna
+1. Graceful
+
+2. Glowing
+
+3. Authentic
+
+Black
+
 
 
 

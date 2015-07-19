@@ -2,28 +2,24 @@
 
 .nav-collapse ul {
   padding: 0;
-
-  display: block;
+   display: block;
   list-style: none;
   overflow: hidden;
-
+  float: right;
 }
 
 .nav-collapse li {
   margin-top: 20px;
-  margin-bottom: 10px;
-  float: right;
-  margin-right: 18px;
-
-
+  // margin-bottom: 10px;
+  float: left;
+  margin-left: 36px;
+  
+  a:hover{color: #39C4E0;}
 }
-
 
 .nav-collapse a {
   color: #666666;
   text-decoration: none;
-
-
 }
 
 .js .nav-collapse {
@@ -33,14 +29,11 @@
   display: block;
   overflow: hidden;
   zoom: 1;
-
 }
 
 .nav-collapse.opened {
   max-height: 9999px;
-  text-decoration: none;
-
- 
+  text-decoration: none; 
 }
 
 .nav-toggle {
@@ -54,10 +47,7 @@
   text-decoration: none;
   color: #003471;
   float: right;
-
 }
-
-
 
 @media screen and (min-width: 40em) {
   .js .nav-collapse {
