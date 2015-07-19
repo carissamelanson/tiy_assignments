@@ -8,9 +8,9 @@ $mslab:"museo-slab";
 $museo:"museo-sans";
 
 /*COLOR*/
-$royal-blue: #0053A7;
-$turquoise: #39C4E0;
-$ltblue: #BFEBEF;
+$royal-blue: #0066ff;
+$turquoise:#00ccff;
+$ltblue: #ccf5ff;
 $dkblue: #003366;
 $grey: #666666;
 
@@ -52,6 +52,13 @@ h5{
 	font-family: $museo;
 	color: $dkblue;
 	font-size: 1em;
+}
+
+h6{
+	font-family: $museo;
+	color: $grey;
+	font-size: 1.125em;
+	line-height: 1.6;
 }
 
 p{
@@ -164,6 +171,7 @@ section{
 /*ABOUT*/
 .profile{margin-right: 50px;}
 
+
 /*BLOG*/
 
 .blog-post {
@@ -180,3 +188,8 @@ section{
 }
 .blog-post h3 a:hover{ color: $turquoise;}
 
+/*FOOTER*/
+footer{
+	float: left;
+	clear: left;
+}
