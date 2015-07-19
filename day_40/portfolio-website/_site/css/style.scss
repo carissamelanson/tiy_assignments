@@ -6,68 +6,133 @@
 $adelle:"adelle-sans",sans-serif;
 
 /*COLOR*/
+$royal-blue: #0053A7;
+$turquoise: #39C4E0;
+$ltblue: #BFEBEF;
+$grey: #666666;
+
+
 
 
 h1{
   font-family: $adelle;
-  font-weight: bold;
-  font-size: 2em;
-  color: blue;
+  font-weight: 700;
+  font-size: 1.8em;
+  color: $royal-blue;
   }
 
 h2{
 	font-family: $adelle;
-	font-size: 1.75em;
+	font-size: 2.2em;
+	color: $grey;
+	font-weight: 600;
 
 }
 
 h3{
 	font-family: $adelle;
-	font-size: 1.25em;
-	color: grey;
-
+	font-size: 1.5em;
+	color: $grey;
+	font-weight: 600;
+}
+h4{
+	font-family: $adelle;
+	font-size: 1.2em;
+	color: $grey;
+	
 
 }
+
+p{
+	font-family: $adelle;
+	font-size: 1.125em;
+	line-height: 1.9;
+	color: $grey;
+}
+nav,
+.nav-toggle,
+{
+	font-family: $adelle;
+	font-size: 16px;
+	color: $grey;
+
+}
+
+
 .container{
 	padding: 5%;
 }
 
-header{
-	h1,h3{text-align: center;}
-}
 
+.logo{
+	width: 70%;
+	margin-bottom: 80px;
+}
 header h1{
 	margin-bottom: 2%;
-}
-
-
-
-.title-box{
-  background: blue;
-  width: 100%;
-  height: 200px;
-  opacity: 0.8;
-
 
 }
-/*.snippet{
-  background: teal;
-  width: 30%;
-  height: 200px;
-  margin-left: 4%;
-  margin-top: 6%;
-  position: absolute;
 
-  
-}*/
+section{
+	margin-top: 40px;
+}
 
-.project-box {
-	display: block;
+.line-separator {
+	height: 1px;
+	background: $royal-blue;
+	border-bottom: 8px solid $royal-blue;
+	margin-top: 10px;
+	width: 100%;
+	opacity: 0.6;
+}
 
-	margin: 0 auto;
+.line-separator2 {
+	height: 1px;
+	background: $turquoise;
+	border-bottom: 10px solid $turquoise;
+	margin-bottom: 80px;
+	margin-left: 40px;
 	width: 60%;
-		margin-top: 20px;
-	margin-bottom: 20px;
+	opacity: 0.8;
+}
 
- 
+.portfolio-wrapper{
+	width: 80%;
+	margin: 0 auto;
+
+	h3{
+		margin-bottom: 10px;
+	}
+
+	a{
+		text-decoration: none;
+	}
+	
+}
+
+.snippet{
+	float: left;
+	width: 350px;
+	height: 350px;
+	margin: 0 auto;
+	margin-bottom: 150px;
+
+	
+}
+
+.zengarden,
+.bluedahlia{
+	margin-right: 140px;
+}
+
+.project-image{
+	width: 100%;
+	margin-bottom: 40px;
+}
+.project-info p{
+	margin-bottom: 40px;
+}
+
+.profile{
+	margin-right: 50px;
 }
