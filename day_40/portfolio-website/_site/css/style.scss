@@ -27,7 +27,7 @@ h1{
 
 h2{
 	font-family: $museo;
-	font-size: 2.4em;
+	font-size: 2.8em;
 	line-height: 1.2;
 	color: $dkblue;
 	font-weight: 700;
@@ -181,12 +181,23 @@ section{
 
 	h3 a{color: $dkblue;}
 }
+
 .blog-post h3 a:hover{ color: $turquoise;}
 
 /*FOOTER*/
 footer{
+	position: absolute:
+	overflow: hidden;
 	background: blue;
+	height: 400px;
+	width: 80%:
+	margin: 0 auto
 
+}
+
+ .social-icons{
+	margin-right: 200px;
+	margin-bottom: 100px;
 }
 
 
@@ -202,6 +213,7 @@ footer{
 /* LARGE MEDIA QUERY */
 @media screen and(min-width: 1200px){
 	.container {
-		padding: 40px;
+		padding: 20%;
+		
 	}
 }
