@@ -101,51 +101,51 @@ table {
 /*COLOR*/
 /*TYPOGRAPHY*/
 h1 {
-  font-family: "museo-sans", serif;
+  font-family: "museo-sans";
   font-weight: 700;
   font-size: 1.8em;
-  color: #0066ff;
+  color: #0053A7;
   line-height: 1.2; }
 
 h2 {
-  font-family: "museo-sans", serif;
-  font-size: 2.8em;
+  font-family: "museo-sans";
+  font-size: 2.4em;
   line-height: 1.2;
   color: #003366;
   font-weight: 700; }
 
 h3 {
-  font-family: "museo-sans", serif;
+  font-family: "museo-sans";
   font-size: 1.5em;
   color: #003366;
   font-weight: 700;
   line-height: 1.6em; }
 
 h4 {
-  font-family: "museo-sans", serif;
+  font-family: "museo-sans";
   font-size: 1.2em;
   color: #666666;
   font-weight: 300; }
 
 h5 {
-  font-family: "museo-sans", serif;
+  font-family: "museo-sans";
   color: #003366;
   font-size: 1em; }
 
 p {
-  font-family: "museo-slab", sans-serif;
+  font-family: "museo-slab";
   font-size: 1.125em;
   line-height: 1.8;
   color: #666666; }
 
 a, a:hover {
-  color: #00ccff; }
+  color: #39C4E0; }
 
 nav,
 .nav-toggle {
-  font-family: "museo-sans", serif;
-  font-size: 1em;
-  font-weight: 300;
+  font-family: "museo-sans";
+  font-size: 1.125em;
+  font-weight: 700;
   color: #666666; }
 
 /*HEADER*/
@@ -153,9 +153,7 @@ nav,
   overflow: hidden;
   width: 100%;
   margin: 0 auto;
-  margin-bottom: 60px;
-  background: #0066ff;
-  height: 500px; }
+  margin-bottom: 60px; }
 
 .logo {
   float: left;
@@ -167,13 +165,13 @@ header h1 {
   margin-bottom: 2%; }
   header h1 a {
     text-decoration: none;
-    color: #0066ff; }
+    color: #0053A7; }
   header h1 a:hover {
-    color: #00ccff; }
+    color: #39C4E0; }
 
 /*SECTION*/
 .container {
-  margin: 0 auto; }
+  padding: 3%; }
 
 section {
   margin-top: 40px; }
@@ -181,15 +179,14 @@ section {
 .line-separator {
   height: 1px;
   background: #003366;
-  border-bottom: 4px solid #003366;
+  border-bottom: 2px solid #003366;
   margin-top: 10px;
   margin-bottom: 50px;
   width: 100%; }
 
 .portfolio-wrapper {
   width: 90%;
-  margin: 0 auto;
-  overflow: hidden; }
+  margin: 0 auto; }
   .portfolio-wrapper a {
     text-decoration: none; }
 
@@ -214,19 +211,16 @@ section {
   margin-top: 20px; }
 
 .project-image {
-  width: 90%;
-  margin: 0 auto;
+  width: 100%;
   margin-bottom: 40px; }
 
 .project-info p {
-  margin-bottom: 40px;
-  width: 80%; }
+  margin-bottom: 40px; }
 
 .project-image-ironrides {
-  width: 90%;
-  margin: 0 auto;
-  border: 1px solid #c9c9c9;
-  margin-bottom: 40px; }
+  width: 100%;
+  margin-bottom: 40px;
+  border: 1px solid #c9c9c9; }
 
 /*ABOUT*/
 .profile {
@@ -235,7 +229,7 @@ section {
 /*BLOG*/
 .blog-post {
   padding: 2%;
-  background: #ccf5ff;
+  background: #BFEBEF;
   margin-top: 20px;
   width: 280px;
   float: left;
@@ -246,34 +240,6 @@ section {
     color: #003366; }
 
 .blog-post h3 a:hover {
-  color: #00ccff; }
-
-/*FOOTER*/
-footer {
-  clear: left; }
-
-.site-footer {
-  height: 100px;
-  margin-top: 100px;
-  float: left; }
-
-.social-icons {
-  float: left;
-  margin-bottom: 20px; }
-  .social-icons a {
-    margin-right: 30px;
-    color: #fff; }
-
-.site-info {
-  float: left;
-  clear: left; }
-
-.site-info p {
-  font-family: "museo-sans", serif;
-  font-size: 1em;
-  color: #666666; }
-
-/* MEDIUM MEDIA QUERY */
-/* LARGE MEDIA QUERY */
+  color: #39C4E0; }
 
 /*# sourceMappingURL=style.css.map */

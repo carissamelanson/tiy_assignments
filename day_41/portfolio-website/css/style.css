@@ -61,7 +61,7 @@ table {
     color: #39C4E0; }
 
 .nav-collapse a {
-  color: #666666;
+  color: #ccf5ff;
   text-decoration: none; }
 
 .js .nav-collapse {
@@ -103,8 +103,8 @@ table {
 h1 {
   font-family: "museo-sans", serif;
   font-weight: 700;
-  font-size: 1.8em;
-  color: #0066ff;
+  font-size: 4em;
+  color: #fff;
   line-height: 1.2; }
 
 h2 {
@@ -124,7 +124,7 @@ h3 {
 h4 {
   font-family: "museo-sans", serif;
   font-size: 1.2em;
-  color: #666666;
+  color: #ccf5ff;
   font-weight: 300; }
 
 h5 {
@@ -146,37 +146,52 @@ nav,
   font-family: "museo-sans", serif;
   font-size: 1em;
   font-weight: 300;
-  color: #666666; }
+  color: #ccf5ff;
+  margin-top: 20px;
+  margin-right: 20px; }
 
 /*HEADER*/
+header {
+  background: #0066ff; }
+
 .wrap {
   overflow: hidden;
   width: 100%;
   margin: 0 auto;
   margin-bottom: 60px;
-  background: #0066ff;
-  height: 500px; }
+  height: 400px; }
 
 .logo {
   float: left;
   width: 60%;
   position: relative;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-left: 20px; }
 
-header h1 {
-  margin-bottom: 2%; }
-  header h1 a {
+.logo h3 {
+  line-height: 1.2; }
+  .logo h3 a {
     text-decoration: none;
-    color: #0066ff; }
-  header h1 a:hover {
+    color: #ccf5ff; }
+  .logo h3 a:hover {
     color: #00ccff; }
+
+.header-info {
+  width: 100%;
+  margin: 0 auto;
+  clear: left;
+  margin-top: 130px;
+  text-align: center; }
 
 /*SECTION*/
 .container {
   margin: 0 auto; }
 
 section {
-  margin-top: 40px; }
+  margin-top: 40px;
+  margin-right: 20px;
+  margin-left: 20px; }
 
 .line-separator {
   height: 1px;
@@ -197,7 +212,7 @@ section {
 .snippet {
   float: left;
   width: 300px;
-  height: 300px;
+  height: 360px;
   margin: 0 auto; }
 
 .ironrides .snippet,
@@ -208,8 +223,8 @@ section {
 .bluedahlia,
 .ironrides,
 .goodreads {
-  margin-right: 20px;
-  margin-left: 20px;
+  margin-right: 30px;
+  margin-left: 30px;
   margin-bottom: 80px;
   margin-top: 20px; }
 
@@ -250,11 +265,14 @@ section {
 
 /*FOOTER*/
 footer {
-  clear: left; }
+  clear: left;
+  margin-left: 20px;
+  margin-right: 20px; }
 
 .site-footer {
   height: 100px;
   margin-top: 100px;
+  overflow: hidden;
   float: left; }
 
 .social-icons {

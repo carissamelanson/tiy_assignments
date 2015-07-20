@@ -19,8 +19,8 @@ $grey: #666666;
 h1{
   font-family: $museo;
   font-weight: 700;
-  font-size: 1.8em;
-  color: $royal-blue;
+  font-size: 4em;
+  color: #fff;
   line-height: 1.2;
   }
 
@@ -43,7 +43,7 @@ h3{
 h4{
 	font-family: $museo;
 	font-size: 1.2em;
-	color: $grey;
+	color: $ltblue;
 	font-weight: 300;	
 }
 
@@ -68,18 +68,22 @@ nav,
 	font-family: $museo;
 	font-size: 1em;
 	font-weight: 300;
-	color: $grey;
+	color: $ltblue;
+	margin-top: 20px;
+	margin-right: 20px;
+	
 }
 
 
 /*HEADER*/
+header{background: $royal-blue;}
 .wrap{
 	overflow: hidden;
 	width: 100%;
 	margin: 0 auto;
 	margin-bottom: 60px;
+	height: 400px;
 
-	height: 500px;
 }
 
 .logo{
@@ -87,25 +91,36 @@ nav,
 	width: 60%;
 	position: relative;
 	box-sizing: border-box;
+	margin-top: 20px;
+	margin-left: 20px;
 }
 
-header h1{
-	margin-bottom: 2%;
+.logo h3{
+	line-height: 1.2;
 	a{ 
 		text-decoration: none;
-		color: $royal-blue;
+		color: $ltblue;
 	}
 	a:hover{color: $turquoise;}
 
 }
 
+.header-info{
+	width: 100%;
+	margin: 0 auto;
+	clear: left;
+	margin-top: 130px;
+	text-align: center;
+
+}
+
 /*SECTION*/
-.container{
-	// padding: 3%;
-margin: 0 auto;}
+.container{margin: 0 auto;}
 
 section{
 	margin-top: 40px;
+	margin-right: 20px;
+	margin-left: 20px;
 }
 
 .line-separator {
@@ -129,7 +144,7 @@ section{
 .snippet{
 	float: left;
 	width: 300px;
-	height: 300px;
+	height: 360px;
 	margin: 0 auto;
 	
 }
@@ -144,8 +159,8 @@ section{
 .bluedahlia,
 .ironrides,
 .goodreads{
-	margin-right: 20px;
-	margin-left: 20px;
+	margin-right: 30px;
+	margin-left: 30px;
 	margin-bottom: 80px;
 	margin-top: 20px;
 }
@@ -192,16 +207,21 @@ section{
 
 /*FOOTER*/
 
-footer{clear:left;}
+footer{
+	clear:left;
+	margin-left: 20px;
+	margin-right: 20px;}
 
 .site-footer{
 	height: 100px;
 	margin-top: 100px;
+	overflow: hidden;
 	float: left;
+
 }
 
  .social-icons{
- 	float: left;
+	float: left;
  	margin-bottom: 20px;
 
  	a{
