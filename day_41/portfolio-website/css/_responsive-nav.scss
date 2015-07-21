@@ -1,20 +1,23 @@
 /*! responsive-nav.js 1.0.39 by @viljamis */
 
 .nav-collapse ul {
+  margin: 0;
   padding: 0;
-   display: block;
+  padding-bottom: .5em;
+  width: 100%;
+  display: block;
   list-style: none;
-  overflow: hidden;
-  float: right;
+  text-align: right;
+
 }
 
 .nav-collapse li {
-  margin-top: 20px;
-  // margin-bottom: 10px;
-  float: left;
-  margin-left: 36px;
+  display: block;
+  margin-bottom: .5em;
+  margin-top: 5px;
   
   a:hover{color: #39C4E0;}
+  a:active{color: #39C4E0;}
 }
 
 .nav-collapse a {
@@ -29,11 +32,13 @@
   display: block;
   overflow: hidden;
   zoom: 1;
+
 }
 
 .nav-collapse.opened {
   max-height: 9999px;
   text-decoration: none; 
+  margin-top: 5px;
 }
 
 .nav-toggle {
@@ -52,6 +57,7 @@
 @media screen and (min-width: 40em) {
   .js .nav-collapse {
     position: relative;
+    float: right;
   }
   .js .nav-collapse.closed {
     max-height: none;
@@ -60,4 +66,13 @@
     display: none;
 
   }
+  .nav-collapse li {
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 0;
+  
+  a:hover{color: #39C4E0;}
+  a:active{color: #39C4E0;}
+}
+
 }

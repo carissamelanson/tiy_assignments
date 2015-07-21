@@ -47,17 +47,21 @@ table {
 
 /*! responsive-nav.js 1.0.39 by @viljamis */
 .nav-collapse ul {
+  margin: 0;
   padding: 0;
+  padding-bottom: .5em;
+  width: 100%;
   display: block;
   list-style: none;
-  overflow: hidden;
-  float: right; }
+  text-align: right; }
 
 .nav-collapse li {
-  margin-top: 20px;
-  float: left;
-  margin-left: 36px; }
+  display: block;
+  margin-bottom: .5em;
+  margin-top: 5px; }
   .nav-collapse li a:hover {
+    color: #39C4E0; }
+  .nav-collapse li a:active {
     color: #39C4E0; }
 
 .nav-collapse a {
@@ -74,7 +78,8 @@ table {
 
 .nav-collapse.opened {
   max-height: 9999px;
-  text-decoration: none; }
+  text-decoration: none;
+  margin-top: 5px; }
 
 .nav-toggle {
   -webkit-tap-highlight-color: transparent;
@@ -90,20 +95,30 @@ table {
 
 @media screen and (min-width: 40em) {
   .js .nav-collapse {
-    position: relative; }
+    position: relative;
+    float: right; }
 
   .js .nav-collapse.closed {
     max-height: none; }
 
   .nav-toggle {
-    display: none; } }
+    display: none; }
+
+  .nav-collapse li {
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 0; }
+    .nav-collapse li a:hover {
+      color: #39C4E0; }
+    .nav-collapse li a:active {
+      color: #39C4E0; } }
 /*FONTS*/
 /*COLOR*/
 /*TYPOGRAPHY*/
 h1 {
   font-family: "museo-sans", serif;
   font-weight: 700;
-  font-size: 4em;
+  font-size: 3.5em;
   color: #fff;
   line-height: 1; }
 
@@ -148,7 +163,8 @@ nav,
   font-weight: 300;
   color: #ccf5ff;
   margin-top: 20px;
-  margin-right: 20px; }
+  margin-right: 20px;
+  float: right; }
 
 /*HEADER*/
 header {
@@ -178,13 +194,12 @@ header {
     color: #00ccff; }
 
 .logo h4 {
-  margin-bottom: 30px; }
+  margin-bottom: 60px; }
 
 .header-info {
   width: 100%;
   margin: 0 auto;
   clear: left;
-  margin-top: 60px;
   text-align: center; }
 
 /*SECTION*/

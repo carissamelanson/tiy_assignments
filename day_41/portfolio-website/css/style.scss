@@ -19,7 +19,7 @@ $grey: #666666;
 h1{
   font-family: $museo;
   font-weight: 700;
-  font-size: 4em;
+  font-size: 3.5em;
   color: #fff;
   line-height: 1;
   }
@@ -71,6 +71,9 @@ nav,
 	color: $ltblue;
 	margin-top: 20px;
 	margin-right: 20px;
+	float: right;
+
+
 	
 }
 
@@ -104,14 +107,12 @@ header{background: $royal-blue;}
 	a:hover{color: $turquoise;}
 
 }
-.logo h4{margin-bottom: 30px;}
+.logo h4{margin-bottom: 60px;}
 
 .header-info{
 	width: 100%;
 	margin: 0 auto;
 	clear: left;
-	margin-top: 60px;
-	// margin-bottom: 40px;
 	text-align: center;
 
 }
