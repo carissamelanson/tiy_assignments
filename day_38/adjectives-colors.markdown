@@ -8,6 +8,7 @@ pinkish-orange
 turquoise
 aqua
 black
+mint green
 
 
 ###Adjectives
@@ -42,6 +43,13 @@ loyal
 graceful
 glowing
 authentic
+Cerebral 
+Authentic/Genuine 
+Down-to-Earth
+Awesome :)
+Reliable
+Adaptable
+Proactive
 
 
 themes

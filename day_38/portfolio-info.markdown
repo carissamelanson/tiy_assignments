@@ -76,6 +76,31 @@ and obviously your color is turquoise.
 
 Black
 
+###Katie
+
+1. Cerebral 
+2. Authentic/Genuine 
+3. Down-to-Earth
+4. Awesome :) (couldn't help but add that for a fourth) :) 
+
+I also thought of black for you, I hope that's not too morbid, and maybe I think of that because of your hair? But that color just popped up when I saw the question, hope all this helps and hope you are doing great! 
+
+###Veronica
+If you were describing me to someone who doesn't know me, what would you say?
+
+She's a cute lil thing that stays cool under pressure (aka deadlines) and can stay focused on creative projects
+
+What are three adjectives that you would use to describe me?
+
+1. Reliable
+
+2. Adaptable
+
+3. Proactive
+If you could choose one color that represents me, what color would it be?
+
+Mint green!
+
 
 
 
