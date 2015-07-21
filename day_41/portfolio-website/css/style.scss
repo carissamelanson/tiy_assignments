@@ -79,16 +79,19 @@ nav,
 
 
 /*HEADER*/
-header{background: $royal-blue;}
+
 .wrap{
 	overflow: hidden;
 	width: 100%;
 	margin: 0 auto;
 	margin-bottom: 60px;
 	height: 300px;
-
+	background: $royal-blue;
 }
-
+.header-wrap{
+	
+	width: 100%;
+	height: 100px;}
 .logo{
 	float: left;
 	width: 70%;
@@ -170,7 +173,9 @@ section{
 	opacity: 0;
 	position: absolute;
 
-	   h3{text-align: center;}
+	   h3{
+	   	text-align: center;
+	   	margin-top: 20px;}
 }
 
 .zengarden:hover .transition,
