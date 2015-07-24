@@ -27,7 +27,7 @@ My solutions for the redesign:
 Develop a logo that reflects core values: Simple, Fresh and Sincere.  
 
 ### Table of Contents
-- Process
+- Research and Process
 	- User Stories
 	- Ethnographic Observation
 	- User Personas

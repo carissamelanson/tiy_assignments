@@ -1,0 +1,77 @@
+@import 'reset';
+
+/*FONTS*/
+$open: 'Open Sans', sans-serif;
+$carved-one: "aw-conqueror-carved-one";
+$carved: "aw-conqueror-carved";
+$caslon: "adobe-caslon-pro";
+
+
+
+/*COLORS*/
+$dkblue: #003471;
+$blue: #0076a3;
+$grey: #666666;
+
+
+/*TYPOGRAPHY*/
+h1{
+	font-family: $open;
+	font-weight: 700;
+	font-size: 2.5em;
+}
+
+h2{
+	font-family: $open;
+	font-weight: 700;
+	font-size: 1.5em;
+	color: $grey;
+}
+
+h3{
+	font-family: $open;
+	font-weight: 700;
+	font-size: 1.2em;
+	color: $grey;
+}
+
+p, li{
+	font-family: $open;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 1.6;
+	color: $grey;
+
+}
+
+.title{
+	background: #fcfae8;
+	margin-bottom: 20px;
+	height: 100px;
+	padding: 0;
+
+	h1{	margin-left: 20px;}
+}
+
+.tableofcontents{
+	float: left;
+	margin-right: 60px;
+	margin-left: 20px;
+
+	li{margin-top: 20px;}
+	 a{text-decoration: none;}
+}
+
+.tableofcontents h2{
+	text-decoration-style: solid;
+
+}
+.main{float: left;}
+
+.line-separator {
+	height: 1px;
+	background: $dkblue;
+	border-bottom: 1px solid $dkblue;
+	margin-bottom: 24px;
+	width: 100%;
+}
