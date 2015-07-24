@@ -18,7 +18,7 @@ $grey: #666666;
 h1{
 	font-family: $open;
 	font-weight: 700;
-	font-size: 2.5em;
+	font-size: 2.4em;
 }
 
 h2{
@@ -35,38 +35,49 @@ h3{
 	color: $grey;
 }
 
-p, li{
+p{
 	font-family: $open;
 	font-weight: 400;
-	font-size: 1em;
+	font-size: 1.313em;
 	line-height: 1.6;
 	color: $grey;
 
+}
+li{
+	font-family: $open;
+	font-weight: 600;
+	font-size: 1.313em;
+	line-height: 1.6;
+	color: $grey;
+
+	a{color: $grey;}
 }
 
 .title{
 	background: #fcfae8;
 	margin-bottom: 20px;
 	height: 100px;
-	padding: 0;
 
 	h1{	margin-left: 20px;}
+}
+.wrapper{
+	padding: 5%;
 }
 
 .tableofcontents{
 	float: left;
-	margin-right: 60px;
+	margin-right: 100px;
 	margin-left: 20px;
+	margin-bottom: 100px;
 
 	li{margin-top: 20px;}
 	 a{text-decoration: none;}
 }
 
-.tableofcontents h2{
-	text-decoration-style: solid;
 
-}
-.main{float: left;}
+.main{
+	float: left;
+	width: 70%;}
 
 .line-separator {
 	height: 1px;
@@ -75,3 +86,5 @@ p, li{
 	margin-bottom: 24px;
 	width: 100%;
 }
+
+/*PROCESS*/
