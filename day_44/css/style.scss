@@ -1,11 +1,9 @@
 @import 'reset';
 
 /*FONTS*/
-$open: 'Open Sans', sans-serif;
-$carved-one: "aw-conqueror-carved-one";
-$carved: "aw-conqueror-carved";
-$caslon: "adobe-caslon-pro";
-
+$open: "Open Sans", sans-serif;
+$carved-one: "aw-conqueror-carved-one", sans-serif;
+$carved: "aw-conqueror-carved", sans-serif;
 
 
 /*COLORS*/
@@ -16,8 +14,7 @@ $grey: #666666;
 
 /*TYPOGRAPHY*/
 h1{
-	font-family: "aw-conqueror-carved";
-	// font-weight: 700;
+	font-family: $carved;
 	font-size: 2.4em;
 	color: $blue;
 	line-height: 1.2;
@@ -25,17 +22,16 @@ h1{
 }
 
 h2{
-	font-family: "aw-conqueror-carved-one";
-	// font-weight: 700;
-	font-size: 2.2em;
+	font-family: $carved-one;
+	font-size: 2.4em;
 	color: $blue;
 	line-height: 1.2;
 
 }
 
 h3{
-	font-family: "aw-conqueror-carved-one";
-	font-weight: 700;
+	font-family: $carved-one;
+	font-weight: 600;
 	font-size: 1.2em;
 	color: $grey;
 	line-height: 1.2;
@@ -59,6 +55,7 @@ li{
 	a{color: $grey;}
 }
 
+/*TABLE OF CONTENTS*/
 .title{
 	background: #fcfae8;
 	margin-bottom: 20px;
@@ -67,7 +64,7 @@ li{
 
 h1{	
 	padding: 4%;
-	text-align: center;
+	text-align: left;
 	
 	}
 .wrapper{
@@ -82,9 +79,10 @@ h1{
 
 	li{margin-top: 20px;}
 	 a{text-decoration: none;}
+	 a:hover{color:$blue;}
 }
 
-
+/*MAIN*/
 .main{
 	float: left;
 	width: 90%;
@@ -118,16 +116,48 @@ ul{
 	margin-bottom: 40px;
 	margin-top: -30px;
 }
+
 /*PROCESS*/
+.process{
+	width: 90%;
+	margin-bottom: 80px;
+}
+
+/*GRID*/
+.grid, .grid2{
+	background: $blue;
+	p{
+		color:#fff;
+		padding: 2%;
+	}
+}
+
+.grid{width: 100%;}
+
+.grid2{
+	width: 40%;
+	float: left;
+	margin-right: 40px;
+	margin-bottom: 40px;
+
+	p{
+		margin-bottom: 0;
+		padding: 5%;
+	}
+
+}
 /* MEDIUM MEDIA QUERY */
 @media screen and(min-width: 800px){
-	h1{font-size: 3em;}
+	h1{
+		font-size: 3em;
+		text-align: center;
+	}
 	.title{height: 180px;}
-	.main{width: 70%;}
+	.main{width: 50%;}
 	
 }
 
 /* LARGE MEDIA QUERY */
 @media screen and(min-width: 1200px){
-	
+	.main{width: 70%;}
 }
