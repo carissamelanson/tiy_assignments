@@ -23,17 +23,18 @@ h1{
 }
 
 h2{
-	font-family: $carved-one;
+	font-family: $open;
 	font-size: 2.4em;
-	color: $blue;
+	font-weight: 600;
+	color: $grey;
 	line-height: 1.2;
 
 }
 
 h3{
-	font-family: $carved-one;
+	font-family: $open;
 	font-weight: 600;
-	font-size: 1.2em;
+	font-size: 1.4em;
 	color: $grey;
 	line-height: 1.2;
 }
@@ -83,7 +84,7 @@ h1{
 	 a:hover{color:$blue;}
 }
 
-/*MAIN*/
+/*OVERVIEW*/
 .main{
 	float: left;
 	width: 90%;
@@ -184,6 +185,7 @@ ul{
 	}
 
 	h2{
+		font-family: $carved-one;
 		font-size: 2.8em;
 		line-height: 1.2;
 	}
@@ -212,6 +214,25 @@ ul{
 		line-height: 1.6;
 	}
  }
+
+ /*COLOR*/
+ .color{
+ 	margin-bottom:80px;
+
+ }
+.dkblue{background: $dkblue;}
+.blue{background: $blue;}
+.cream{background: #fcfae8;}
+
+.dkblue,
+.blue,
+.cream{
+	margin-right: 20px;
+	width: 120px;
+ 	height: 120px;
+ 	float: left;
+}
+
 /* MEDIUM MEDIA QUERY */
 @media screen and(min-width: 800px){
 	h1{
