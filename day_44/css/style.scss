@@ -4,6 +4,7 @@
 $open: "Open Sans", sans-serif;
 $carved-one: "aw-conqueror-carved-one", sans-serif;
 $carved: "aw-conqueror-carved", sans-serif;
+$caslon: "adobe-caslon-pro";
 
 
 /*COLORS*/
@@ -146,6 +147,71 @@ ul{
 	}
 
 }
+
+/*TYPE*/
+.type-example{
+	font-size: 2em;
+	line-height: 1.6;
+}
+.aw-carved,
+.aw-carved-one,
+.caslon{
+	margin-bottom: 120px;
+}
+.aw-carved{
+	.type-example{font-family: $carved;}
+}
+.aw-carved-one{
+	.type-example{font-family: $carved-one;}
+}
+.caslon{
+	.type-example{font-family: $caslon;}
+}
+
+.text-examples{
+	h1,h2,h3,h4,h5,h6{
+	color: $grey;
+	padding: 0;
+	margin-bottom: 20px;
+	margin-left: 0;
+	}
+}
+
+ .text-examples{
+  	h1{
+ 		font-size: 3em;
+		line-height: 1.8;
+	}
+
+	h2{
+		font-size: 2.8em;
+		line-height: 1.2;
+	}
+
+	h3{
+		font-family: $caslon;
+		font-size: 1.6em;
+		line-height: 1.6;
+	}
+
+	h4{
+		font-family: $carved-one;
+		font-size: 1.5em;
+		line-height: 1.4;
+	}
+
+	h5{
+		font-family: $carved-one;
+		font-size: 1.3em;
+		line-height: 2;
+	}
+
+	p{
+		font-family: $caslon;
+		font-size: 1.4em;
+		line-height: 1.6;
+	}
+ }
 /* MEDIUM MEDIA QUERY */
 @media screen and(min-width: 800px){
 	h1{
@@ -154,6 +220,10 @@ ul{
 	}
 	.title{height: 180px;}
 	.main{width: 50%;}
+
+	.text-examples{
+		h1{text-align: left;}
+	}
 	
 }
 

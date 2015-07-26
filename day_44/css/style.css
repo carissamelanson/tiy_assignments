@@ -163,6 +163,54 @@ ul {
     margin-bottom: 0;
     padding: 5%; }
 
+/*TYPE*/
+.type-example {
+  font-size: 2em;
+  line-height: 1.6; }
+
+.aw-carved,
+.aw-carved-one,
+.caslon {
+  margin-bottom: 120px; }
+
+.aw-carved .type-example {
+  font-family: "aw-conqueror-carved", sans-serif; }
+
+.aw-carved-one .type-example {
+  font-family: "aw-conqueror-carved-one", sans-serif; }
+
+.caslon .type-example {
+  font-family: "adobe-caslon-pro"; }
+
+.text-examples h1, .text-examples h2, .text-examples h3, .text-examples h4, .text-examples h5, .text-examples h6 {
+  color: #666666;
+  padding: 0;
+  margin-bottom: 20px;
+  margin-left: 0; }
+
+.text-examples h1 {
+  font-size: 3em;
+  line-height: 1.8; }
+.text-examples h2 {
+  font-size: 2.8em;
+  line-height: 1.2; }
+.text-examples h3 {
+  font-family: "adobe-caslon-pro";
+  font-size: 1.6em;
+  line-height: 1.6; }
+.text-examples h4 {
+  font-family: "aw-conqueror-carved-one", sans-serif;
+  font-size: 1.5em;
+  line-height: 1.4; }
+.text-examples h5 {
+  font-family: "aw-conqueror-carved-one", sans-serif;
+  font-size: 1.3em;
+  line-height: 2; }
+.text-examples p {
+  font-family: "adobe-caslon-pro";
+  font-size: 1.4em;
+  line-height: 1.6; }
+
 /* MEDIUM MEDIA QUERY */
 @media screen and (min-width: 800px) {
   h1 {
@@ -173,7 +221,10 @@ ul {
     height: 180px; }
 
   .main {
-    width: 50%; } }
+    width: 50%; }
+
+  .text-examples h1 {
+    text-align: left; } }
 /* LARGE MEDIA QUERY */
 @media screen and (min-width: 1200px) {
   .main {
