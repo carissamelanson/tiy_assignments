@@ -234,6 +234,21 @@ ul {
   height: 120px;
   float: left; }
 
+/*IMAGES*/
+.image-example {
+  width: 100%; }
+
+/*ELEMENTS*/
+.large-menu,
+.small-menu {
+  margin-bottom: 80px; }
+
+.small-menu {
+  width: 30%; }
+
+.large-menu {
+  width: 100%; }
+
 /* MEDIUM MEDIA QUERY */
 @media screen and (min-width: 800px) {
   h1 {
