@@ -6,6 +6,7 @@
 /* COLORS */
 $dkblue: #003471;
 $blue: #0076a3;
+$cream: #fcfae8;
 
 /* FONTS */
 $carved-one: "aw-conqueror-carved-one";
@@ -181,6 +182,8 @@ section {
 	text-decoration: none;
 	color: $blue;
 	}
+
+	a:hover{color: $blue;}
 
 	}
 }
