@@ -1,0 +1,341 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*! responsive-nav.js 1.0.39 by @viljamis */
+.nav-collapse ul {
+  margin: 0;
+  padding: 0;
+  padding-bottom: .5em;
+  width: 100%;
+  display: block;
+  list-style: none;
+  text-align: right; }
+
+.nav-collapse li {
+  display: block;
+  margin-bottom: .5em;
+  margin-top: 5px; }
+  .nav-collapse li a:hover {
+    color: #39C4E0; }
+  .nav-collapse li a:active {
+    color: #39C4E0; }
+
+.nav-collapse a {
+  color: #ccf5ff;
+  text-decoration: none; }
+
+.js .nav-collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1; }
+
+.nav-collapse.opened {
+  max-height: 9999px;
+  text-decoration: none;
+  margin-top: 5px; }
+
+.nav-toggle {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  text-decoration: none;
+  color: #003471;
+  float: right; }
+
+@media screen and (min-width: 40em) {
+  .js .nav-collapse {
+    position: relative;
+    float: right; }
+
+  .js .nav-collapse.closed {
+    max-height: none; }
+
+  .nav-toggle {
+    display: none; }
+
+  .nav-collapse li {
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 0; }
+    .nav-collapse li a:hover {
+      color: #39C4E0; }
+    .nav-collapse li a:active {
+      color: #39C4E0; } }
+/*FONTS*/
+/*COLOR*/
+/*TYPOGRAPHY*/
+h1 {
+  font-family: "museo-sans", serif;
+  font-weight: 700;
+  font-size: 3.5em;
+  color: #fff;
+  line-height: 1; }
+
+h2 {
+  font-family: "museo-sans", serif;
+  font-size: 2.8em;
+  line-height: 1.2;
+  color: #003366;
+  font-weight: 700; }
+
+h3 {
+  font-family: "museo-sans", serif;
+  font-size: 1.5em;
+  color: #003366;
+  font-weight: 700;
+  line-height: 1.6em; }
+
+h4 {
+  font-family: "museo-sans", serif;
+  font-size: 1.2em;
+  color: #ccf5ff;
+  font-weight: 300; }
+
+h5 {
+  font-family: "museo-sans", serif;
+  color: #003366;
+  font-size: 1em; }
+
+p {
+  font-family: "museo-slab", sans-serif;
+  font-size: 1.125em;
+  line-height: 1.8;
+  color: #666666; }
+
+a, a:hover {
+  color: #00ccff; }
+
+nav,
+.nav-toggle {
+  font-family: "museo-sans", serif;
+  font-size: 1em;
+  font-weight: 300;
+  color: #ccf5ff;
+  margin-top: 20px;
+  margin-right: 20px;
+  float: right; }
+
+/*HEADER*/
+.wrap {
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  height: 300px;
+  background: #0066ff; }
+
+.header-wrap {
+  width: 100%;
+  height: 100px; }
+
+.logo {
+  float: left;
+  width: 70%;
+  position: relative;
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-left: 20px; }
+
+.logo h3 {
+  line-height: 1.2; }
+  .logo h3 a {
+    text-decoration: none;
+    color: #ccf5ff; }
+  .logo h3 a:hover {
+    color: #00ccff; }
+
+.logo h4 {
+  margin-bottom: 60px; }
+
+.header-info {
+  width: 100%;
+  margin: 0 auto;
+  clear: left;
+  text-align: center; }
+
+/*SECTION*/
+.container {
+  margin: 0 auto; }
+
+section {
+  margin-top: 40px;
+  margin-right: 20px;
+  margin-left: 20px; }
+
+.portfolio-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden; }
+  .portfolio-wrapper a {
+    text-decoration: none; }
+
+/*PORTFOLIO*/
+.snippet {
+  float: left;
+  width: 300px;
+  height: 360px;
+  margin: 0 auto; }
+
+.goodreads {
+  background: url(../images/goodreads.jpg);
+  background-size: cover;
+  border: 1px solid #c9c9c9; }
+
+.zengarden {
+  background: url(../images/zengarden.jpg);
+  background-size: cover; }
+
+.ironrides {
+  background: url(../images/ironrides.jpg);
+  background-size: cover;
+  border: 1px solid #c9c9c9; }
+
+.bluedahlia {
+  background: url(../images/bluedahlia.jpg);
+  background-size: cover; }
+
+.transition {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #ccf5ff;
+  background-size: cover;
+  opacity: 0;
+  position: absolute; }
+  .transition h3 {
+    text-align: center;
+    margin-top: 20px; }
+
+.zengarden:hover .transition,
+.ironrides:hover .transition,
+.bluedahlia:hover .transition,
+.goodreads:hover .transition {
+  opacity: .9; }
+
+.zengarden,
+.bluedahlia,
+.ironrides,
+.goodreads {
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-bottom: 80px;
+  margin-top: 20px;
+  position: relative; }
+
+.project-image {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 40px; }
+
+.project-info p {
+  margin-bottom: 40px;
+  width: 80%; }
+
+.project-image-ironrides {
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid #c9c9c9;
+  margin-bottom: 40px; }
+
+/*ABOUT*/
+.profile {
+  margin-right: 50px; }
+
+/*BLOG*/
+.blog-post {
+  padding: 2%;
+  background: #ccf5ff;
+  margin-top: 20px;
+  width: 280px;
+  float: left;
+  margin-bottom: 80px;
+  margin-right: 16px;
+  margin-left: 16px; }
+  .blog-post h3 a {
+    color: #003366; }
+
+.blog-post h3 a:hover {
+  color: #00ccff; }
+
+/*FOOTER*/
+footer {
+  clear: left;
+  margin-left: 20px;
+  margin-right: 20px; }
+
+.site-footer {
+  height: 100px;
+  margin-top: 100px;
+  width: 100%;
+  overflow: hidden; }
+
+.social-icons {
+  float: left;
+  margin-bottom: 10px; }
+  .social-icons a {
+    margin-right: 30px;
+    color: #fff; }
+
+.site-info {
+  float: right; }
+
+.site-info p {
+  font-family: "museo-sans", serif;
+  font-size: 1em;
+  color: #666666; }
+
+/* MEDIUM MEDIA QUERY */
+/* LARGE MEDIA QUERY */
+
+/*# sourceMappingURL=style.css.map */

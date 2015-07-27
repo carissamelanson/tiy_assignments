@@ -68,6 +68,12 @@ h3 {
   color: #666666;
   line-height: 1.2; }
 
+h4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1em;
+  color: #666666; }
+
 p {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
@@ -107,6 +113,17 @@ h1 {
   .tableofcontents a {
     text-decoration: none; }
   .tableofcontents a:hover {
+    color: #0076a3; }
+
+.link {
+  margin-top: 100px;
+  clear: left;
+  float: left;
+  margin-bottom: 20px; }
+  .link a {
+    color: #666666;
+    text-decoration: none; }
+  .link a:hover {
     color: #0076a3; }
 
 /*OVERVIEW*/
