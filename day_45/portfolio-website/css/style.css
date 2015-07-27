@@ -65,7 +65,7 @@ table {
     color: #39C4E0; }
 
 .nav-collapse a {
-  color: #ccf5ff;
+  color: #666666;
   text-decoration: none; }
 
 .js .nav-collapse {
@@ -131,14 +131,14 @@ h2 {
 
 h3 {
   font-family: "museo-sans", serif;
-  font-size: 1.5em;
+  font-size: 1.25em;
   color: #003366;
   font-weight: 700;
   line-height: 1.6em; }
 
 h4 {
   font-family: "museo-sans", serif;
-  font-size: 1.2em;
+  font-size: 1.125em;
   color: #ccf5ff;
   font-weight: 300; }
 
@@ -161,7 +161,7 @@ nav,
   font-family: "museo-sans", serif;
   font-size: 1em;
   font-weight: 300;
-  color: #ccf5ff;
+  color: #666666;
   margin-top: 20px;
   margin-right: 20px;
   float: right; }
@@ -172,7 +172,7 @@ nav,
   width: 100%;
   margin: 0 auto;
   margin-bottom: 60px;
-  height: 300px;
+  height: 400px;
   background: #0066ff; }
 
 .header-wrap {
@@ -182,7 +182,7 @@ nav,
 
 .logo {
   float: left;
-  width: 70%;
+  width: 56%;
   position: relative;
   box-sizing: border-box;
   margin-top: 20px;
@@ -192,18 +192,20 @@ nav,
   line-height: 1.2; }
   .logo h3 a {
     text-decoration: none;
-    color: #ccf5ff; }
+    color: #0066ff; }
   .logo h3 a:hover {
     color: #00ccff; }
 
 .logo h4 {
-  margin-bottom: 60px; }
+  margin-bottom: 60px;
+  color: #666666; }
 
 .header-info {
   width: 100%;
   margin: 0 auto;
   clear: left;
-  text-align: center; }
+  text-align: center;
+  padding-top: 80px; }
 
 /*SECTION*/
 .container {
@@ -337,6 +339,12 @@ footer {
   color: #666666; }
 
 /* MEDIUM MEDIA QUERY */
+@media screen and (min-width: 800px) {
+  .wrap {
+    height: 500px; }
+
+  .header-info {
+    padding-top: 150px; } }
 /* LARGE MEDIA QUERY */
 
 /*# sourceMappingURL=style.css.map */

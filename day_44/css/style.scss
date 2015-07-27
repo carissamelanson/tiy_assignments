@@ -39,6 +39,13 @@ h3{
 	line-height: 1.2;
 }
 
+h4{
+	font-family: $open;
+	font-weight: 600;
+	font-size: 1em;
+	color: $grey;
+}
+
 p{
 	font-family: $open;
 	font-weight: 400;
@@ -81,6 +88,18 @@ h1{
 
 	li{margin-top: 20px;}
 	 a{text-decoration: none;}
+	 a:hover{color:$blue;}
+}
+
+.link {
+	margin-top: 100px;
+	clear: left;
+	float: left;
+	margin-bottom: 20px;
+	 a{
+	 	color: $grey;
+	 	text-decoration: none;
+	 }
 	 a:hover{color:$blue;}
 }
 

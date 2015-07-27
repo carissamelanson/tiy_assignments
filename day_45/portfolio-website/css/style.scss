@@ -35,14 +35,14 @@ h2{
 
 h3{
 	font-family: $museo;
-	font-size: 1.5em;
+	font-size: 1.25em;
 	color: $dkblue;
 	font-weight: 700;
 	line-height: 1.6em;
 }
 h4{
 	font-family: $museo;
-	font-size: 1.2em;
+	font-size: 1.125em;
 	color: $ltblue;
 	font-weight: 300;	
 }
@@ -68,7 +68,7 @@ nav,
 	font-family: $museo;
 	font-size: 1em;
 	font-weight: 300;
-	color: $ltblue;
+	color: $grey;
 	margin-top: 20px;
 	margin-right: 20px;
 	float: right;
@@ -85,7 +85,7 @@ nav,
 	width: 100%;
 	margin: 0 auto;
 	margin-bottom: 60px;
-	height: 300px;
+	height: 400px;
 	background: $royal-blue;
 }
 .header-wrap{
@@ -96,7 +96,7 @@ nav,
 
 .logo{
 	float: left;
-	width: 70%;
+	width: 56%;
 	position: relative;
 	box-sizing: border-box;
 	margin-top: 20px;
@@ -108,18 +108,22 @@ nav,
 	line-height: 1.2;
 	a{ 
 		text-decoration: none;
-		color: $ltblue;
+		color: $royal-blue;
 	}
 	a:hover{color: $turquoise;}
 
 }
-.logo h4{margin-bottom: 60px;}
+.logo h4{
+	margin-bottom: 60px;
+	color: $grey;
+}
 
 .header-info{
 	width: 100%;
 	margin: 0 auto;
 	clear: left;
 	text-align: center;
+	padding-top: 80px;
 
 }
 
@@ -278,6 +282,8 @@ footer{
 
 /* MEDIUM MEDIA QUERY */
 @media screen and(min-width: 800px){
+	.wrap{height: 500px;}
+	.header-info{padding-top: 150px;}
 
 
 
