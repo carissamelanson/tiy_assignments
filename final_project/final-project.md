@@ -1,11 +1,11 @@
-# Mentee(still working on the name)
+# Project Name(still working on the name)
 
 ## History and Intro
 
 Mentoring has existed since the Ancient Greek times, and the word was inspired 
 by the character in Homer's Odyssey. Historical mentorship systems include the guru - disciple tradition practiced in Hinduism and Buddhism, Elders, the discipleship system practiced by the Christian church and Rabbinical Judaism, and apprenticeship in the medieval guild system.
 
-In the U.S. mentorship has become popular as a pathway to sucess for career climbers and has also been helpful in the career advancement of women and minorities.
+In the U.S. mentorship has become popular as a pathway to success for career climbers and has also been helpful in the career advancement of women and minorities.
 
 When I had a textile and design studio, I mentored a couple of elementary school girls through the Little Artist, Big Artist program. It was a very rewarding experience for me to be able to share my skills and knowledge.   
 
@@ -13,7 +13,7 @@ Now that I'm making a career change, I've been seeking a mentor to help guide me
 
 Austin, Texas has a great Design and Development community that is open to sharing knowledge. I plan on creating a platform where Austin Design and Development professionals who are interested in being mentors and sharing their industry knowledge and skills can be paired with students, young professionals and others who are seriously interested in learning. Then the mentees can pay it forward and become mentors, creating a cycle of knowledge sharing.
 
-Like the old adage says, "Teach a man to fish, and you feed him for a lifetime." 
+Like the old adage says, "Teach a man to fish, and you feed him for a lifetime"
 
 ## Project Issues and Goals
 Potential issues:
@@ -64,14 +64,17 @@ A curated mentorship app does not currently exist in the Austin market, first of
 
 ## Keywords
 share, help, connect, mentor, mentee, community, wise, trusted, counselor,
-influential, supporter, adviser, master, guide, preceptor, role model, legacy, protegee, coach, leader, expert, professional, inspiring, supportive, engaging, success, goals, community, collaborate, nurturing, experience, advice, guidance, assistance, knowledge, connect, invest, inform, potential, talent, credible, trustworthy, senior, junior, open, willing, listen, respect, growth, peer, formal, informal, developmental, learn, evolve, explore, teach, skills, perspective, empathy, honest, passion, apprentice, guild, guru, disciple, relationship, communication, reassurance, confidence, time, commitment, work ethic, challenges
+influential, supporter, adviser, master, guide, preceptor, role model, legacy, protege, coach, leader, expert, professional, inspiring, supportive, engaging, success, goals, community, collaborate, nurturing, experience, advice, guidance, assistance, knowledge, connect, invest, inform, potential, talent, credible, trustworthy, senior, junior, open, willing, listen, respect, growth, peer, formal, informal, developmental, learn, evolve, explore, teach, skills, perspective, empathy, honest, passion, apprentice, guild, guru, disciple, relationship, communication, reassurance, confidence, time, commitment, work ethic, challenges
+
+![word list](/images/word-list-mentor.jpg)
 
 
 ## "This not that"
+!this, not that](/images/this-not-that.jpg)
 
 
 ## Game Plan
-as detailed as possible describing technical possibilities
+Use research and word lists to come up with names for the site. Conduct user surveys to find out what qualities and skills people look for in mentors and what skills and qualities mentors look for in mentees. Create user personas of users of the site to help figure out site content. Create a site map to categorize and prioritize content. Create style tiles to explore options for look, feel and tone for the site. Create a logo and icons in Illustrator that reflect the look, feel and tone using a morphological matrix with associated words.Create wireframes in Illustrator to explore layout possibilities. Then create low fidelity comps in Photoshop before moving on to HTML and CSS. 
 
 ## Project Deliverables
-
+Research, word lists, user surveys and personas, site map, style tiles, logo and icons, wireframes, low fidelity comps.
