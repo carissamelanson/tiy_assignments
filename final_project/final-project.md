@@ -36,6 +36,11 @@ Students, young professionals, people interested in making a transition into the
 What are we doing right?
 A curated mentorship app does not currently exist in the Austin market, first of it's kind. 
 
+Coffee Meets Bagel
+A dating app that sends a potential bagel/match daily, user can pass or take. 
+Connects with facebook to match with friends of friends for better pairings. 
+User can give bagels to friends. Users can earn beans/incentives with more usage of the site or have the option to buy more beans to unlock more features.
+
 
 
 ## SWOT Analysis
@@ -66,11 +71,11 @@ A curated mentorship app does not currently exist in the Austin market, first of
 share, help, connect, mentor, mentee, community, wise, trusted, counselor,
 influential, supporter, adviser, master, guide, preceptor, role model, legacy, protege, coach, leader, expert, professional, inspiring, supportive, engaging, success, goals, community, collaborate, nurturing, experience, advice, guidance, assistance, knowledge, connect, invest, inform, potential, talent, credible, trustworthy, senior, junior, open, willing, listen, respect, growth, peer, formal, informal, developmental, learn, evolve, explore, teach, skills, perspective, empathy, honest, passion, apprentice, guild, guru, disciple, relationship, communication, reassurance, confidence, time, commitment, work ethic, challenges
 
-![word list](/images/word-list-mentor.jpg)
+![word list](images/word-list-mentor.jpg)
 
 
 ## "This not that"
-!this, not that](/images/this-not-that.jpg)
+![this, not that](images/this-not-that.jpg)
 
 
 ## Game Plan
