@@ -1,4 +1,4 @@
-# Project Name(still working on the name)
+# Look Up
 
 ## History and Intro
 
