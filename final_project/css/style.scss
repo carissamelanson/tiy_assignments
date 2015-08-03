@@ -1,14 +1,21 @@
 @import 'reset';
 @import 'responsive-nav';
-@import 'bourbon';
-@import 'neat';
+@import 'bourbon/bourbon';
+@import 'neat/neat';
 
 
 /*FONTS*/
+$rooney: 'rooney-sans',sans-serif;
+$brandon: 'brandon-grotesque',sans-serif;
+
 
 
 /*COLOR*/
-
+$dkblue: #374952;
+$blue: #0079a2;
+$ltblue: #4ebecc;
+$gold: #f8cb69;
+$white: #f7f9f3;
 
 
 /*TYPOGRAPHY*/
@@ -16,8 +23,21 @@
 
 
 /*HEADER*/
+.navigation-wrapper{
+	background: $blue;
+	width: 100%;
+	height: 100px;
 
+}
 
+.logo{
+	width: 40px;
+}
+
+body{
+	background: $white;
+
+}
 
 
 /*FOOTER*/
