@@ -10,6 +10,7 @@ Where I'm at
 Challenges
 - figuring out how the site really works and deciding which pages show that 
     so that I can focus on the design and content of those pages
+- issues in iterm, files not pushing, too large
 
 
 Moving forward
