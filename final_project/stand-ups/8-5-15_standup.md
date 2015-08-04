@@ -4,20 +4,17 @@ power stance,
 eye contact
 projection
 
+
 Where I'm at
-- made a site map
-- started html
-- used bourbon
+- worked on html, css
+- jquery
 
 
 Challenges
-- setbacks
-- git hub issues
-- went down bourbon hole figuring out grid
-
+- jquery in bourbon refills
 
 Moving forward
-- continue writing html
+- 
 
 questions, comments? 
 
