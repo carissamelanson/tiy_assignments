@@ -157,6 +157,9 @@ p {
   color: #374952;
   margin-bottom: 40px; }
 
+a {
+  text-decoration: none; }
+
 /*BODY*/
 body {
   background: #f7f9f3; }
