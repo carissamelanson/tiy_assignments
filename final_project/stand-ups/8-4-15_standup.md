@@ -1,8 +1,13 @@
 # Stand up: 8-4-15
 
+power stance,
+eye contact
+projection
+
 Where I'm at
 - made a site map
 - started html
+- used bourbon
 
 
 Challenges
@@ -13,4 +18,6 @@ Challenges
 
 Moving forward
 - continue writing html
+
+questions, comments? 
 

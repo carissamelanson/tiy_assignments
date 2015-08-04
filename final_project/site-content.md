@@ -31,8 +31,7 @@ As someone looking for a mentor, I don't want to bother anyone, I genuinely want
 
 
 ### How it Works
-Mentors and mentees are paired based on therir preferernces.
-
+To make the process of finding a successful mentee/mentor relationship easy, Look Up sends members a couple of suggested matches each day. Members can connect and start a conversation with their suggested matches or they can choose to keep exploring to find a better match.
 
 
 
