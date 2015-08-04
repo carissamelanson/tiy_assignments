@@ -122,13 +122,15 @@ nav,
 	width: 100%;
 }
 
+/*BUTTONS*/
 .btn{
 	margin: 0 auto;
 	width: 280px;
 }
 
 .sign-up-btn,
-.log-in-btn{
+.log-in-btn, 
+.submit-btn{
 	width: 100px;
 	height: 40px;
 	border-radius: 5px;
@@ -141,14 +143,20 @@ nav,
 
 }
 
-.sign-up-btn{
-	background: $white;
+.log-in-btn{
+	background: $dkblue;
+	h5{ color: $white;}
 }
 
-.log-in-btn{
+.sign-up-btn, .submit-btn{
 	background: $gold;
 
 	h5{ color: $white;}
+}
+.submit-btn{
+	margin-left: 0px;
+	clear: left;
+	float: left;
 }
 
 /*HERO*/
@@ -160,9 +168,13 @@ nav,
 
 }
 
+.star-backdrop{
+	overflow: hidden;
+	 max-height: 400px;
+}
 
 .stars {
-  max-height: 400px;
+  // max-height: 400px;
   width: 100%;
 
   top: 30px;
@@ -240,7 +252,7 @@ margin: 0 auto;}
 	@include outer-container;
 	width: 100%;
 	margin: 0 auto;
-	.mission{
+	.content{
 	@include span-columns(12);
 	padding: 30px;
 }
@@ -253,7 +265,7 @@ margin: 0 auto;}
 .search-tools {  
   $base-border-color: gainsboro !default;
   $base-border-radius: 3px !default;
-  $base-line-height: 1.5em !default;
+  $base-line-height: 1.6em !default;
   $base-spacing: 1.5em !default;
   $action-color: #477DCA !default;
   
@@ -271,6 +283,8 @@ margin: 0 auto;}
   // border: 1px solid $search-tools-border-color;
   padding: $gutter ($gutter / 2);
   width: 100%;
+  margin-bottom: 100px;
+
 
   ol {
     margin: 0;
@@ -279,22 +293,23 @@ margin: 0 auto;}
 
   li {
     font-size: 1em;
-    line-height: 1.5em;
+    line-height: 2em;
     list-style: none;
   }
 
   label {
   	font-family: $brandon;
-  	font-size: 1em;
+  	font-size: 1.2em;
   	color: $dkblue;
     display: block;
     font-weight: bold;
     margin-bottom: $base-spacing / 4;
+
   }
 
   .filters {
-    @include display(flex);
-    @include flex-direction(column);
+    // @include display(flex);
+    // @include flex-direction(column);
     @include justify-content(space-between);
     width: 100%;
 
@@ -304,7 +319,7 @@ margin: 0 auto;}
   }
 
   .filter {
-    @include flex-shrink(1);
+	 @include flex-shrink(1);
     @include flex-grow(1);
     margin: 0 0.2em 1em 0.2em;
 
@@ -324,6 +339,7 @@ margin: 0 auto;}
       position: relative;
       width: 100%;
 
+
       &:focus,
       &:hover {
         border-color: darken($base-border-color, 10%);
@@ -335,6 +351,7 @@ margin: 0 auto;}
         font-weight: 400;
         margin-bottom: 0;
         color: $dkblue;
+
       }
     }
 
@@ -352,7 +369,8 @@ margin: 0 auto;}
     }
 
     .hide-options {
-      margin-bottom: 0;
+      margin-bottom: 30px;
+
 
       ol, button {
         display: none;
@@ -367,8 +385,9 @@ margin: 0 auto;}
     button {
     background: $gold;
       display: block;
-      width: 100%;
-      padding: .5em 1em;
+      width: 100px;
+      height: 40px;
+      // padding: .5em 1em;
       text-align: center;
       border-radius: 5px;
       font-family: $brandon;

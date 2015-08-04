@@ -65,11 +65,11 @@
 			</div>
 
 			<div class="content-wrapper">
-				<div class="mission">
+				<div class="content">
 					<h3>Connect</h3>
 					<p>Connecting with your LinkedIn account helps us to find members in your network.</p>
 
-					<div class="log-in-btn">
+					<div class="submit-btn">
 					<a href="#">
 					<h5>Submit</h5>
 				</a>
@@ -84,26 +84,26 @@
       <div>
         <ol>
           <li>
-            <input id="red" type="checkbox">
-            <label for="red">Design Mentor</label>
+            <input id="small" type="checkbox">
+            <label for="small">Design Mentor</label>
           </li>
           <li>
-            <input id="green" type="checkbox">
-            <label for="green">Design Mentee</label>
+            <input id="medium" type="checkbox">
+            <label for="medium">Design Mentee</label>
           </li>
           <li>
-            <input id="blue" type="checkbox">
-            <label for="blue">Developer Mentor</label>
+            <input id="small" type="checkbox">
+            <label for="small">Developer Mentor</label>
           </li>
           <li>
-            <input id="blue" type="checkbox">
-            <label for="blue">Developer Mentee</label>
+            <input id="medium" type="checkbox">
+            <label for="medium">Developer Mentee</label>
           </li>
         </ol>
       </div>
     </div>
     <div class="filter">
-      <label>Time Commitment</label>
+      <label>What time commitment do you want?</label>
       <div>
         <ol>
           <li>
@@ -122,12 +122,12 @@
       </div>
     </div>
     <div class="filter">
-      <label>Activities</label>
+      <label>What activities do you want?</label>
       <div>
         <ol>
           <li>
-            <input id="short" type="checkbox">
-            <label for="short">Hackathons</label>
+            <input id="long" type="checkbox">
+            <label for="long">Hackathons</label>
           </li>
           <li>
             <input id="long" type="checkbox">
@@ -147,28 +147,56 @@
     </div>
 
     <div class="filter">
-      <label>Meeting Times</label>
+      <label>How often do you want to meet?</label>
       <div>
         <ol>
           <li>
-            <input id="short" type="checkbox">
-            <label for="short">Once a Week</label>
+            <input id="long" type="checkbox">
+            <label for="once a week">Once a Week</label>
           </li>
           <li>
             <input id="long" type="checkbox">
-            <label for="long">Bi-Weekly</label>
+            <label for="Bi-Weekly">Bi-Weekly</label>
 		 </li>
 		    <li>
             <input id="long" type="checkbox">
-            <label for="long">Monthly</label>
+            <label for="Monthly">Monthly</label>
 		 </li>
 		
         </ol>
       </div>
-    <div class="filter trigger">
-      <button>Update</button>
+</div>
+
+	<div class="filter">
+      <label>Do you have a gender preference?</label>
+      <div>
+        <ol>
+          <li>
+            <input id="long" type="checkbox">
+            <label for="Female">Female</label>
+          </li>
+          <li>
+            <input id="long" type="checkbox">
+            <label for="long">Male</label>
+		 </li>
+		    <li>
+            <input id="long" type="checkbox">
+            <label for="long">No Preference</label>
+		 </li>
+		
+        </ol>
+      </div>
+</div>
+		<!-- 	<div class="submit-btn">
+					<a href="#">
+					<h5>Submit</h5>
+				</a>
+
+				</div> -->
+
+  <div class="filter trigger">
+      <button>Submit</button>
     </div>
-  </div>
 </div>
 
 
@@ -182,6 +210,8 @@
 			
 			</div>
 
+		</div>
+
 			<footer class="footer" role="contentinfo">
 				<div class="footer-logo">		
 				<ul>
@@ -194,7 +224,7 @@
 				</ul>
 				</div>
 			</footer>
-
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
 			<script>
 
 			var Filter = (function() {
@@ -268,7 +298,7 @@
   };
 
   Filter.prototype._updateSummary = function() {
-    var summary = 'All';
+    var summary = 'Select';
     var checked = this._checkboxes().filter(':checked');
 
     if (checked.length > 0 && checked.length < this._checkboxes().length) {

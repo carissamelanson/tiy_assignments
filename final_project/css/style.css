@@ -200,12 +200,14 @@ nav,
   height: 60px;
   width: 100%; }
 
+/*BUTTONS*/
 .btn {
   margin: 0 auto;
   width: 280px; }
 
 .sign-up-btn,
-.log-in-btn {
+.log-in-btn,
+.submit-btn {
   width: 100px;
   height: 40px;
   border-radius: 5px;
@@ -216,13 +218,20 @@ nav,
   margin-top: 10px;
   margin-left: 20px; }
 
-.sign-up-btn {
-  background: #f7f9f3; }
-
 .log-in-btn {
-  background: #f8cb69; }
+  background: #374952; }
   .log-in-btn h5 {
     color: #f7f9f3; }
+
+.sign-up-btn, .submit-btn {
+  background: #f8cb69; }
+  .sign-up-btn h5, .submit-btn h5 {
+    color: #f7f9f3; }
+
+.submit-btn {
+  margin-left: 0px;
+  clear: left;
+  float: left; }
 
 /*HERO*/
 .hero-stars {
@@ -230,8 +239,11 @@ nav,
   height: 400px;
   width: 100%; }
 
+.star-backdrop {
+  overflow: hidden;
+  max-height: 400px; }
+
 .stars {
-  max-height: 400px;
   width: 100%;
   top: 30px;
   left: 0; }
@@ -302,13 +314,13 @@ nav,
     clear: both;
     content: "";
     display: table; }
-  .content-wrapper .mission {
+  .content-wrapper .content {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 100%;
     padding: 30px; }
-    .content-wrapper .mission:last-child {
+    .content-wrapper .content:last-child {
       margin-right: 0; }
 
 /*ONBOARDING*/
@@ -332,7 +344,8 @@ nav,
   background: #4ebecc;
   border-radius: 5px;
   padding: 1.618em 0.809em;
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 100px; }
   .search-tools::after {
     clear: both;
     content: "";
@@ -342,33 +355,16 @@ nav,
     padding: 0; }
   .search-tools li {
     font-size: 1em;
-    line-height: 1.5em;
+    line-height: 2em;
     list-style: none; }
   .search-tools label {
     font-family: "brandon-grotesque", sans-serif;
-    font-size: 1em;
+    font-size: 1.2em;
     color: #374952;
     display: block;
     font-weight: bold;
     margin-bottom: 0.375em; }
   .search-tools .filters {
-    display: -webkit-box;
-    display: -moz-box;
-    display: box;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -moz-box-orient: vertical;
-    box-orient: vertical;
-    -webkit-box-direction: normal;
-    -moz-box-direction: normal;
-    box-direction: normal;
-    -webkit-flex-direction: column;
-    -moz-flex-direction: column;
-    flex-direction: column;
-    -ms-flex-direction: column;
     -webkit-box-pack: justify;
     -moz-box-pack: justify;
     box-pack: justify;
@@ -439,7 +435,7 @@ nav,
       left: auto;
       font-size: 0.7em; }
     .search-tools .filter .hide-options {
-      margin-bottom: 0; }
+      margin-bottom: 30px; }
       .search-tools .filter .hide-options ol, .search-tools .filter .hide-options button {
         display: none; }
   .search-tools .trigger {
@@ -447,8 +443,8 @@ nav,
     .search-tools .trigger button {
       background: #f8cb69;
       display: block;
-      width: 100%;
-      padding: .5em 1em;
+      width: 100px;
+      height: 40px;
       text-align: center;
       border-radius: 5px;
       font-family: "brandon-grotesque", sans-serif;
