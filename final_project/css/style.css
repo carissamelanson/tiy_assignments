@@ -118,20 +118,110 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+/*GRID*/
 /*FONTS*/
 /*COLOR*/
 /*TYPOGRAPHY*/
+h1 {
+  font-family: "rooney-sans", sans-serif;
+  weight: bold;
+  font-size: 50px;
+  color: #f7f9f3; }
+
+/*BODY*/
+body {
+  background: #f7f9f3; }
+
 /*HEADER*/
 .navigation-wrapper {
   background: #0079a2;
   width: 100%;
-  height: 100px; }
+  height: 120px; }
+  .navigation-wrapper .logo-wrapper {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    text-align: center;
+    line-height: 120px;
+    width: 100%;
+    height: 120px; }
+    .navigation-wrapper .logo-wrapper:last-child {
+      margin-right: 0; }
+    .navigation-wrapper .logo-wrapper h1 {
+      display: inline-block; }
 
 .logo {
-  width: 40px; }
+  width: 60px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+  margin-bottom: 26px; }
 
-body {
-  background: #f7f9f3; }
+/*HERO*/
+.hero-stars {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  background: #374952;
+  height: 400px; }
+  .hero-stars:last-child {
+    margin-right: 0; }
+
+.stars {
+  position: relative;
+  max-height: 400px;
+  width: 100%;
+  top: 30px;
+  left: 0; }
+  .stars circle {
+    opacity: 0.1;
+    animation: twinkle 5s ease infinite; }
+  .stars circle:nth-of-type(2) {
+    animation-delay: 2.5s; }
+  .stars circle:nth-of-type(3) {
+    animation-delay: 1s; }
+  .stars circle:nth-of-type(4) {
+    animation-delay: 2s; }
+  .stars circle:nth-of-type(5) {
+    animation-delay: 0.5s; }
+  .stars circle:nth-of-type(7) {
+    animation-delay: 1.5s; }
+  .stars circle:nth-of-type(8) {
+    animation-delay: 2.75s; }
+  .stars circle:nth-of-type(10) {
+    animation-delay: 1.75s; }
+  .stars circle:nth-of-type(11) {
+    animation-delay: 0.75s; }
+  .stars circle:nth-of-type(12) {
+    animation-delay: 3s; }
+  .stars circle:nth-of-type(13) {
+    animation-delay: 3.5s; }
+  .stars circle:nth-of-type(14) {
+    animation-delay: 3.75s; }
+
+@keyframes twinkle {
+  0% {
+    opacity: 0.1; }
+  70% {
+    opacity: 0.9; }
+  100% {
+    opacity: 0.1; } }
+.hero-info {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  margin-left: 25.58941%;
+  width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+  background: #f7f9f3;
+  border-radius: 5px;
+  position: absolute; }
+  .hero-info:last-child {
+    margin-right: 0; }
 
 /*FOOTER*/
 /* MEDIUM MEDIA QUERY */
