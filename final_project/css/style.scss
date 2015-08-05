@@ -1,5 +1,5 @@
 @import 'reset';
-@import 'responsive-nav';
+
 @import 'bourbon/bourbon';
 @import 'neat/neat';
 
@@ -103,17 +103,17 @@ body{background: $white;}
 
 }
 
-nav,
-.nav-toggle,{
-	font-family: $brandon;
-	font-size: 1em;
-	font-weight: 300;
-	color: $white;
-	margin-top: 10px;
-	padding-right: 20px;
-	float: right;
+// nav,
+// .nav-toggle,{
+// 	font-family: $brandon;
+// 	font-size: 1em;
+// 	font-weight: 300;
+// 	color: $white;
+// 	margin-top: 10px;
+// 	padding-right: 20px;
+// 	float: right;
 	
-}
+// }
 
 .sub-nav-wrapper{
 	background: $ltblue;
@@ -145,13 +145,16 @@ nav,
 }
 
 .nav-icons a{
-	font-size: 0.8em;
+	font-size: 0.75em;
 	font-family: $brandon;
 	font-weight: 400;
 	text-align: center;
 	color: $dkblue;
-	 a:hover{color:$white;}
+
 }
+
+a:hover{color:$white;}
+
 /*BUTTONS*/
 .btn{
 	margin: 0 auto;
@@ -189,7 +192,7 @@ nav,
 	float: left;
 }
 
-/*HERO*/
+/*STARS*/
 .hero-stars {
 	// @include span-columns(12);
 	background: $dkblue;
@@ -284,7 +287,8 @@ margin: 0 auto;}
 	width: 100%;
 	margin: 0 auto;
 	.content{
-	@include span-columns(12);
+	@include span-columns(10);
+	@include shift(1);
 	padding: 30px;
 }
 
@@ -317,7 +321,8 @@ margin: 0 auto;}
   margin-bottom: 100px;
   @include span-columns(8);
 	@include shift(2);
-	margin-top: 40px;
+	margin-top: -30px;
+	
 
 
   ol {
@@ -432,7 +437,20 @@ margin: 0 auto;}
   }
 }
 
+/*CONNECTIONS*/
+.sm-profile{
+	@include span-columns(1);
+	width: 120px;
+	float: left;
 
+
+}
+
+.connection-bio{
+	@include span-columns(9);
+	@include shift(1);
+	float: left;
+}
 
 
 
