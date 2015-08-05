@@ -131,7 +131,7 @@ h1 {
 h2 {
   font-family: "brandon-grotesque", sans-serif;
   font-weight: 700;
-  font-size: 2.2em;
+  font-size: 2.1em;
   color: #f7f9f3;
   line-height: 1.4; }
 
@@ -144,7 +144,7 @@ h3 {
 
 h5 {
   font-family: "brandon-grotesque", sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 1.5em;
   color: #f8cb69;
   line-height: 1.6; }
@@ -200,6 +200,28 @@ nav,
   height: 60px;
   width: 100%; }
 
+/*NAV ICONS*/
+.icon {
+  height: 24px;
+  display: block; }
+
+.nav-icons ul {
+  float: right;
+  margin-top: 10px;
+  margin-right: 8px; }
+.nav-icons li {
+  float: left;
+  margin-right: 12px; }
+
+.nav-icons a {
+  font-size: 0.8em;
+  font-family: "brandon-grotesque", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: #374952; }
+  .nav-icons a a:hover {
+    color: #f7f9f3; }
+
 /*BUTTONS*/
 .btn {
   margin: 0 auto;
@@ -236,12 +258,12 @@ nav,
 /*HERO*/
 .hero-stars {
   background: #374952;
-  height: 400px;
+  height: 440px;
   width: 100%; }
 
 .star-backdrop {
   overflow: hidden;
-  max-height: 400px; }
+  max-height: 440px; }
 
 .stars {
   width: 100%;
@@ -287,7 +309,7 @@ nav,
   padding: 20px;
   border-radius: 5px;
   margin: 0 auto;
-  margin-top: -190px; }
+  margin-top: -202px; }
   .info-box::after {
     clear: both;
     content: "";
@@ -296,7 +318,8 @@ nav,
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 100%; }
+    width: 65.88078%;
+    margin-left: 17.05961%; }
     .info-box .hero-info:last-child {
       margin-right: 0; }
     .info-box .hero-info h2 {
@@ -345,11 +368,19 @@ nav,
   border-radius: 5px;
   padding: 1.618em 0.809em;
   width: 100%;
-  margin-bottom: 100px; }
+  margin-bottom: 100px;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%;
+  margin-left: 17.05961%;
+  margin-top: 40px; }
   .search-tools::after {
     clear: both;
     content: "";
     display: table; }
+  .search-tools:last-child {
+    margin-right: 0; }
   .search-tools ol {
     margin: 0;
     padding: 0; }
@@ -445,11 +476,12 @@ nav,
       display: block;
       width: 100px;
       height: 40px;
+      padding: 0.5px;
       text-align: center;
       border-radius: 5px;
       font-family: "brandon-grotesque", sans-serif;
       font-size: 1.5em;
-      font-weight: 700;
+      font-weight: 400;
       color: #f7f9f3; }
 
 /*FOOTER*/
