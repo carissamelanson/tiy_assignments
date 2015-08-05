@@ -102,7 +102,7 @@ p {
   font-size: 1.5em;
   line-height: 1.6;
   color: #374952;
-  margin-bottom: 40px; }
+  margin-bottom: 20px; }
 
 a {
   text-decoration: none; }
@@ -289,14 +289,14 @@ a:hover {
     clear: both;
     content: "";
     display: table; }
-  .content-wrapper .content {
+  .content-wrapper .content, .content-wrapper .page-intro {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 82.94039%;
     margin-left: 8.5298%;
     padding: 30px; }
-    .content-wrapper .content:last-child {
+    .content-wrapper .content:last-child, .content-wrapper .page-intro:last-child {
       margin-right: 0; }
 
 /*ONBOARDING*/
@@ -321,13 +321,11 @@ a:hover {
   border-radius: 5px;
   padding: 1.618em 0.809em;
   width: 100%;
-  margin-bottom: 100px;
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 65.88078%;
-  margin-left: 17.05961%;
-  margin-top: -30px; }
+  width: 100%;
+  margin-top: 20px; }
   .search-tools::after {
     clear: both;
     content: "";
@@ -435,7 +433,7 @@ a:hover {
       font-family: "brandon-grotesque", sans-serif;
       font-size: 1.5em;
       font-weight: 400;
-      color: #f7f9f3; }
+      color: #374952; }
 
 /*CONNECTIONS*/
 .sm-profile {

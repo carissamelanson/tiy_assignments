@@ -79,7 +79,7 @@ p{
 	font-size: 1.5em;
 	line-height: 1.6;
 	color: $dkblue;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 
 }
 
@@ -309,7 +309,7 @@ margin: 0 auto;}
 	@include outer-container;
 	width: 100%;
 	margin: 0 auto;
-	.content{
+	.content, .page-intro{
 	@include span-columns(10);
 	@include shift(1);
 	padding: 30px;
@@ -341,10 +341,10 @@ margin: 0 auto;}
   // border: 1px solid $search-tools-border-color;
   padding: $gutter ($gutter / 2);
   width: 100%;
-  margin-bottom: 100px;
-  @include span-columns(8);
-	@include shift(2);
-	margin-top: -30px;
+  // margin-bottom: 100px;
+  @include span-columns(12);
+	// @include shift(1);
+	margin-top: 20px;
 	
 
 
@@ -455,7 +455,7 @@ margin: 0 auto;}
       font-family: $brandon;
       font-size: 1.5em;
       font-weight: 400;
-      color: $white;
+      color: $dkblue;
     }
   }
 }
