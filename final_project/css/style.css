@@ -73,6 +73,13 @@ h3 {
   font-weight: 700;
   font-size: 2.0em;
   color: #0079a2;
+  line-height: 1.2; }
+
+h4 {
+  font-family: "brandon-grotesque", sans-serif;
+  font-weight: 400;
+  font-size: 1.4em;
+  color: #666666;
   line-height: 1.6; }
 
 h5 {
@@ -81,6 +88,13 @@ h5 {
   font-size: 1.5em;
   color: #f8cb69;
   line-height: 1.6; }
+
+h6 {
+  font-family: "brandon-grotesque", sans-serif;
+  font-weight: 400;
+  font-size: 1.2em;
+  color: #0079a2;
+  line-height: 1.4; }
 
 p {
   font-family: "brandon-grotesque", sans-serif;
@@ -125,7 +139,7 @@ body {
 
 /*NAV ICONS*/
 .icon {
-  height: 24px;
+  height: 26px;
   display: block; }
 
 .nav-icons ul {
@@ -134,7 +148,11 @@ body {
   margin-right: 8px; }
 .nav-icons li {
   float: left;
-  margin-right: 12px; }
+  margin-right: 16px; }
+
+li .icon {
+  width: 24px;
+  margin: 0 auto; }
 
 .nav-icons a {
   font-size: 0.75em;
@@ -144,7 +162,7 @@ body {
   color: #374952; }
 
 a:hover {
-  color: #f7f9f3; }
+  color: #f8cb69; }
 
 /*BUTTONS*/
 .btn {
@@ -153,7 +171,9 @@ a:hover {
 
 .sign-up-btn,
 .log-in-btn,
-.submit-btn {
+.submit-btn,
+.pass-btn,
+.learn-btn {
   width: 100px;
   height: 40px;
   border-radius: 5px;
@@ -164,26 +184,34 @@ a:hover {
   margin-top: 10px;
   margin-left: 20px; }
 
-.log-in-btn {
+.log-in-btn, .pass-btn {
   background: #374952; }
-  .log-in-btn h5 {
-    color: #f7f9f3; }
+  .log-in-btn h5, .pass-btn h5 {
+    color: #f8cb69; }
 
-.sign-up-btn, .submit-btn {
+.sign-up-btn, .submit-btn, .learn-btn {
   background: #f8cb69; }
-  .sign-up-btn h5, .submit-btn h5 {
-    color: #f7f9f3; }
+  .sign-up-btn h5, .submit-btn h5, .learn-btn h5 {
+    color: #374952; }
 
 .submit-btn {
   margin-left: 0px;
   clear: left;
   float: left; }
 
+.pass-btn {
+  margin-left: 0px; }
+
+.learn-btn {
+  width: 124px;
+  margin-left: 0px; }
+
 /*STARS*/
 .hero-stars {
   background: #374952;
   height: 440px;
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 40px; }
 
 .star-backdrop {
   overflow: hidden;
@@ -416,7 +444,9 @@ a:hover {
   margin-right: 2.35765%;
   width: 6.17215%;
   width: 120px;
-  float: left; }
+  float: left;
+  margin-bottom: 40px;
+  margin-right: 20px; }
   .sm-profile:last-child {
     margin-right: 0; }
 
@@ -424,11 +454,19 @@ a:hover {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 74.41059%;
-  margin-left: 8.5298%;
+  width: 100%;
   float: left; }
   .connection-bio:last-child {
     margin-right: 0; }
+  .connection-bio h6 {
+    margin-bottom: 20px; }
+
+.content {
+  background: #dcf4f3;
+  border-radius: 5px;
+  margin-bottom: 60px; }
+  .content h6 {
+    margin-bottom: 20px; }
 
 /*FOOTER*/
 .wrapper-for-content-outside-of-footer {
@@ -459,8 +497,8 @@ html, body {
   display: block;
   margin-right: 2.35765%;
   width: 100%;
-  margin-left: 20px;
-  margin-top: 30px; }
+  padding-left: 20px;
+  margin-top: 40px; }
   .footer-logo:last-child {
     margin-right: 0; }
   .footer-logo li {

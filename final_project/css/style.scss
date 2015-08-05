@@ -21,6 +21,7 @@ $blue: #0079a2;
 $ltblue: #4ebecc;
 $gold: #f8cb69;
 $white: #f7f9f3;
+$ltgrey: #dcf4f3;
 
 
 /*TYPOGRAPHY*/
@@ -45,8 +46,17 @@ h3{
 	font-weight: 700;
 	font-size: 2.0em;
 	color: $blue;
+	line-height: 1.2;
+}
+
+h4{
+	font-family: $brandon;
+	font-weight: 400;
+	font-size: 1.4em;
+	color: #666666;
 	line-height: 1.6;
 }
+
 
 h5{
 	font-family: $brandon;
@@ -56,6 +66,13 @@ h5{
 	line-height: 1.6;
 }
 
+h6{
+	font-family: $brandon;
+	font-weight: 400;
+	font-size: 1.2em;
+	color: $blue;
+	line-height: 1.4;
+}
 p{
 	font-family: $brandon;
 	font-weight: 400;
@@ -103,17 +120,7 @@ body{background: $white;}
 
 }
 
-// nav,
-// .nav-toggle,{
-// 	font-family: $brandon;
-// 	font-size: 1em;
-// 	font-weight: 300;
-// 	color: $white;
-// 	margin-top: 10px;
-// 	padding-right: 20px;
-// 	float: right;
-	
-// }
+
 
 .sub-nav-wrapper{
 	background: $ltblue;
@@ -123,7 +130,7 @@ body{background: $white;}
 }
 /*NAV ICONS*/
 .icon{
-	height: 24px;
+	height: 26px;
 	display: block;
 	
 }
@@ -140,10 +147,16 @@ body{background: $white;}
 
 	li{
 		float: left;
-		margin-right: 12px;
+		margin-right: 16px;
 	}
 }
 
+li{
+	.icon{
+		width:24px;
+		margin: 0 auto;
+	}
+}
 .nav-icons a{
 	font-size: 0.75em;
 	font-family: $brandon;
@@ -153,7 +166,7 @@ body{background: $white;}
 
 }
 
-a:hover{color:$white;}
+a:hover{color:$gold;}
 
 /*BUTTONS*/
 .btn{
@@ -163,7 +176,9 @@ a:hover{color:$white;}
 
 .sign-up-btn,
 .log-in-btn, 
-.submit-btn{
+.submit-btn,
+.pass-btn,
+.learn-btn{
 	width: 100px;
 	height: 40px;
 	border-radius: 5px;
@@ -176,20 +191,27 @@ a:hover{color:$white;}
 
 }
 
-.log-in-btn{
+.log-in-btn,.pass-btn{
 	background: $dkblue;
-	h5{ color: $white;}
+	h5{ color: $gold;}
 }
 
-.sign-up-btn, .submit-btn{
+.sign-up-btn, .submit-btn,.learn-btn{
 	background: $gold;
 
-	h5{ color: $white;}
+	h5{ color: $dkblue;}
 }
 .submit-btn{
 	margin-left: 0px;
 	clear: left;
 	float: left;
+}
+.pass-btn{
+	margin-left: 0px;
+}
+.learn-btn{
+	width: 124px;
+	margin-left: 0px;
 }
 
 /*STARS*/
@@ -198,6 +220,7 @@ a:hover{color:$white;}
 	background: $dkblue;
 	height: 440px;
 	width: 100%;
+	margin-bottom: 40px;
 
 }
 
@@ -442,16 +465,29 @@ margin: 0 auto;}
 	@include span-columns(1);
 	width: 120px;
 	float: left;
+	margin-bottom: 40px;
+	margin-right: 20px;
 
 
 }
 
 .connection-bio{
-	@include span-columns(9);
-	@include shift(1);
+	@include span-columns(12);
+
 	float: left;
+	
+
+	h6{margin-bottom: 20px;}
+
 }
 
+.content{
+	background: $ltgrey;
+	border-radius: 5px;
+	margin-bottom: 60px;
+
+		h6{margin-bottom: 20px;}
+}
 
 
 /*FOOTER*/
@@ -490,8 +526,8 @@ html, body {
  	@include span-columns(12);
  	// @include shift(3);
 
-	margin-left: 20px;
-	margin-top: 30px;
+padding-left: 20px;
+	margin-top: 40px;
  
 
  	li{
