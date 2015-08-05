@@ -6,15 +6,16 @@ projection
 
 
 Where I'm at
-- worked on html, css
-- jquery
+- deep into code
+- using bourbon refills and jquery
 
 
 Challenges
-- jquery in bourbon refills
+- jquery 
+- styling refills
 
 Moving forward
-- 
+- keep working 
 
 questions, comments? 
 
