@@ -185,6 +185,7 @@ a:hover{color:$gold;}
 	float: left;
 	margin-top: 10px;
 	margin-left: 20px;
+	box-shadow: #749aa8 1px 1px, #a6eef4 -1px -1px;
 
 }
 
@@ -313,6 +314,20 @@ margin: 0 auto;}
 	padding: 30px;
 }
 
+}
+.match-content{
+		@include span-columns(10);
+	@include shift(1);
+	padding: 30px;
+
+
+}
+.content, .match-content{
+	background: $ltgrey;
+	border-radius: 5px;
+	margin-bottom: 60px;
+
+		h6{margin-bottom: 20px;}
 }
 
 /*INDEX*/
@@ -500,13 +515,7 @@ margin: 0 auto;}
 
 }
 
-.content{
-	background: $ltgrey;
-	border-radius: 5px;
-	margin-bottom: 60px;
 
-		h6{margin-bottom: 20px;}
-}
 
 /*PROFILE*/
 .cards {
@@ -585,8 +594,8 @@ margin: 0 auto;}
 	margin-bottom: 20px;
 	background: $white;
 	border-radius: 5px;
-		padding: 10px;
-		box-shadow: $blue 1px 1px, $ltblue -1px -1px;
+	padding: 10px;
+	box-shadow: #749aa8 1px 1px, #a6eef4 -1px -1px;
 }
 
 .xs-profile{
@@ -681,7 +690,13 @@ padding-left: 20px;
 	width: 100%;
 
 }
+.match-content{
+		@include span-columns(6);
+	@include shift(0);
+	padding: 30px;
 
+
+}
 
 
 
@@ -716,3 +731,5 @@ padding-left: 20px;
 .info-box {margin-top: -320px;}
 
 }
+
+

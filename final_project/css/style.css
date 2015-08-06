@@ -185,7 +185,8 @@ a:hover {
   margin-right: 20px;
   float: left;
   margin-top: 10px;
-  margin-left: 20px; }
+  margin-left: 20px;
+  box-shadow: #749aa8 1px 1px, #a6eef4 -1px -1px; }
 
 .log-in-btn, .pass-btn {
   background: #374952; }
@@ -293,6 +294,23 @@ a:hover {
     padding: 30px; }
     .content-wrapper .content:last-child, .content-wrapper .page-intro:last-child {
       margin-right: 0; }
+
+.match-content {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 82.94039%;
+  margin-left: 8.5298%;
+  padding: 30px; }
+  .match-content:last-child {
+    margin-right: 0; }
+
+.content, .match-content {
+  background: #dcf4f3;
+  border-radius: 5px;
+  margin-bottom: 60px; }
+  .content h6, .match-content h6 {
+    margin-bottom: 20px; }
 
 /*INDEX*/
 .lg-icon {
@@ -472,13 +490,6 @@ a:hover {
   .connection-bio h6 {
     margin-bottom: 20px; }
 
-.content {
-  background: #dcf4f3;
-  border-radius: 5px;
-  margin-bottom: 60px; }
-  .content h6 {
-    margin-bottom: 20px; }
-
 /*PROFILE*/
 .cards {
   display: -webkit-box;
@@ -583,7 +594,7 @@ a:hover {
   background: #f7f9f3;
   border-radius: 5px;
   padding: 10px;
-  box-shadow: #0079a2 1px 1px, #4ebecc -1px -1px; }
+  box-shadow: #749aa8 1px 1px, #a6eef4 -1px -1px; }
 
 .xs-profile {
   float: left;
@@ -658,7 +669,17 @@ html, body {
 
   .btn {
     margin: 0 auto;
-    width: 100%; } }
+    width: 100%; }
+
+  .match-content {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    margin-left: 0%;
+    padding: 30px; }
+    .match-content:last-child {
+      margin-right: 0; } }
 /* LARGE MEDIA QUERY */
 @media screen and (min-width: 1200px) {
   h2 {
