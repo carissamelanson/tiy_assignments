@@ -54,7 +54,7 @@ h4{
 	font-weight: 400;
 	font-size: 1.5em;
 	color: #666666;
-	line-height: 1.2;
+	line-height: 1.6;
 }
 
 
@@ -71,7 +71,7 @@ h6{
 	font-weight: 400;
 	font-size: 1.2em;
 	color: $blue;
-	line-height: 1.4;
+	line-height: 1.6;
 }
 p{
 	font-family: $brandon;
@@ -486,11 +486,9 @@ margin: 0 auto;}
 
 .connection-bio{
 	@include span-columns(12);
-
 	float: left;
-	
 
-	h6{margin-bottom: 20px;}
+		h6{margin-bottom: 20px;}
 
 }
 
@@ -512,11 +510,13 @@ margin: 0 auto;}
     @include flex-basis(20em);
     @include flex-grow(1);
     margin: 0 1em;
+    margin-bottom: 40px;
   }
   
   .card-image {
     max-height: 150px;
     overflow: hidden;
+    margin-bottom: 20px;
 
     img {
       width: 100%;
@@ -524,24 +524,34 @@ margin: 0 auto;}
   }
 }
 
+.experience{
+	margin-bottom: 50px;
+	margin-top: 10px;
+}
+
+
 /*Messages*/
-.message-box{
+.message-box,.skills-box{
 	@include span-columns(3);
 	@include shift(1);
 	// margin-right: 40px;
 	float: left;
 	background: $ltgrey;
 	border-radius: 5px;
-	padding: 10px;
+	padding: 12px;
 }
-.message-box li{
+.message-box li,
+.skills-box{
 	font-family: $brandon;
 	font-size: 1em;
 	line-height: 2;
 
 	}
-
-.message-content{
+.skills-box {
+	padding: 20px;
+}
+.message-content,
+.experience-content{
 	@include span-columns(7);
 	float: left;
 	background: $ltgrey;
@@ -553,7 +563,9 @@ margin: 0 auto;}
 	float:left;
 	margin-top: 16px;
 }
-
+.experience-content{
+	margin-bottom: 60px;
+}
 .box{
 	float: left;
 	clear: left;
@@ -571,13 +583,7 @@ margin: 0 auto;}
 
 }
 
-.line-separator {
-	height: 1px;
-	background: $dkblue;
-	border-bottom: 1px solid $dkblue;
-	margin-top: 200px;
-	width: 100%;
-}
+
 
 /*FOOTER*/
 .wrapper-for-content-outside-of-footer {
