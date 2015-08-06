@@ -80,7 +80,7 @@ h4 {
   font-weight: 400;
   font-size: 1.5em;
   color: #666666;
-  line-height: 1.6; }
+  line-height: 1.2; }
 
 h5 {
   font-family: "brandon-grotesque", sans-serif;
@@ -159,6 +159,9 @@ li .icon {
   font-family: "brandon-grotesque", sans-serif;
   font-weight: 400;
   text-align: center;
+  color: #374952; }
+
+a {
   color: #374952; }
 
 a:hover {
@@ -290,6 +293,59 @@ a:hover {
     padding: 30px; }
     .content-wrapper .content:last-child, .content-wrapper .page-intro:last-child {
       margin-right: 0; }
+
+/*HOW IT WORKS*/
+.device-background {
+  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png"), -webkit-linear-gradient(10deg, #0A120D, #162C4C), no-repeat #162C4C scroll;
+  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png"), linear-gradient(10deg, #0A120D, #162C4C), no-repeat #162C4C scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 20em;
+  width: 100%; }
+  .device-background .device-text {
+    color: white;
+    padding: 2em; }
+    @media screen and (min-width: 53.75em) {
+      .device-background .device-text {
+        float: left;
+        max-width: 50%;
+        padding: 4em; } }
+    .device-background .device-text h4 {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+      font-size: 1.5em;
+      margin: 0 0 0.5em 0;
+      padding-bottom: 0.5em; }
+    .device-background .device-text p {
+      line-height: 1.5em;
+      margin-bottom: 1.5em; }
+  .device-background .device {
+    display: none;
+    position: relative; }
+    @media screen and (min-width: 53.75em) {
+      .device-background .device {
+        -webkit-transform: perspective(800px) translateX(0px) translateY(-100px) translateZ(50px) rotateX(0deg) rotateY(-20deg) rotateZ(0deg);
+        -moz-transform: perspective(800px) translateX(0px) translateY(-100px) translateZ(50px) rotateX(0deg) rotateY(-20deg) rotateZ(0deg);
+        -ms-transform: perspective(800px) translateX(0px) translateY(-100px) translateZ(50px) rotateX(0deg) rotateY(-20deg) rotateZ(0deg);
+        -o-transform: perspective(800px) translateX(0px) translateY(-100px) translateZ(50px) rotateX(0deg) rotateY(-20deg) rotateZ(0deg);
+        transform: perspective(800px) translateX(0px) translateY(-100px) translateZ(50px) rotateX(0deg) rotateY(-20deg) rotateZ(0deg);
+        background: #1a1a1a;
+        border-radius: 2em;
+        box-shadow: 1px 0px #343434, 4px 0px #060606, 7px 0px black, 10px 0px black, 13px 0px black;
+        display: block;
+        float: right;
+        margin-bottom: -12em;
+        margin-right: 5em;
+        padding: 5em 0;
+        width: 14.8em;
+        z-index: 99999; }
+        .device-background .device .screen {
+          height: 25em;
+          width: 14em;
+          background-image: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/cosmin_capitanu_screen.jpg");
+          background-size: cover;
+          border-radius: 0.2em;
+          box-shadow: inset 0 1px 8px rgba(0, 0, 0, 0.5);
+          margin: auto; } }
 
 /*ONBOARDING*/
 .search-tools {
@@ -498,6 +554,68 @@ a:hover {
     overflow: hidden; }
     .cards .card-image img {
       width: 100%; }
+
+/*Messages*/
+.message-box {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%;
+  margin-left: 8.5298%;
+  float: left;
+  background: #dcf4f3;
+  border-radius: 5px;
+  padding: 10px; }
+  .message-box:last-child {
+    margin-right: 0; }
+
+.message-box li {
+  font-family: "brandon-grotesque", sans-serif;
+  font-size: 1em;
+  line-height: 2; }
+
+.message-content {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 57.35098%;
+  float: left;
+  background: #dcf4f3;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 100px; }
+  .message-content:last-child {
+    margin-right: 0; }
+
+.message {
+  float: left;
+  margin-top: 16px; }
+
+.box {
+  float: left;
+  clear: left;
+  margin-bottom: 20px;
+  background: #f7f9f3;
+  border-radius: 5px;
+  padding: 10px; }
+
+.xs-profile {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 6.17215%;
+  width: 60px;
+  margin-bottom: 10px;
+  margin-right: 20px; }
+  .xs-profile:last-child {
+    margin-right: 0; }
+
+.line-separator {
+  height: 1px;
+  background: #374952;
+  border-bottom: 1px solid #374952;
+  margin-top: 200px;
+  width: 100%; }
 
 /*FOOTER*/
 .wrapper-for-content-outside-of-footer {

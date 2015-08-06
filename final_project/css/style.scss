@@ -54,7 +54,7 @@ h4{
 	font-weight: 400;
 	font-size: 1.5em;
 	color: #666666;
-	line-height: 1.6;
+	line-height: 1.2;
 }
 
 
@@ -162,6 +162,7 @@ li{
 
 }
 
+	a{color: $dkblue;}
 a:hover{color:$gold;}
 
 /*BUTTONS*/
@@ -314,6 +315,93 @@ margin: 0 auto;}
 
 }
 
+/*HOW IT WORKS*/
+.device-background {
+  $base-border-radius: 3px !default;
+  $action-color: #477DCA !default;
+  $large-screen: em(860) !default;
+  $device-padding-vertical: 5em;
+  $device-padding-horizontal: 0.4em;
+  $device-screen-width: 14em;
+  $device-screen-height: 25em;
+  $device-background: darken(gray, 40%);
+  $device-backside-background: darken($device-background, 10%);
+  $device-text-color: white;
+  $device-background-top: #162C4C; 
+  $device-background-bottom: #0A120D;
+  $gradient-angle: 10deg;
+  $device-image: 'https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png';
+  $device-screen-image: 'https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/cosmin_capitanu_screen.jpg';
+
+  @include background(url($device-image), linear-gradient($gradient-angle, $device-background-bottom, $device-background-top), no-repeat $device-background-top scroll);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 20em;
+  width: 100%;
+
+  .device-text {
+    color: $device-text-color;
+    padding: 2em;
+
+    @include media($large-screen) {
+      float: left;
+      max-width: 50%;
+      padding: 4em;
+    }
+
+    h4 {
+      border-bottom: 1px solid transparentize($device-text-color, 0.7);
+      font-size: 1.5em;
+      margin: 0 0 0.5em 0;
+      padding-bottom: 0.5em;
+    }
+
+    p {
+      line-height: 1.5em;
+      margin-bottom: 1.5em;
+    }
+  }
+
+  .device {
+    display: none;
+    position: relative;
+
+    @include media($large-screen) {
+      @include transform(
+        perspective(800px) 
+        translateX(0px) 
+        translateY(-100px) 
+        translateZ(50px) 
+        rotateX(0deg) 
+        rotateY(-20deg) 
+        rotateZ(-0deg));
+      background: $device-background;
+      border-radius: 2em;
+      box-shadow: 
+        1px 0px lighten($device-backside-background, 20%), 
+        4px 0px lighten($device-backside-background, 2%),
+        7px 0px $device-backside-background,
+        10px 0px $device-backside-background,
+        13px 0px $device-backside-background;
+      display: block;
+      float: right;
+      margin-bottom: -12em;
+      margin-right: 5em;
+      padding: $device-padding-vertical 0;
+      width: $device-screen-width + (2 * $device-padding-horizontal);
+      z-index: 99999;
+
+      .screen {
+        @include size($device-screen-width $device-screen-height);
+        background-image: url($device-screen-image);
+        background-size: cover;
+        border-radius: 0.2em;
+        box-shadow: inset 0 1px 8px transparentize(black, 0.5);
+        margin: auto;
+      }
+    }
+  }
+}
 
 
 /*ONBOARDING*/
@@ -506,6 +594,61 @@ margin: 0 auto;}
       width: 100%;
     }
   }
+}
+
+/*Messages*/
+.message-box{
+	@include span-columns(3);
+	@include shift(1);
+	// margin-right: 40px;
+	float: left;
+	background: $ltgrey;
+	border-radius: 5px;
+	padding: 10px;
+}
+.message-box li{
+	font-family: $brandon;
+	font-size: 1em;
+	line-height: 2;
+
+	}
+
+.message-content{
+	@include span-columns(7);
+	float: left;
+	background: $ltgrey;
+	border-radius: 5px;
+	padding: 20px;
+	margin-bottom: 100px;
+}
+.message{
+	float:left;
+	margin-top: 16px;
+}
+
+.box{
+	float: left;
+	clear: left;
+	margin-bottom: 20px;
+	background: $white;
+	border-radius: 5px;
+		padding: 10px;
+}
+
+.xs-profile{
+	@include span-columns(1);
+	width: 60px;
+	margin-bottom: 10px;
+	margin-right: 20px;
+
+}
+
+.line-separator {
+	height: 1px;
+	background: $dkblue;
+	border-bottom: 1px solid $dkblue;
+	margin-top: 200px;
+	width: 100%;
 }
 
 /*FOOTER*/
