@@ -618,7 +618,7 @@ label h5{color: $dkblue;}
 
 /*Messages*/
 .message-box,.skills-box{
-			@include span-columns(10);
+	@include span-columns(10);
 	@include shift(1);
 	padding: 30px;
 
