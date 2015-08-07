@@ -620,7 +620,7 @@ a:hover{color:$gold;}
 	margin-bottom: 20px;
 	background: $white;
 	border-radius: 5px;
-	padding: 10px;
+	padding: 20px;
 	box-shadow: #749aa8 1px 1px, #a6eef4 -1px -1px;
 }
 
@@ -773,7 +773,7 @@ li{
 }
 
 .match-content{
-		@include span-columns(6);
+	@include span-columns(6);
 	@include shift(0);
 	padding: 30px;
 
@@ -781,7 +781,7 @@ li{
 }
 
 .message-box,.skills-box{
-	@include span-columns(2);
+	@include span-columns(3);
 	@include shift(1);
 	padding: 20px;
 }
@@ -789,13 +789,38 @@ li{
 .message-content,
 .experience-content{
 	@include span-columns(7);
-	// @include shift(1);
+	@include shift(0);
 	padding: 20px;
 
 	}
 
+.footer-logo{
+ 	@include span-columns(12);
+ 	// @include shift(3);
 
+padding-left: 30px;
+	margin-top: 40px;
+ 
 
+ 	li{
+ 		display: inline;
+ 		margin-right: 30px;
+ 		margin-bottom: 10px;
+
+ 	}
+ }
+ .footer-logo{
+ 	li{
+ 		font-family: $brandon;
+ 		font-size: 1.2em;
+ 		color: $white;
+
+ 		a{
+ 			color: $white;
+ 			text-decoration: none;
+ 		}
+ 	}
+ }
 
 }
 

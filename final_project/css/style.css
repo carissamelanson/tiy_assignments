@@ -598,7 +598,7 @@ a:hover {
   margin-bottom: 20px;
   background: #f7f9f3;
   border-radius: 5px;
-  padding: 10px;
+  padding: 20px;
   box-shadow: #749aa8 1px 1px, #a6eef4 -1px -1px; }
 
 .xs-profile {
@@ -732,7 +732,7 @@ html, body {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 14.70196%;
+    width: 23.23176%;
     margin-left: 8.5298%;
     padding: 20px; }
     .message-box:last-child, .skills-box:last-child {
@@ -744,10 +744,33 @@ html, body {
     display: block;
     margin-right: 2.35765%;
     width: 57.35098%;
+    margin-left: 0%;
     padding: 20px; }
     .message-content:last-child,
     .experience-content:last-child {
-      margin-right: 0; } }
+      margin-right: 0; }
+
+  .footer-logo {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    padding-left: 30px;
+    margin-top: 40px; }
+    .footer-logo:last-child {
+      margin-right: 0; }
+    .footer-logo li {
+      display: inline;
+      margin-right: 30px;
+      margin-bottom: 10px; }
+
+  .footer-logo li {
+    font-family: "brandon-grotesque", sans-serif;
+    font-size: 1.2em;
+    color: #f7f9f3; }
+    .footer-logo li a {
+      color: #f7f9f3;
+      text-decoration: none; } }
 /* LARGE MEDIA QUERY */
 @media screen and (min-width: 1200px) {
   h2 {
