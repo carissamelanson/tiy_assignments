@@ -51,6 +51,16 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
+
 /*GRID*/
 /*FONTS*/
 /*COLOR*/
@@ -184,7 +194,7 @@ a:hover {
   float: left;
   margin-top: 10px;
   margin-left: 10px;
-  box-shadow: #749aa8 1px 1px, #a6eef4 -1px -1px;
+  box-shadow: #749aa8 1px 1px, #f9e4b9 -1px -1px;
   padding: 4px; }
 
 .log-in-btn, .pass-btn {
@@ -211,12 +221,14 @@ a:hover {
 
 /*STARS*/
 .hero-stars {
+  position: relative;
   background: #374952;
   height: 250px;
   width: 100%;
   margin-bottom: 40px; }
 
 .star-backdrop {
+  position: absolute;
   overflow: hidden;
   max-height: 250px; }
 
@@ -257,10 +269,50 @@ a:hover {
     opacity: 0.9; }
   100% {
     opacity: 0.1; } }
+@-webkit-keyframes twinkle {
+  from {
+    -webkit-transform: scale(0); }
+  to {
+    -webkit-transform: scale(1); } }
+@-moz-keyframes twinkle {
+  from {
+    -moz-transform: scale(0); }
+  to {
+    -moz-transform: scale(1); } }
+@keyframes twinkle {
+  from {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0); }
+  to {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); } }
+box:hover {
+  -webkit-animation: scale 1s ease-in, slide 2s ease;
+  -moz-animation: scale 1s ease-in, slide 2s ease;
+  animation: scale 1s ease-in, slide 2s ease;
+  -webkit-animation-name: scale, slide;
+  -moz-animation-name: scale, slide;
+  animation-name: scale, slide;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-timing-function: ease;
+  -moz-animation-timing-function: ease;
+  animation-timing-function: ease;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite; }
+
 .info-box {
+  position: absolute;
   border-radius: 5px;
-  margin: 0 auto;
-  margin-top: -180px; }
+  margin: 0 auto; }
   .info-box .hero-info {
     float: left;
     display: block;
@@ -330,6 +382,15 @@ a:hover {
     float: right; }
 
 /*ONBOARDING*/
+input {
+  border-radius: 5px;
+  height: 40px;
+  width: 200px;
+  margin-bottom: 20px; }
+
+label h5 {
+  color: #374952; }
+
 .search-tools {
   display: -webkit-box;
   display: -moz-box;
@@ -715,7 +776,7 @@ html, body {
     float: left;
     margin-top: 10px;
     margin-left: 0px;
-    box-shadow: #749aa8 1px 1px, #a6eef4 -1px -1px; }
+    box-shadow: #749aa8 1px 1px, #f9e4b9 -1px -1px; }
 
   .match-content {
     float: left;
