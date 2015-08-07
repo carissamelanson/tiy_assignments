@@ -715,7 +715,7 @@ html, body {
     margin-right: 20px;
     float: left;
     margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 0px;
     box-shadow: #749aa8 1px 1px, #a6eef4 -1px -1px; }
 
   .match-content {
