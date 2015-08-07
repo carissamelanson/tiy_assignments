@@ -4,6 +4,21 @@
 @import 'neat/neat';
 
 
+
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+
+
+
 /*GRID*/
 $grid-columns: 12 !default;
 $column: modular-scale(3, 1em, $golden) !default;
@@ -186,7 +201,9 @@ a:hover{color:$gold;}
 	float: left;
 	margin-top: 10px;
 	margin-left: 10px;
-	box-shadow: #749aa8 1px 1px, #a6eef4 -1px -1px;
+
+	box-shadow: #749aa8 1px 1px, #f9e4b9 -1px -1px;
+
 	padding: 4px;
 }
 
@@ -216,6 +233,9 @@ a:hover{color:$gold;}
 /*STARS*/
 .hero-stars {
 	// @include span-columns(12);
+
+	position: relative;
+
 	background: $dkblue;
 	height: 250px;
 	width: 100%;
@@ -224,6 +244,8 @@ a:hover{color:$gold;}
 }
 
 .star-backdrop{
+
+	position: absolute;
 
 	overflow: hidden;
 	 max-height: 250px;
@@ -281,14 +303,38 @@ a:hover{color:$gold;}
 }
 
 
+@include keyframes(twinkle) {
+  from {
+  	@include transform(scale(0));
+  }
+  	to {
+  	@include transform(scale(1));
+  	}
+}
+
+box:hover {
+  // Animation shorthand works the same as the CSS3 animation shorthand
+  @include animation(scale 1.0s ease-in, slide 2.0s ease);
+
+  // The above outputs the same CSS as using independent, granular mixins.
+  @include animation-name(scale, slide);
+  @include animation-duration(2s);
+  @include animation-timing-function(ease);
+  @include animation-iteration-count(infinite);
+}
+
 .info-box {
+	position: absolute;
+
 	// @include outer-container;
 
 	// padding: 20px;
 	// background: $white;
 	border-radius: 5px;
 	margin: 0 auto;
-	margin-top: -180px;
+
+	// margin-top: -180px;
+
 
 	.hero-info {
 	@include span-columns(8);
@@ -358,6 +404,19 @@ a:hover{color:$gold;}
 }
 
 /*ONBOARDING*/
+
+input {
+	border-radius: 5px;
+	height: 40px;
+	width: 200px;
+	margin-bottom: 20px;
+
+
+}
+
+label h5{color: $dkblue;}
+
+
 .search-tools {  
   $base-border-color: gainsboro !default;
   $base-border-radius: 3px !default;
@@ -766,7 +825,9 @@ li{
 	float: left;
 	margin-top: 10px;
 	margin-left: 0px;
-	box-shadow: #749aa8 1px 1px, #a6eef4 -1px -1px;
+
+	box-shadow: #749aa8 1px 1px, #f9e4b9 -1px -1px;
+
 
 }
 
