@@ -61,7 +61,7 @@ h4{
 h5{
 	font-family: $brandon;
 	font-weight: 400;
-	font-size: 1.4em;
+	font-size: 1.25em;
 	color: $gold;
 	line-height: 1.6;
 }
@@ -139,23 +139,23 @@ body{background: $white;}
 	ul{
 		float: right;
 		margin-top: 10px;
-		margin-right: 8px;
+		// margin-right: 8px;
 	}
 
 	li{
 		float: left;
-		margin-right: 14px;
+		margin-right: 10px;
 	}
 }
 
 li{
 	.icon{
-		width:24px;
+		width: 22px;
 		margin: 0 auto;
 	}
 }
 .nav-icons a{
-	font-size: 0.625em;
+	font-size: 0.6em;
 	font-family: $brandon;
 	font-weight: 400;
 	text-align: center;
@@ -169,7 +169,7 @@ a:hover{color:$gold;}
 /*BUTTONS*/
 .btn{
 	margin: 0 auto;
-	width: 280px;
+	width: 220px;
 }
 
 .sign-up-btn,
@@ -177,17 +177,17 @@ a:hover{color:$gold;}
 .submit-btn,
 .pass-btn,
 .learn-btn{
-	width: 100px;
+	width: 90px;
 	height: 40px;
 	border-radius: 5px;
 	text-align: center;
 	display: inline-block;
-	margin-right: 20px;
+	margin-right: 10px;
 	float: left;
 	margin-top: 10px;
-	margin-left: 20px;
+	margin-left: 10px;
 	box-shadow: #749aa8 1px 1px, #a6eef4 -1px -1px;
-
+	padding: 4px;
 }
 
 .log-in-btn,.pass-btn{
@@ -209,7 +209,7 @@ a:hover{color:$gold;}
 	margin-left: 0px;
 }
 .learn-btn{
-	width: 124px;
+	width: 120px;
 	margin-left: 0px;
 }
 
@@ -296,7 +296,7 @@ a:hover{color:$gold;}
 	
 	h2{
 	text-align: center;
-margin: 0 auto;}
+	margin: 0 auto;}
 
 
 	
@@ -561,35 +561,49 @@ margin: 0 auto;}
 
 /*Messages*/
 .message-box,.skills-box{
+			@include span-columns(10);
+	@include shift(1);
+	padding: 30px;
+
 	  // @include display(flex);
   // @include flex-wrap(wrap);
-	@include span-columns(3);
-	@include shift(1);
+	// @include span-columns(3);
+	// @include shift(1);
 	// margin-right: 40px;
 	float: left;
 	background: $ltgrey;
 	border-radius: 5px;
-	padding: 12px;
+	// padding: 12px;
+	margin-bottom: 20px;
 }
 .message-box li,
 .skills-box{
 	font-family: $brandon;
 	font-size: 1em;
 	line-height: 2;
+	float: left;
+	clear: left;
 
 	}
-.skills-box {
-	padding: 17px;
+
+.message-box ul{
+	float:left;
 }
+// .skills-box {
+// 	padding: 17px;
+// }
 .message-content,
 .experience-content{
+	@include span-columns(10);
+	@include shift(1);
+	padding: 30px;
 	  // @include display(flex);
   // @include flex-wrap(wrap);
-	@include span-columns(7);
+	// @include span-columns(7);
 	float: left;
 	background: $ltgrey;
 	border-radius: 5px;
-	padding: 20px;
+	// padding: 20px;
 	margin-bottom: 100px;
 
 }
@@ -696,12 +710,68 @@ padding-left: 10px;
 
 	line-height: 1.4;
 }
+
+h5{
+	font-family: $brandon;
+	font-weight: 400;
+	font-size: 1.4em;
+	color: $gold;
+	line-height: 1.6;
+}
+
+.nav-icons{
+
+	ul{
+		float: right;
+		margin-top: 10px;
+		margin-right: 10px;
+	}
+
+	li{
+		float: left;
+		margin-right: 22px;
+	}
+}
+
+li{
+	.icon{
+		width: 24px;
+		margin: 0 auto;
+	}
+}
+.nav-icons a{
+	font-size: 0.825em;
+	font-family: $brandon;
+	font-weight: 400;
+	text-align: center;
+	color: $dkblue;
+
+}
 	
 .btn{
 	margin: 0 auto;
 	width: 100%;
 
 }
+
+.sign-up-btn,
+.log-in-btn, 
+.submit-btn,
+.pass-btn,
+.learn-btn{
+	width: 120px;
+	height: 40px;
+	border-radius: 5px;
+	text-align: center;
+	display: inline-block;
+	margin-right: 20px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 20px;
+	box-shadow: #749aa8 1px 1px, #a6eef4 -1px -1px;
+
+}
+
 .match-content{
 		@include span-columns(6);
 	@include shift(0);
@@ -709,6 +779,21 @@ padding-left: 10px;
 
 
 }
+
+.message-box,.skills-box{
+	@include span-columns(2);
+	@include shift(1);
+	padding: 20px;
+}
+
+.message-content,
+.experience-content{
+	@include span-columns(7);
+	// @include shift(1);
+	padding: 20px;
+
+	}
+
 
 
 

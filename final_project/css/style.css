@@ -85,7 +85,7 @@ h4 {
 h5 {
   font-family: "brandon-grotesque", sans-serif;
   font-weight: 400;
-  font-size: 1.4em;
+  font-size: 1.25em;
   color: #f8cb69;
   line-height: 1.6; }
 
@@ -143,18 +143,17 @@ body {
 
 .nav-icons ul {
   float: right;
-  margin-top: 10px;
-  margin-right: 8px; }
+  margin-top: 10px; }
 .nav-icons li {
   float: left;
-  margin-right: 14px; }
+  margin-right: 10px; }
 
 li .icon {
-  width: 24px;
+  width: 22px;
   margin: 0 auto; }
 
 .nav-icons a {
-  font-size: 0.625em;
+  font-size: 0.6em;
   font-family: "brandon-grotesque", sans-serif;
   font-weight: 400;
   text-align: center;
@@ -169,23 +168,24 @@ a:hover {
 /*BUTTONS*/
 .btn {
   margin: 0 auto;
-  width: 280px; }
+  width: 220px; }
 
 .sign-up-btn,
 .log-in-btn,
 .submit-btn,
 .pass-btn,
 .learn-btn {
-  width: 100px;
+  width: 90px;
   height: 40px;
   border-radius: 5px;
   text-align: center;
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 10px;
   float: left;
   margin-top: 10px;
-  margin-left: 20px;
-  box-shadow: #749aa8 1px 1px, #a6eef4 -1px -1px; }
+  margin-left: 10px;
+  box-shadow: #749aa8 1px 1px, #a6eef4 -1px -1px;
+  padding: 4px; }
 
 .log-in-btn, .pass-btn {
   background: #374952; }
@@ -206,7 +206,7 @@ a:hover {
   margin-left: 0px; }
 
 .learn-btn {
-  width: 124px;
+  width: 120px;
   margin-left: 0px; }
 
 /*STARS*/
@@ -548,12 +548,13 @@ a:hover {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 23.23176%;
+  width: 82.94039%;
   margin-left: 8.5298%;
+  padding: 30px;
   float: left;
   background: #dcf4f3;
   border-radius: 5px;
-  padding: 12px; }
+  margin-bottom: 20px; }
   .message-box:last-child, .skills-box:last-child {
     margin-right: 0; }
 
@@ -561,21 +562,24 @@ a:hover {
 .skills-box {
   font-family: "brandon-grotesque", sans-serif;
   font-size: 1em;
-  line-height: 2; }
+  line-height: 2;
+  float: left;
+  clear: left; }
 
-.skills-box {
-  padding: 17px; }
+.message-box ul {
+  float: left; }
 
 .message-content,
 .experience-content {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 57.35098%;
+  width: 82.94039%;
+  margin-left: 8.5298%;
+  padding: 30px;
   float: left;
   background: #dcf4f3;
   border-radius: 5px;
-  padding: 20px;
   margin-bottom: 100px; }
   .message-content:last-child,
   .experience-content:last-child {
@@ -668,9 +672,51 @@ html, body {
     font-size: 1.8em;
     line-height: 1.4; }
 
+  h5 {
+    font-family: "brandon-grotesque", sans-serif;
+    font-weight: 400;
+    font-size: 1.4em;
+    color: #f8cb69;
+    line-height: 1.6; }
+
+  .nav-icons ul {
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px; }
+  .nav-icons li {
+    float: left;
+    margin-right: 22px; }
+
+  li .icon {
+    width: 24px;
+    margin: 0 auto; }
+
+  .nav-icons a {
+    font-size: 0.825em;
+    font-family: "brandon-grotesque", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: #374952; }
+
   .btn {
     margin: 0 auto;
     width: 100%; }
+
+  .sign-up-btn,
+  .log-in-btn,
+  .submit-btn,
+  .pass-btn,
+  .learn-btn {
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 20px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    box-shadow: #749aa8 1px 1px, #a6eef4 -1px -1px; }
 
   .match-content {
     float: left;
@@ -680,6 +726,27 @@ html, body {
     margin-left: 0%;
     padding: 30px; }
     .match-content:last-child {
+      margin-right: 0; }
+
+  .message-box, .skills-box {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 14.70196%;
+    margin-left: 8.5298%;
+    padding: 20px; }
+    .message-box:last-child, .skills-box:last-child {
+      margin-right: 0; }
+
+  .message-content,
+  .experience-content {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 57.35098%;
+    padding: 20px; }
+    .message-content:last-child,
+    .experience-content:last-child {
       margin-right: 0; } }
 /* LARGE MEDIA QUERY */
 @media screen and (min-width: 1200px) {
