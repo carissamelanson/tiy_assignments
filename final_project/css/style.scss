@@ -36,7 +36,7 @@ $blue: #0079a2;
 $ltblue: #4ebecc;
 $gold: #f8cb69;
 $white: #f7f9f3;
-$ltgrey: #dcf4f3;
+$sky: #dcf4f3;
 
 
 /*TYPOGRAPHY*/
@@ -367,7 +367,7 @@ a:hover{color:$gold;}
 
 }
 .content, .match-content{
-	background: $ltgrey;
+	background: $sky;
 	border-radius: 5px;
 	margin-bottom: 60px;
 
@@ -630,7 +630,7 @@ label h5{
 	// @include shift(1);
 	// margin-right: 40px;
 	float: left;
-	background: $ltgrey;
+	background: $sky;
 	border-radius: 5px;
 	// padding: 12px;
 	margin-bottom: 20px;
@@ -660,7 +660,7 @@ label h5{
   // @include flex-wrap(wrap);
 	// @include span-columns(7);
 	float: left;
-	background: $ltgrey;
+	background: $sky;
 	border-radius: 5px;
 	// padding: 20px;
 	margin-bottom: 100px;

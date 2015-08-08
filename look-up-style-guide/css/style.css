@@ -1,0 +1,271 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*FONTS*/
+/*COLORS*/
+/*TYPOGRAPHY*/
+h1 {
+  font-family: "rooney-sans", sans-serif;
+  font-weight: 400;
+  font-size: 3.0em;
+  font-size: 48px;
+  color: #f7f9f3; }
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.4em;
+  font-weight: 700;
+  color: #666666; }
+
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.6em;
+  color: #666666;
+  line-height: 1.2; }
+
+h4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.4em;
+  color: #666666; }
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 1.313em;
+  line-height: 1.8;
+  color: #666666; }
+
+li {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.4em;
+  line-height: 1.6;
+  color: #666666; }
+  li a {
+    color: #666666;
+    text-decoration: none;
+    border-bottom: 3px solid #4ebecc; }
+
+/*TABLE OF CONTENTS*/
+.navigation-wrapper {
+  background: #0079a2;
+  width: 100%;
+  padding-top: 30px; }
+  .navigation-wrapper .logo-wrapper {
+    text-align: center;
+    height: 120px; }
+    .navigation-wrapper .logo-wrapper a {
+      text-decoration: none; }
+    .navigation-wrapper .logo-wrapper h1 {
+      display: inline-block; }
+
+.logo {
+  width: 60px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+  margin-bottom: 26px; }
+
+.wrapper {
+  padding: 5%; }
+
+.tableofcontents {
+  float: left;
+  margin-right: 150px;
+  margin-left: 20px;
+  margin-bottom: 100px; }
+  .tableofcontents li {
+    margin-bottom: 30px; }
+  .tableofcontents a:hover {
+    color: #0079a2; }
+
+.link {
+  margin-top: 60px;
+  clear: left;
+  float: left;
+  margin-bottom: 20px; }
+  .link a {
+    color: #666666;
+    border-bottom: 3px solid #4ebecc;
+    text-decoration: none; }
+  .link a:hover {
+    color: #0079a2; }
+
+/*OVERVIEW*/
+.main {
+  float: left;
+  width: 90%; }
+  .main p {
+    margin-bottom: 130px; }
+
+.main h2 {
+  margin-bottom: 60px; }
+
+.main h3 {
+  margin-bottom: 20px; }
+
+.solution-list {
+  margin-left: 60px; }
+  .solution-list li {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 1.313em;
+    line-height: 1.6;
+    margin-bottom: 30px; }
+
+ul {
+  list-style-type: disc;
+  margin-bottom: 40px;
+  margin-top: -100px; }
+
+/*PROCESS*/
+.process {
+  width: 90%;
+  margin-top: 20px; }
+
+/*GRID*/
+.grid, .grid2,
+.medium-grid {
+  background: #0079a2; }
+  .grid p, .grid2 p,
+  .medium-grid p {
+    color: #fff;
+    padding: 2%;
+    margin-bottom: 30px; }
+
+.grid,
+.medium-grid {
+  width: 100%;
+  margin-bottom: 140px; }
+
+.grid2 {
+  width: 40%;
+  float: left;
+  margin-right: 40px;
+  margin-bottom: 40px; }
+  .grid2 p {
+    margin-bottom: 0;
+    padding: 5%; }
+
+/*TYPE*/
+.type-example {
+  font-size: 2.8em;
+  line-height: 1.6; }
+
+/*COLOR*/
+.color {
+  margin-bottom: 80px; }
+
+.dkblue {
+  background: #374952; }
+
+.blue {
+  background: #0079a2; }
+
+.ltblue {
+  background: #4ebecc; }
+
+.gold {
+  background: #f8cb69; }
+
+.white {
+  background: #f7f9f3; }
+
+.sky {
+  background: #dcf4f3; }
+
+.dkblue,
+.blue,
+.ltblue,
+.gold,
+.white,
+.sky {
+  margin-right: 20px;
+  width: 120px;
+  height: 120px;
+  float: left; }
+
+/*IMAGES*/
+.image-example {
+  width: 100%; }
+
+/*ELEMENTS*/
+.large-menu,
+.small-menu {
+  margin-top: 20px; }
+
+.small-menu {
+  width: 30%; }
+
+.large-menu {
+  width: 100%; }
+
+/* MEDIUM MEDIA QUERY */
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 3.2em;
+    text-align: center; }
+
+  .title {
+    height: 180px; }
+
+  .main {
+    width: 50%; }
+
+  .text-examples h1 {
+    text-align: left; }
+
+  .small-menu {
+    width: 20%; } }
+/* LARGE MEDIA QUERY */
+@media screen and (min-width: 1200px) {
+  .main {
+    width: 70%; } }
+
+/*# sourceMappingURL=style.css.map */
