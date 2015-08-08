@@ -53,19 +53,21 @@
         <div class="star-backdrop">
           <svg class ="stars" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             viewBox="0 0 650 400" enable-background="new 0 0 650 400" xml:space="preserve">
-            <circle fill="#f7f9f3" cx="43.4" cy="36.8" r="4.8"/>
+           <circle fill="#f7f9f3" cx="43.4" cy="36.8" r="4.8"/>
             <circle fill="#f7f9f3" cx="80.3" cy="139.1" r="6.3"/>
-            <circle fill="#f8cb69" cx="78.4" cy="278.7" r="6.7"/>
+            <circle fill="#f8cb69" cx="40.4" cy="120.7" r="6.7"/>
             <circle fill="#f7f9f3" cx="573.4" cy="64.5" r="4.8"/>
-            <circle fill="#f8cb69" cx="554.5" cy="231.8" r="6.9"/>
+            <circle fill="#f8cb69" cx="554.5" cy="200.8" r="6.9"/>
             <circle fill="#f7f9f3" cx="60.6" cy="200.8" r="5.6"/>
-            <circle fill="#f8cb69" cx="80.2" cy="400.9" r="4.5"/>
-            <circle fill="#f7f9f3" cx="600.1" cy="354.5" r="7.2"/>
-            <circle fill="#f8cb69" cx="90.6" cy="71.4" r="6.3"/>
+            <circle fill="#f8cb69" cx="185.2" cy="25.9" r="4.5"/>
+            <circle fill="#f7f9f3" cx="600.1" cy="54.5" r="7.2"/>
+            <circle fill="#f8cb69" cx="100.6" cy="71.4" r="6.3"/>
             <circle fill="#f7f9f3" cx="44.9" cy="211.4" r="4.2"/>
-            <circle fill="#f7f9f3" cx="100.4" cy="271.4" r="4.2"/>
+            <circle fill="#f7f9f3" cx="580.4" cy="101.4" r="4.2"/>
             <circle fill="#f7f9f3" cx="264.2" cy="30.6" r="7.2"/>
+            <circle fill="#f7f9f3" cx="304.2" cy="30.6" r="4.2"/>
             <circle fill="#f8cb69" cx="474.5" cy="31.8" r="4.9"/>
+            <circle fill="#f8cb69" cx="400.5" cy="31.8" r="2.9"/>
             <circle fill="#f7f9f3" cx="43.8" cy="372.5" r="4.9"/>
             <circle fill="#f7f9f3" cx="615.7" cy="154.5" r="6.6"/>
           </svg>
@@ -283,74 +285,86 @@
     <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
    <script>
     $(window).resize(function(){
-    if ($(window).width() <= 800){
+  if ($(window).width() <= 800){  
     $('circle:nth-of-type(2)').attr({
-    cx: '40',
-    cy: '36',
-    r:'5'
+      cx: '40',
+      cy: '36',
+      r:'5'
     });
+
     $('circle:nth-of-type(3)').attr({
-    cx: '70',
-    cy: '139',
-    r:'6'
+      cx: '80',
+      cy: '139',
+      r:'6'
     });
+
     $('circle:nth-of-type(4)').attr({
-    cx: '75',
-    cy: '300',
-    r:'6'
+      cx: '40',
+      cy: '120',
+      r:'6'
     });
+
     $('circle:nth-of-type(5)').attr({
-    cx: '570',
-    cy: '60',
-    r:'5'
+      cx: '570',
+      cy: '60',
+      r:'5'
     });
+
     $('circle:nth-of-type(6)').attr({
-    cx: '550',
-    cy: '230',
-    r:'4'
+      cx: '550',
+      cy: '200',
+      r:'6'
     });
+
     $('circle:nth-of-type(7)').attr({
-    cx: '532',
-    cy: '340',
-    r:'5'
+      cx: '60',
+      cy: '200',
+      r:'4'
     });
+
     $('circle:nth-of-type(8)').attr({
-    cx: '609',
-    cy: '357',
-    r:'4'
+      cx: '185',
+      cy: '25',
+      r:'4'
     });
+
     $('circle:nth-of-type(9)').attr({
-    cx: '360',
-    cy: '354',
-    r:'6'
+      cx: '600',
+      cy: '54',
+      r:'4'
     });
+
     $('circle:nth-of-type(10)').attr({
-    cx: '60',
-    cy: '70',
-    r:'5'
+      cx: '100',
+      cy: '70',
+      r:'3'
     });
+
     $('circle:nth-of-type(11)').attr({
-    cx: '44',
-    cy: '211',
-    r:'4'
+      cx: '44',
+      cy: '211',
+      r:'4'
     });
+
     $('circle:nth-of-type(12)').attr({
-    cx: '143',
-    cy: '271',
-    r:'4'
+      cx: '580',
+      cy: '101',
+      r:'2'
     });
+
     $('circle:nth-of-type(13)').attr({
-    cx: '264',
-    cy: '30',
-    r:'5'
+      cx: '264',
+      cy: '30',
+      r:'5'
     });
+
     $('circle:nth-of-type(14)').attr({
-    cx: '474',
-    cy: '31',
-    r:'6'
+      cx: '474',
+      cy: '31',
+      r:'4'
     });
-    }
-    });
+  } 
+});
     
     </script>
     
