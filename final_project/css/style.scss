@@ -246,7 +246,8 @@ a:hover{color:$gold;}
 .stars {
 	position: absolute;
 	// overflow: hidden;
-  // max-height: 400px;
+  overflow: hidden;
+	 // max-height: 250px;
   width: 100%;
 
   top: 0;
@@ -318,14 +319,10 @@ a:hover{color:$gold;}
 
 .info-box {
 	position: absolute;
-	// @include outer-container;
-
-	// padding: 20px;
-	// background: $white;
-	border-radius: 5px;
 	margin: 0 auto;
 	// margin-top: -180px;
 	margin-top: 60px;
+	width: 100%;
 
 	.hero-info {
 	@include span-columns(8);
@@ -335,8 +332,6 @@ a:hover{color:$gold;}
 	text-align: center;
 	margin: 0 auto;}
 
-
-	
 	}
 }
 
@@ -896,9 +891,11 @@ padding-left: 30px;
 	 max-height: 440px;
 }
 
+
+
 .info-box {
 	position: absolute;
-	margin-top: 80px;}
+	margin-top: 150px;}
 
 }
 

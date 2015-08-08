@@ -233,6 +233,7 @@ a:hover {
 
 .stars {
   position: absolute;
+  overflow: hidden;
   width: 100%;
   top: 0;
   left: 0; }
@@ -271,9 +272,9 @@ a:hover {
     opacity: 0.1; } }
 .info-box {
   position: absolute;
-  border-radius: 5px;
   margin: 0 auto;
-  margin-top: 60px; }
+  margin-top: 60px;
+  width: 100%; }
   .info-box .hero-info {
     float: left;
     display: block;
@@ -815,6 +816,6 @@ html, body {
 
   .info-box {
     position: absolute;
-    margin-top: 80px; } }
+    margin-top: 150px; } }
 
 /*# sourceMappingURL=style.css.map */
