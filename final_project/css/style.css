@@ -414,7 +414,12 @@ input {
   border-radius: 5px;
   height: 40px;
   width: 200px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  -moz-box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
 
 label h5 {
   font-size: 1em;

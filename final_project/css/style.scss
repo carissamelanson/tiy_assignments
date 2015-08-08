@@ -399,11 +399,15 @@ a:hover{color:$gold;}
 }
 
 /*ONBOARDING*/
+
 input {
 	border-radius: 5px;
 	height: 40px;
 	width: 200px;
 	margin-bottom: 20px;
+
+	-moz-box-sizing: border-box;
+	@include user-select(none);
 
 
 }
