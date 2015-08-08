@@ -238,16 +238,18 @@ a:hover{color:$gold;}
 }
 
 .star-backdrop{
-	position: absolute;
+	// position: relative;
 	overflow: hidden;
 	 max-height: 250px;
 }
 
 .stars {
+	position: absolute;
+	// overflow: hidden;
   // max-height: 400px;
   width: 100%;
 
-  top: 30px;
+  top: 0;
   left: 0;
   circle {
     opacity: 0.1;
@@ -294,25 +296,25 @@ a:hover{color:$gold;}
   100% {opacity: 0.1;}
 }
 
-@include keyframes(twinkle) {
-  from {
-  	@include transform(scale(0));
-  }
-  	to {
-  	@include transform(scale(1));
-  	}
-}
+// @include keyframes(twinkle) {
+//   from {
+//   	@include transform(scale(0));
+//   }
+//   	to {
+//   	@include transform(scale(1));
+//   	}
+// }
 
-box:hover {
-  // Animation shorthand works the same as the CSS3 animation shorthand
-  @include animation(scale 1.0s ease-in, slide 2.0s ease);
+// box:hover {
+//   // Animation shorthand works the same as the CSS3 animation shorthand
+//   @include animation(scale 1.0s ease-in, slide 2.0s ease);
 
-  // The above outputs the same CSS as using independent, granular mixins.
-  @include animation-name(scale, slide);
-  @include animation-duration(2s);
-  @include animation-timing-function(ease);
-  @include animation-iteration-count(infinite);
-}
+//   // The above outputs the same CSS as using independent, granular mixins.
+//   @include animation-name(scale, slide);
+//   @include animation-duration(2s);
+//   @include animation-timing-function(ease);
+//   @include animation-iteration-count(infinite);
+// }
 
 .info-box {
 	position: absolute;
@@ -323,6 +325,7 @@ box:hover {
 	border-radius: 5px;
 	margin: 0 auto;
 	// margin-top: -180px;
+	margin-top: 60px;
 
 	.hero-info {
 	@include span-columns(8);
@@ -748,10 +751,8 @@ padding-left: 10px;
 @media screen and(min-width: 800px){
 
 	h2{
-
-	font-size: 1.8em;
-
-	line-height: 1.4;
+		font-size: 1.8em;
+		line-height: 1.4;
 }
 
 h5{
@@ -881,6 +882,7 @@ padding-left: 30px;
 }
 .hero-stars {
 	// @include span-columns(12);
+	position: relative;
 	background: $dkblue;
 	height: 440px;
 	width: 100%;
@@ -893,7 +895,10 @@ padding-left: 30px;
 	overflow: hidden;
 	 max-height: 440px;
 }
-.info-box {margin-top: -320px;}
+
+.info-box {
+	position: absolute;
+	margin-top: 80px;}
 
 }
 

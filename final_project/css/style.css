@@ -228,13 +228,13 @@ a:hover {
   margin-bottom: 40px; }
 
 .star-backdrop {
-  position: absolute;
   overflow: hidden;
   max-height: 250px; }
 
 .stars {
+  position: absolute;
   width: 100%;
-  top: 30px;
+  top: 0;
   left: 0; }
   .stars circle {
     opacity: 0.1;
@@ -269,50 +269,11 @@ a:hover {
     opacity: 0.9; }
   100% {
     opacity: 0.1; } }
-@-webkit-keyframes twinkle {
-  from {
-    -webkit-transform: scale(0); }
-  to {
-    -webkit-transform: scale(1); } }
-@-moz-keyframes twinkle {
-  from {
-    -moz-transform: scale(0); }
-  to {
-    -moz-transform: scale(1); } }
-@keyframes twinkle {
-  from {
-    -webkit-transform: scale(0);
-    -moz-transform: scale(0);
-    -ms-transform: scale(0);
-    -o-transform: scale(0);
-    transform: scale(0); }
-  to {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1); } }
-box:hover {
-  -webkit-animation: scale 1s ease-in, slide 2s ease;
-  -moz-animation: scale 1s ease-in, slide 2s ease;
-  animation: scale 1s ease-in, slide 2s ease;
-  -webkit-animation-name: scale, slide;
-  -moz-animation-name: scale, slide;
-  animation-name: scale, slide;
-  -webkit-animation-duration: 2s;
-  -moz-animation-duration: 2s;
-  animation-duration: 2s;
-  -webkit-animation-timing-function: ease;
-  -moz-animation-timing-function: ease;
-  animation-timing-function: ease;
-  -webkit-animation-iteration-count: infinite;
-  -moz-animation-iteration-count: infinite;
-  animation-iteration-count: infinite; }
-
 .info-box {
   position: absolute;
   border-radius: 5px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-top: 60px; }
   .info-box .hero-info {
     float: left;
     display: block;
@@ -842,6 +803,7 @@ html, body {
     padding-right: 30px; }
 
   .hero-stars {
+    position: relative;
     background: #374952;
     height: 440px;
     width: 100%;
@@ -852,6 +814,7 @@ html, body {
     max-height: 440px; }
 
   .info-box {
-    margin-top: -320px; } }
+    position: absolute;
+    margin-top: 80px; } }
 
 /*# sourceMappingURL=style.css.map */
