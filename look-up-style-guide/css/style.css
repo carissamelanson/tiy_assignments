@@ -142,13 +142,16 @@ li {
   float: left;
   width: 90%; }
   .main p {
-    margin-bottom: 130px; }
+    margin-bottom: 20px; }
 
 .main h2 {
   margin-bottom: 60px; }
 
 .main h3 {
   margin-bottom: 20px; }
+
+.group {
+  margin-bottom: 200px; }
 
 .solution-list {
   margin-left: 60px; }
@@ -161,8 +164,7 @@ li {
 
 ul {
   list-style-type: disc;
-  margin-bottom: 40px;
-  margin-top: -100px; }
+  margin-bottom: 40px; }
 
 /*PROCESS*/
 .process {
@@ -170,49 +172,41 @@ ul {
   margin-top: 20px; }
 
 /*GRID*/
-.grid, .grid2, .grid3, .grid4, .grid5, .grid6,
-.medium-grid, .content-grid {
+.grid, .grid2, .grid3, .grid4, .grid5, .grid6 {
   background: #0079a2;
   margin-bottom: 20px;
-  float: left; }
-  .grid p, .grid2 p, .grid3 p, .grid4 p, .grid5 p, .grid6 p,
-  .medium-grid p, .content-grid p {
-    color: #fff;
-    padding: 2%;
-    margin-bottom: 0px;
-    text-align: center; }
+  float: left;
+  color: #fff;
+  padding: 2%;
+  text-align: center;
+  font-family: "Open Sans", sans-serif; }
 
-.grid,
-.medium-grid {
+.grid {
   width: 100%; }
 
-.grid3, .content-grid {
+.grid3 {
   width: 80%;
   margin-left: 10%;
   margin-right: 10%; }
 
-.grid3 {
-  margin-bottom: 120px; }
-
 .grid4 {
-  margin-right: 10%; }
+  margin-left: 1%; }
 
 .grid2 {
-  margin-right: 4%;
+  margin-right: 1%;
   margin-left: 10%; }
 
 .grid2, .grid4 {
-  width: 38%; }
+  width: 37%; }
 
 .grid5 {
-  width: 26%;
-  margin-right: 4%;
+  width: 24%;
+  margin-right: 2%;
   margin-left: 10%; }
 
 .grid6 {
   float: left;
-  width: 50%;
-  margin-right: 10%; }
+  width: 50%; }
 
 /*TYPE*/
 .type-example {
@@ -318,22 +312,41 @@ ul {
   height: 120px;
   float: left; }
 
+/*LOGOS*/
+.logo-png {
+  width: 400px; }
+
+.lg-icon {
+  width: 200px; }
+
+.profile {
+  width: 120px; }
+
 /*IMAGES*/
 .image-example {
   width: 100%; }
 
 /*ELEMENTS*/
-.large-menu,
-.small-menu {
-  margin-top: 20px; }
+.sm-navigation {
+  margin-top: 20px;
+  width: 160px;
+  margin-right: 20px; }
 
-.small-menu {
-  width: 30%; }
-
-.large-menu {
-  width: 100%; }
+.lg-navigation {
+  width: 224px; }
 
 /*STARS*/
+.hero-stars {
+  position: relative;
+  background: #374952;
+  height: 250px;
+  width: 100%;
+  margin-bottom: 40px; }
+
+.star-backdrop {
+  overflow: hidden;
+  max-height: 250px; }
+
 /*BUTTONS*/
 .btn a {
   text-decoration: none; }
@@ -380,10 +393,7 @@ ul {
     width: 50%; }
 
   .text-examples h1 {
-    text-align: left; }
-
-  .small-menu {
-    width: 20%; } }
+    text-align: left; } }
 /* LARGE MEDIA QUERY */
 @media screen and (min-width: 1200px) {
   .main {
