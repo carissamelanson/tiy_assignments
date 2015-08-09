@@ -170,28 +170,49 @@ ul {
   margin-top: 20px; }
 
 /*GRID*/
-.grid, .grid2,
-.medium-grid {
-  background: #0079a2; }
-  .grid p, .grid2 p,
-  .medium-grid p {
+.grid, .grid2, .grid3, .grid4, .grid5, .grid6,
+.medium-grid, .content-grid {
+  background: #0079a2;
+  margin-bottom: 20px;
+  float: left; }
+  .grid p, .grid2 p, .grid3 p, .grid4 p, .grid5 p, .grid6 p,
+  .medium-grid p, .content-grid p {
     color: #fff;
     padding: 2%;
-    margin-bottom: 30px; }
+    margin-bottom: 0px;
+    text-align: center; }
 
 .grid,
 .medium-grid {
-  width: 100%;
-  margin-bottom: 140px; }
+  width: 100%; }
+
+.grid3, .content-grid {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%; }
+
+.grid3 {
+  margin-bottom: 120px; }
+
+.grid4 {
+  margin-right: 10%; }
 
 .grid2 {
-  width: 40%;
+  margin-right: 4%;
+  margin-left: 10%; }
+
+.grid2, .grid4 {
+  width: 38%; }
+
+.grid5 {
+  width: 26%;
+  margin-right: 4%;
+  margin-left: 10%; }
+
+.grid6 {
   float: left;
-  margin-right: 40px;
-  margin-bottom: 40px; }
-  .grid2 p {
-    margin-bottom: 0;
-    padding: 5%; }
+  width: 50%;
+  margin-right: 10%; }
 
 /*TYPE*/
 .type-example {
