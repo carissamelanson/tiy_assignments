@@ -333,6 +333,40 @@ ul {
 .large-menu {
   width: 100%; }
 
+/*STARS*/
+/*BUTTONS*/
+.btn a {
+  text-decoration: none; }
+.btn h5 {
+  font-weight: 400;
+  font-size: 1.25em;
+  font-size: 20px;
+  font-family: "brandon-grotesque", sans-serif;
+  margin-top: 10px; }
+
+.sign-up-btn,
+.log-in-btn {
+  width: 90px;
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+  display: inline-block;
+  margin-right: 10px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+  box-shadow: #749aa8 1px 1px, #f9e4b9 -1px -1px; }
+
+.log-in-btn {
+  background: #374952; }
+  .log-in-btn h5 {
+    color: #f8cb69; }
+
+.sign-up-btn {
+  background: #f8cb69; }
+  .sign-up-btn h5 {
+    color: #374952; }
+
 /* MEDIUM MEDIA QUERY */
 @media screen and (min-width: 800px) {
   h1 {
