@@ -5,6 +5,7 @@
 
 
 
+
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -17,6 +18,7 @@ html {
   -moz-box-sizing: inherit;
   box-sizing: inherit;
   }
+
 
 
 /*GRID*/
@@ -302,7 +304,7 @@ a:hover{color:$gold;}
   70% {opacity: 0.9;}
   100% {opacity: 0.1;}
 
-  @include keyframes(twinkle) {
+@include keyframes(twinkle) {
   from {
   	@include transform(scale(0));
   }
@@ -318,6 +320,7 @@ a:hover{color:$gold;}
 	margin: 0 auto;
 	margin-top: 60px;
 	width: 100%;
+
 
 	.hero-info {
 	@include span-columns(8);
@@ -399,6 +402,7 @@ label h5{
 	font-size: 1em;
 	font-size: 16px;
 	color: $dkblue;}
+
 
 .search-tools {  
   $base-border-color: gainsboro !default;
@@ -803,6 +807,8 @@ li{
 	margin-top: 10px;
 	margin-left: 0px;
 	box-shadow: #c69a42 1px 1px, #f9e4b9 -1px -1px;
+
+
 
 }
 .sign-up-btn, .log-in-btn{margin-left: 10px;}
