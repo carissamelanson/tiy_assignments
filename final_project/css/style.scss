@@ -304,8 +304,6 @@ a:hover{color:$gold;}
   70% {opacity: 0.9;}
   100% {opacity: 0.1;}
 
-
-
 @include keyframes(twinkle) {
   from {
   	@include transform(scale(0));
