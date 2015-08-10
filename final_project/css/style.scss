@@ -115,23 +115,17 @@ body{background: $white;}
 .navigation-wrapper{
 	background: $blue;
 	width: 100%;
-	// height: 120px;
 
 	.logo-wrapper{
-	// @include span-columns(12);
 	text-align: center;
 	line-height: 120px;
-
 	height: 120px;
 
 	a{text-decoration: none;}
 
-
-		h1{display: inline-block;}
+	h1{display: inline-block;}
 	}
-
 }
-
 
 .logo{
 	width: 60px;
@@ -139,29 +133,24 @@ body{background: $white;}
 	vertical-align: middle;
 	margin-right: 5px;
 	margin-bottom: 26px;
-
 }
-
-
 
 .sub-nav-wrapper{
 	background: $ltblue;
 	height: 60px;
 	width: 100%;
 }
+
 /*NAV ICONS*/
 .icon{
 	height: 26px;
 	display: block;
-	
 }
 
 .nav-icons{
-
 	ul{
 		float: right;
 		margin-top: 10px;
-		// margin-right: 8px;
 	}
 
 	li{
@@ -185,7 +174,7 @@ li{
 
 }
 
-	a{color: $dkblue;}
+a{color: $dkblue;}
 a:hover{color:$gold;}
 
 /*BUTTONS*/
@@ -237,7 +226,6 @@ a:hover{color:$gold;}
 
 /*STARS*/
 .hero-stars {
-	// @include span-columns(12);
 	position: relative;
 	background: $dkblue;
 	height: 250px;
@@ -247,24 +235,22 @@ a:hover{color:$gold;}
 }
 
 .star-backdrop{
-	// position: relative;
 	overflow: hidden;
-	 max-height: 250px;
+	max-height: 250px;
 }
 
 .stars {
 	position: absolute;
 	overflow: hidden;
-	 // max-height: 250px;
-  	width: 100%;
+	width: 100%;
 
-  top: 0;
-  left: 0;
-  circle {
-    opacity: 0.1;
-    animation: twinkle 5s ease infinite;
-    @include animation(scale 5s twinkle, ease infinite);
-  }
+  	top: 0;
+  	left: 0;
+  	circle {
+  	opacity: 0.1;
+  	animation: twinkle 5s ease infinite;
+  	@include animation(scale 5s twinkle, ease infinite);
+ }
   circle:nth-of-type(2) {
     animation-delay: 2.5s;
     @include animation-delay(2.5s);
@@ -327,11 +313,9 @@ a:hover{color:$gold;}
 }
 
 
-
 .info-box {
 	position: absolute;
 	margin: 0 auto;
-	// margin-top: -180px;
 	margin-top: 60px;
 	width: 100%;
 
@@ -371,28 +355,24 @@ a:hover{color:$gold;}
 	border-radius: 5px;
 	margin-bottom: 60px;
 
-		h6{margin-bottom: 20px;}
+	h6{margin-bottom: 20px;}
 }
 
 /*INDEX*/
 .lg-icon{
-
 	width: 200px;
 	float: left;
-	padding: 20px;
-	
-	
+	padding: 20px;	
 }
+
 .index-img{
 	float:left;
 	margin-bottom: 30px;
 	margin-right: 30px;
-	// margin-left: 15px;
-
 }
+
 .index-img-connect{
 	float: right;
-
 	margin-right: 30px;
 	margin-bottom: 30px;
 
@@ -408,7 +388,6 @@ form{
 	height: 40px;
 	width: 200px;
 	margin-bottom: 20px;
-
 	-moz-box-sizing: border-box;
 	@include user-select(none);
 }
@@ -439,16 +418,11 @@ label h5{
   @include clearfix;
   background: $ltblue;
   border-radius: 5px;
-  // border: 1px solid $search-tools-border-color;
   padding: $gutter ($gutter / 2);
   width: 100%;
-  // margin-bottom: 100px;
   @include span-columns(12);
-	// @include shift(1);
 	margin-top: 20px;
 	
-
-
   ol {
     margin: 0;
     padding: 0;
@@ -472,13 +446,11 @@ label h5{
   }
 
   .filters {
-    // @include display(flex);
-    // @include flex-direction(column);
     @include justify-content(space-between);
     width: 100%;
 
     @include media($large-screen) {
-      @include flex-direction(row);
+    @include flex-direction(row);
     }
   }
 
@@ -577,7 +549,7 @@ label h5{
 	@include span-columns(12);
 	float: left;
 
-		h6{margin-bottom: 20px;}
+	h6{margin-bottom: 20px;}
 
 }
 
@@ -622,19 +594,12 @@ label h5{
 
 /*Messages*/
 .message-box,.skills-box{
-			@include span-columns(10);
+	@include span-columns(10);
 	@include shift(1);
 	padding: 30px;
-
-	  // @include display(flex);
-  // @include flex-wrap(wrap);
-	// @include span-columns(3);
-	// @include shift(1);
-	// margin-right: 40px;
 	float: left;
 	background: $sky;
 	border-radius: 5px;
-	// padding: 12px;
 	margin-bottom: 20px;
 }
 .message-box li,
@@ -650,21 +615,15 @@ label h5{
 .message-box ul{
 	float:left;
 }
-// .skills-box {
-// 	padding: 17px;
-// }
+
 .message-content, 
 .experience-content{
 	@include span-columns(10);
 	@include shift(1);
 	padding: 30px;
-	  // @include display(flex);
-  // @include flex-wrap(wrap);
-	// @include span-columns(7);
 	float: left;
 	background: $sky;
 	border-radius: 5px;
-	// padding: 20px;
 	margin-bottom: 100px;
 
 }
@@ -729,17 +688,13 @@ html, body {
 
  .footer-logo{
  	@include span-columns(12);
- 	// @include shift(3);
-
-padding-left: 10px;
+	padding-left: 10px;
 	margin-top: 40px;
  
-
  	li{
  		display: inline;
  		margin-right: 10px;
  		margin-bottom: 10px;
-
  	}
  }
 
@@ -779,7 +734,6 @@ h5{
 }
 
 .hero-stars {
-	// @include span-columns(12);
 	position: relative;
 	background: $dkblue;
 	height: 440px;
@@ -794,12 +748,9 @@ h5{
 	 max-height: 440px;
 }
 
-
-
 .info-box {
 	position: absolute;
 	margin-top: 150px;}
-
 
 
 .nav-icons{
@@ -885,9 +836,7 @@ li{
 
 .footer-logo{
  	@include span-columns(12);
- 	// @include shift(3);
-
-padding-left: 30px;
+ 	padding-left: 30px;
 	margin-top: 40px;
  
 
