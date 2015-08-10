@@ -1,0 +1,507 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*FONTS*/
+/*COLORS*/
+/*TYPOGRAPHY*/
+h1 {
+  font-family: "rooney-sans", sans-serif;
+  font-weight: 400;
+  font-size: 3.0em;
+  font-size: 48px;
+  color: #f7f9f3; }
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.4em;
+  font-weight: 700;
+  color: #666666; }
+
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.6em;
+  color: #666666;
+  line-height: 1.2; }
+
+h4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.4em;
+  color: #666666; }
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 1.313em;
+  line-height: 1.8;
+  color: #666666; }
+
+li {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.4em;
+  line-height: 1.6;
+  color: #666666; }
+  li a {
+    color: #666666;
+    text-decoration: none;
+    border-bottom: 3px solid #4ebecc; }
+
+/*TABLE OF CONTENTS*/
+.navigation-wrapper {
+  background: #0079a2;
+  width: 100%;
+  padding-top: 30px; }
+  .navigation-wrapper .logo-wrapper {
+    text-align: center;
+    height: 120px; }
+    .navigation-wrapper .logo-wrapper a {
+      text-decoration: none; }
+    .navigation-wrapper .logo-wrapper h1 {
+      display: inline-block; }
+
+.logo {
+  width: 60px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+  margin-bottom: 26px; }
+
+.wrapper {
+  padding: 5%; }
+
+.tableofcontents {
+  float: left;
+  margin-right: 150px;
+  margin-left: 20px;
+  margin-bottom: 100px; }
+  .tableofcontents li {
+    margin-bottom: 30px; }
+  .tableofcontents a:hover {
+    color: #0079a2; }
+
+.link {
+  margin-top: 60px;
+  clear: left;
+  float: left;
+  margin-bottom: 20px; }
+  .link a {
+    color: #666666;
+    border-bottom: 3px solid #4ebecc;
+    text-decoration: none; }
+  .link a:hover {
+    color: #0079a2; }
+
+/*OVERVIEW*/
+.main {
+  float: left;
+  width: 90%; }
+  .main p {
+    margin-bottom: 20px; }
+
+.main h2 {
+  margin-bottom: 60px; }
+
+.main h3 {
+  margin-bottom: 20px; }
+
+.group {
+  margin-bottom: 200px; }
+
+.solution-list {
+  margin-left: 60px; }
+  .solution-list li {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 1.313em;
+    line-height: 1.6;
+    margin-bottom: 30px; }
+
+ul {
+  list-style-type: disc;
+  margin-bottom: 40px; }
+
+/*PROCESS*/
+.process {
+  width: 90%;
+  margin-top: 20px; }
+
+/*GRID*/
+.grid, .grid2, .grid3, .grid4, .grid5, .grid6 {
+  background: #0079a2;
+  margin-bottom: 20px;
+  float: left;
+  color: #fff;
+  padding: 2%;
+  text-align: center;
+  font-family: "Open Sans", sans-serif; }
+
+.grid {
+  width: 100%; }
+
+.grid3 {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%; }
+
+.grid4 {
+  margin-left: 1%; }
+
+.grid2 {
+  margin-right: 1%;
+  margin-left: 10%; }
+
+.grid2, .grid4 {
+  width: 37%; }
+
+.grid5 {
+  width: 24%;
+  margin-right: 2%;
+  margin-left: 10%; }
+
+.grid6 {
+  float: left;
+  width: 50%; }
+
+/*TYPE*/
+.type-example {
+  font-size: 2.8em;
+  line-height: 1.6; }
+
+.rooney,
+.brandon {
+  margin-bottom: 130px; }
+  .rooney p,
+  .brandon p {
+    margin-bottom: 40px; }
+
+.rooney .type-example {
+  font-family: "rooney-sans", sans-serif; }
+
+.brandon .type-example {
+  font-family: "brandon-grotesque", sans-serif; }
+
+.text-examples h1, .text-examples h2, .text-examples h3, .text-examples h4, .text-examples h5, .text-examples h6, .text-examples p, .text-examples span {
+  color: #666666;
+  padding: 0;
+  margin-bottom: 10px;
+  margin-left: 0; }
+
+.text-examples h1 {
+  font-family: "rooney-sans", sans-serif;
+  font-weight: 400;
+  font-size: 3.0em;
+  font-size: 48px; }
+.text-examples h2 {
+  font-family: "brandon-grotesque", sans-serif;
+  font-weight: 700;
+  font-size: 1.4em;
+  font-size: 22px;
+  line-height: 1.3; }
+.text-examples h3 {
+  font-family: "brandon-grotesque", sans-serif;
+  font-weight: 700;
+  font-size: 2.0em;
+  font-size: 32px;
+  line-height: 1.2; }
+.text-examples h4 {
+  font-family: "brandon-grotesque", sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  font-size: 24px;
+  line-height: 1.6; }
+.text-examples h5 {
+  font-family: "brandon-grotesque", sans-serif;
+  font-weight: 400;
+  font-size: 1.25em;
+  font-size: 20px;
+  line-height: 1.6; }
+.text-examples h6 {
+  font-family: "brandon-grotesque", sans-serif;
+  font-weight: 400;
+  font-size: 1.2em;
+  font-size: 19px;
+  line-height: 1.6; }
+.text-examples span {
+  font-family: "brandon-grotesque", sans-serif;
+  font-weight: 400;
+  font-size: 1.25em;
+  font-size: 20px;
+  line-height: 1.6; }
+
+.text-examples p {
+  color: #a7a7a7;
+  font-size: 1em;
+  margin-bottom: 50px; }
+
+/*COLOR*/
+.color {
+  margin-bottom: 80px; }
+
+.dkblue {
+  background: #374952; }
+
+.blue {
+  background: #0079a2; }
+
+.ltblue {
+  background: #4ebecc; }
+
+.gold {
+  background: #f8cb69; }
+
+.white {
+  background: #f7f9f3; }
+
+.sky {
+  background: #dcf4f3; }
+
+.dkblue,
+.blue,
+.ltblue,
+.gold,
+.white,
+.sky {
+  margin-right: 20px;
+  width: 120px;
+  height: 120px;
+  float: left; }
+
+/*LOGOS*/
+.sm-logo {
+  width: 40px;
+  margin-bottom: 60px; }
+
+.logo-png {
+  width: 400px; }
+
+.lg-icon {
+  width: 200px; }
+
+.profile {
+  width: 120px; }
+
+/*IMAGES*/
+.image-example {
+  width: 100%; }
+
+/*ELEMENTS*/
+.sm-navigation {
+  width: 160px;
+  margin-right: 20px; }
+
+.lg-navigation {
+  width: 224px;
+  margin-top: 20px; }
+
+.elements {
+  width: 100%; }
+
+/*STARS*/
+.hero-stars {
+  position: relative;
+  background: #374952;
+  height: 250px;
+  width: 100%;
+  margin-bottom: 40px; }
+
+.star-backdrop {
+  overflow: hidden;
+  max-height: 250px; }
+
+.stars {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  top: 0;
+  left: 0; }
+  .stars circle {
+    opacity: 0.1;
+    animation: twinkle 5s ease infinite;
+    -webkit-animation: scale 5s twinkle, ease infinite;
+    -moz-animation: scale 5s twinkle, ease infinite;
+    animation: scale 5s twinkle, ease infinite; }
+  .stars circle:nth-of-type(2) {
+    animation-delay: 2.5s;
+    -webkit-animation-delay: 2.5s;
+    -moz-animation-delay: 2.5s;
+    animation-delay: 2.5s; }
+  .stars circle:nth-of-type(3) {
+    animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 1s; }
+  .stars circle:nth-of-type(4) {
+    animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    animation-delay: 2s; }
+  .stars circle:nth-of-type(5) {
+    animation-delay: 0.5s;
+    -webkit-animation-delay: 0.5s;
+    -moz-animation-delay: 0.5s;
+    animation-delay: 0.5s; }
+  .stars circle:nth-of-type(7) {
+    animation-delay: 1.5s;
+    -webkit-animation-delay: 1.5s;
+    -moz-animation-delay: 1.5s;
+    animation-delay: 1.5s; }
+  .stars circle:nth-of-type(8) {
+    animation-delay: 2.75s;
+    -webkit-animation-delay: 2.75s;
+    -moz-animation-delay: 2.75s;
+    animation-delay: 2.75s; }
+  .stars circle:nth-of-type(10) {
+    animation-delay: 1.75s;
+    -webkit-animation-delay: 1.75s;
+    -moz-animation-delay: 1.75s;
+    animation-delay: 1.75s; }
+  .stars circle:nth-of-type(11) {
+    animation-delay: 0.75s;
+    -webkit-animation-delay: 0.75s;
+    -moz-animation-delay: 0.75s;
+    animation-delay: 0.75s; }
+  .stars circle:nth-of-type(12) {
+    animation-delay: 3s;
+    -webkit-animation-delay: 3s;
+    -moz-animation-delay: 3s;
+    animation-delay: 3s; }
+  .stars circle:nth-of-type(13) {
+    animation-delay: 3.5s;
+    -webkit-animation-delay: 3.5s;
+    -moz-animation-delay: 3.5s;
+    animation-delay: 3.5s; }
+  .stars circle:nth-of-type(14) {
+    animation-delay: 3.75s;
+    -webkit-animation-delay: 3.75s;
+    -moz-animation-delay: 3.75s;
+    animation-delay: 3.75s; }
+
+@keyframes twinkle {
+  0% {
+    opacity: 0.1; }
+  70% {
+    opacity: 0.9; }
+  100% {
+    opacity: 0.1; }
+  @-webkit-keyframes twinkle {
+    from {
+      -webkit-transform: scale(0); }
+    to {
+      -webkit-transform: scale(1); } }
+  @-moz-keyframes twinkle {
+    from {
+      -moz-transform: scale(0); }
+    to {
+      -moz-transform: scale(1); } }
+  @keyframes twinkle {
+    from {
+      -webkit-transform: scale(0);
+      -moz-transform: scale(0);
+      -ms-transform: scale(0);
+      -o-transform: scale(0);
+      transform: scale(0); }
+    to {
+      -webkit-transform: scale(1);
+      -moz-transform: scale(1);
+      -ms-transform: scale(1);
+      -o-transform: scale(1);
+      transform: scale(1); } } }
+/*BUTTONS*/
+.btn {
+  margin-bottom: 20px; }
+  .btn a {
+    text-decoration: none; }
+  .btn h5 {
+    font-weight: 400;
+    font-size: 1.25em;
+    font-size: 20px;
+    font-family: "brandon-grotesque", sans-serif;
+    margin-top: 10px; }
+
+.sign-up-btn,
+.log-in-btn {
+  width: 90px;
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+  display: inline-block;
+  float: left;
+  margin-top: 10px;
+  box-shadow: #c69a42 1px 1px, #f9e4b9 -1px -1px; }
+
+.log-in-btn {
+  background: #374952; }
+  .log-in-btn h5 {
+    color: #f8cb69; }
+
+.sign-up-btn {
+  background: #f8cb69; }
+  .sign-up-btn h5 {
+    color: #374952; }
+
+/* MEDIUM MEDIA QUERY */
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 3.2em;
+    text-align: center; }
+
+  .title {
+    height: 180px; }
+
+  .main {
+    width: 50%; }
+
+  .text-examples h1 {
+    text-align: left; } }
+/* LARGE MEDIA QUERY */
+@media screen and (min-width: 1200px) {
+  .main {
+    width: 70%; } }
+
+/*# sourceMappingURL=style.css.map */
