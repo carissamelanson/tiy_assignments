@@ -203,7 +203,7 @@ a:hover {
   float: left;
   margin-top: 10px;
   margin-left: 10px;
-  box-shadow: #749aa8 1px 1px, #f9e4b9 -1px -1px;
+  box-shadow: #c69a42 1px 1px, #f9e4b9 -1px -1px;
   padding: 4px; }
 
 .log-in-btn, .pass-btn {
@@ -376,21 +376,21 @@ a:hover {
     .content-wrapper .content:last-child, .content-wrapper .page-intro:last-child {
       margin-right: 0; }
 
-.match-content {
+.match-content, .match-content-left {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 82.94039%;
   margin-left: 8.5298%;
   padding: 30px; }
-  .match-content:last-child {
+  .match-content:last-child, .match-content-left:last-child {
     margin-right: 0; }
 
-.content, .match-content {
+.content, .match-content, .match-content-left {
   background: #dcf4f3;
   border-radius: 5px;
   margin-bottom: 60px; }
-  .content h6, .match-content h6 {
+  .content h6, .match-content h6, .match-content-left h6 {
     margin-bottom: 20px; }
 
 /*INDEX*/
@@ -412,7 +412,7 @@ a:hover {
     float: right; }
 
 /*ONBOARDING*/
-input {
+form input {
   border-radius: 5px;
   height: 40px;
   width: 200px;
@@ -828,16 +828,29 @@ html, body {
     float: left;
     margin-top: 10px;
     margin-left: 0px;
-    box-shadow: #749aa8 1px 1px, #f9e4b9 -1px -1px; }
+    box-shadow: #c69a42 1px 1px, #f9e4b9 -1px -1px; }
+
+  .sign-up-btn, .log-in-btn {
+    margin-left: 10px; }
 
   .match-content {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 48.82117%;
+    width: 40.29137%;
     margin-left: 0%;
     padding: 30px; }
     .match-content:last-child {
+      margin-right: 0; }
+
+  .match-content-left {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 40.29137%;
+    margin-left: 8.5298%;
+    padding: 30px; }
+    .match-content-left:last-child {
       margin-right: 0; }
 
   .message-box, .skills-box {

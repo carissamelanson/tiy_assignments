@@ -208,7 +208,7 @@ a:hover{color:$gold;}
 	float: left;
 	margin-top: 10px;
 	margin-left: 10px;
-	box-shadow: #749aa8 1px 1px, #f9e4b9 -1px -1px;
+	box-shadow: #c69a42 1px 1px, #f9e4b9 -1px -1px;
 	padding: 4px;
 }
 
@@ -359,14 +359,14 @@ a:hover{color:$gold;}
 }
 
 }
-.match-content{
-		@include span-columns(10);
+.match-content,.match-content-left{
+	@include span-columns(10);
 	@include shift(1);
 	padding: 30px;
 
 
 }
-.content, .match-content{
+.content, .match-content,.match-content-left{
 	background: $sky;
 	border-radius: 5px;
 	margin-bottom: 60px;
@@ -402,7 +402,8 @@ a:hover{color:$gold;}
 
 /*ONBOARDING*/
 
-input {
+form{
+	input{
 	border-radius: 5px;
 	height: 40px;
 	width: 200px;
@@ -410,6 +411,7 @@ input {
 
 	-moz-box-sizing: border-box;
 	@include user-select(none);
+}
 
 
 }
@@ -651,7 +653,7 @@ label h5{
 // .skills-box {
 // 	padding: 17px;
 // }
-.message-content,
+.message-content, 
 .experience-content{
 	@include span-columns(10);
 	@include shift(1);
@@ -849,16 +851,22 @@ li{
 	float: left;
 	margin-top: 10px;
 	margin-left: 0px;
-	box-shadow: #749aa8 1px 1px, #f9e4b9 -1px -1px;
+	box-shadow: #c69a42 1px 1px, #f9e4b9 -1px -1px;
 
 }
+.sign-up-btn, .log-in-btn{margin-left: 10px;}
 
 .match-content{
-	@include span-columns(6);
+	@include span-columns(5);
 	@include shift(0);
 	padding: 30px;
 
 
+}
+.match-content-left{
+	@include span-columns(5);
+	@include shift(1);
+	padding: 30px;
 }
 
 .message-box,.skills-box{

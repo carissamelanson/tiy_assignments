@@ -7,11 +7,12 @@ no vocal fry
 
 
 Where I'm at
-
+Testing my site in different browsers.
+Started style guide
 
 
 Challenges
-
+Input field not showing up in other browsers
 
 
 
