@@ -313,6 +313,10 @@ ul {
   float: left; }
 
 /*LOGOS*/
+.sm-logo {
+  width: 40px;
+  margin-bottom: 60px; }
+
 .logo-png {
   width: 400px; }
 
@@ -334,6 +338,9 @@ ul {
 
 .lg-navigation {
   width: 224px; }
+
+.elements {
+  width: 100%; }
 
 /*STARS*/
 .hero-stars {
@@ -446,14 +453,16 @@ ul {
       -o-transform: scale(1);
       transform: scale(1); } } }
 /*BUTTONS*/
-.btn a {
-  text-decoration: none; }
-.btn h5 {
-  font-weight: 400;
-  font-size: 1.25em;
-  font-size: 20px;
-  font-family: "brandon-grotesque", sans-serif;
-  margin-top: 10px; }
+.btn {
+  margin-bottom: 20px; }
+  .btn a {
+    text-decoration: none; }
+  .btn h5 {
+    font-weight: 400;
+    font-size: 1.25em;
+    font-size: 20px;
+    font-family: "brandon-grotesque", sans-serif;
+    margin-top: 10px; }
 
 .sign-up-btn,
 .log-in-btn {
@@ -462,11 +471,9 @@ ul {
   border-radius: 5px;
   text-align: center;
   display: inline-block;
-  margin-right: 10px;
   float: left;
   margin-top: 10px;
-  margin-left: 10px;
-  box-shadow: #749aa8 1px 1px, #f9e4b9 -1px -1px; }
+  box-shadow: #c69a42 1px 1px, #f9e4b9 -1px -1px; }
 
 .log-in-btn {
   background: #374952; }

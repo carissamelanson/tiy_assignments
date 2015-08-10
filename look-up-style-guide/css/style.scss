@@ -335,6 +335,10 @@ span{
 }
 
 /*LOGOS*/
+.sm-logo{
+	width: 40px;
+	margin-bottom: 60px;
+}
 .logo-png{
 	width: 400px;
 }
@@ -359,10 +363,10 @@ span{
 	width: 224px;
 }
 
+.elements{width: 100%;}
 
 /*STARS*/
 .hero-stars {
-	// @include span-columns(12);
 	position: relative;
 	background: $dkblue;
 	height: 250px;
@@ -372,7 +376,6 @@ span{
 }
 
 .star-backdrop{
-	// position: relative;
 	overflow: hidden;
 	 max-height: 250px;
 }
@@ -380,7 +383,6 @@ span{
 .stars {
 	position: absolute;
 	overflow: hidden;
-	 // max-height: 250px;
   	width: 100%;
 
   top: 0;
@@ -453,8 +455,7 @@ span{
 
 /*BUTTONS*/
 .btn{
-	// margin: 0 auto;
-	// width: 220px;
+	margin-bottom: 20px;
 
 
 	a{text-decoration: none;}
@@ -475,12 +476,10 @@ span{
 	border-radius: 5px;
 	text-align: center;
 	display: inline-block;
-	margin-right: 10px;
 	float: left;
 	margin-top: 10px;
-	margin-left: 10px;
-	box-shadow: #749aa8 1px 1px, #f9e4b9 -1px -1px;
-	// padding: 4px;
+	box-shadow: #c69a42 1px 1px, #f9e4b9 -1px -1px;
+	
 }
 
 .log-in-btn{
