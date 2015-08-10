@@ -332,12 +332,12 @@ ul {
 
 /*ELEMENTS*/
 .sm-navigation {
-  margin-top: 20px;
   width: 160px;
   margin-right: 20px; }
 
 .lg-navigation {
-  width: 224px; }
+  width: 224px;
+  margin-top: 20px; }
 
 .elements {
   width: 100%; }
