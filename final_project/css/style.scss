@@ -249,7 +249,7 @@ a:hover{color:$gold;}
   	circle {
   	opacity: 0.1;
   	animation: twinkle 5s ease infinite;
-  	@include animation(scale 5s twinkle, ease infinite);
+  	@include animation(twinkle 5s ease infinite);
  }
   circle:nth-of-type(2) {
     animation-delay: 2.5s;
