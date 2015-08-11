@@ -5,19 +5,46 @@ Thank you for being here.
 
 My name is Carissa.
 
-Prior to the iron yard, I was a graphic designer interested in transitioning into web, but i didn't know where to start.
+### Background
+Prior to the iron yard, I was a print designer interested in transitioning into web, but i didn't know where to start. It would have been a great time to have a mentor.
 
-There are others in the similar situations.
+I'm sure we have all felt that at some point. 
 
-To help people find guidance, I created Look Up.
+To simplify the process of finding a mentor, I created Look Up.
 
-A mentorship app that pairs Austin design and dev professionals with students, young professionals and people interested in the industry.
+Look Up is an app that pairs Austin design and developer professionals with students, young professionals and people seriuosly interested in the industry.
 
-How it works
+### Process
 
-connects with linked in 
+To start my process, I researched the history of mentorship, researched dating and networking sites, watched the Seinfeld episode on mentors.
 
-short question and answer
+From there, I conducted users survey and used that data to create content for the site. 
 
-Look up database pairs based on answers and mutual linked in connections
+After gathering research and data, I created style tiles to explore different concepts and themes. 
+
+I chose to go with the North Star concept. The name Look Up comes from the concept of the North Star being a guide in the sky. Similar to mentors being guides for mentees.
+
+Inspiration for the color scheme comes from star maps, but I used bold and bright colors to give the site a fun and inviting feel.
+
+###Landing Page
+To add to the fun and inviting feel I used CSS animation to create the twinkling star effect. I saw an example of this Star animatio from a former design students codepen.
+
+Using CSS animations was challenging because it's not yet supported on all browsers, so testing was tricky. 
+
+to keep in line with the concept i created icons that relfect the star concept.  I used large formats of the icons I created to break up the body copy and bring in interesting visual elements. As you'll see on the next page, I use the icons primarily as navigation.
+
+### New User
+Let's walk through the site as a new user.
+
+### Onboarding
+I used a bourbon refill jquery component for the question form.
+Bourbon refills are code components that you can customize and put into the framework.
+
+
+### Ending 
+the hard part is finding a mentor or mentee,
+now that is done for you and you can focus on developing a successful relationship!
+
+
+
 
