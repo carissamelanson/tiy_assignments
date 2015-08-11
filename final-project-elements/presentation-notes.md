@@ -8,7 +8,7 @@ My name is Carissa.
 ### Background
 Prior to the iron yard, I was a print designer interested in transitioning into web, but i didn't know where to start. It would have been a great time to have a mentor.
 
-I'm sure we have all felt that at some point. 
+I'm sure you all can relate.
 
 To simplify the process of finding a mentor, I created Look Up.
 
@@ -27,11 +27,11 @@ I chose to go with the North Star concept. The name Look Up comes from the conce
 Inspiration for the color scheme comes from star maps, but I used bold and bright colors to give the site a fun and inviting feel.
 
 ###Landing Page
-To add to the fun and inviting feel I used CSS animation to create the twinkling star effect. I saw an example of this Star animatio from a former design students codepen.
+To add to the fun and inviting feel I used CSS animation to create the twinkling star effect. I saw an example of this Star animation from a former design students codepen. I thought it fit with concept and wanted to experiment with new techniques.
 
 Using CSS animations was challenging because it's not yet supported on all browsers, so testing was tricky. 
 
-to keep in line with the concept i created icons that relfect the star concept.  I used large formats of the icons I created to break up the body copy and bring in interesting visual elements. As you'll see on the next page, I use the icons primarily as navigation.
+to keep in line with the theme i created icons that relfect the star concept.  I used large formats of the icons to break up the body copy and bring in interesting visual elements. As you'll see on the next page, I use the icons primarily as navigation.
 
 ### New User
 Let's walk through the site as a new user.
