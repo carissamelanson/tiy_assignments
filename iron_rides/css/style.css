@@ -1,0 +1,358 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* COLORS */
+/* Fonts */
+/* TYPOGRAPHY */
+h1 {
+  font-family: "alternate-gothic-no-3-d", helvetica, arial, sans-serif;
+  font-size: 4em;
+  color: #34495e; }
+
+h2 {
+  font-family: "source-sans-pro", helvetica, arial, sans-serif;
+  font-weight: 600;
+  font-size: 1.8em;
+  line-height: 1.2;
+  color: #1abc9c;
+  margin-bottom: 20px; }
+
+p {
+  font-family: "source-sans-pro", helvetica, arial, sans-serif;
+  font-weight: 300;
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: #666666; }
+
+button {
+  font-family: "source-sans-pro";
+  font-size: 1.2em;
+  color: #fff;
+  border-radius: 5px;
+  border: 0; }
+
+footer {
+  font-size: 1em;
+  font-family: "source-sans-pro"; }
+
+/* GRID */
+.container {
+  width: 100%;
+  padding: 5%; }
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* WELCOME PAGE */
+.welcome-page,
+.login-page,
+.Signup-page,
+.ride-results-page,
+.dashboard-page {
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center; }
+  .welcome-page .welcome-image,
+  .login-page .welcome-image,
+  .Signup-page .welcome-image,
+  .ride-results-page .welcome-image,
+  .dashboard-page .welcome-image {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 18px; }
+  .welcome-page .welcome-text, .welcome-page form,
+  .welcome-page .post-box,
+  .welcome-page .results-box,
+  .login-page .welcome-text,
+  .login-page form,
+  .login-page .post-box,
+  .login-page .results-box,
+  .Signup-page .welcome-text,
+  .Signup-page form,
+  .Signup-page .post-box,
+  .Signup-page .results-box,
+  .ride-results-page .welcome-text,
+  .ride-results-page form,
+  .ride-results-page .post-box,
+  .ride-results-page .results-box,
+  .dashboard-page .welcome-text,
+  .dashboard-page form,
+  .dashboard-page .post-box,
+  .dashboard-page .results-box {
+    background: #e6e6e6;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center; }
+    .welcome-page .welcome-text h1, .welcome-page form h1,
+    .welcome-page .post-box h1,
+    .welcome-page .results-box h1,
+    .login-page .welcome-text h1,
+    .login-page form h1,
+    .login-page .post-box h1,
+    .login-page .results-box h1,
+    .Signup-page .welcome-text h1,
+    .Signup-page form h1,
+    .Signup-page .post-box h1,
+    .Signup-page .results-box h1,
+    .ride-results-page .welcome-text h1,
+    .ride-results-page form h1,
+    .ride-results-page .post-box h1,
+    .ride-results-page .results-box h1,
+    .dashboard-page .welcome-text h1,
+    .dashboard-page form h1,
+    .dashboard-page .post-box h1,
+    .dashboard-page .results-box h1 {
+      padding: 4px; }
+    .welcome-page .welcome-text p, .welcome-page form p,
+    .welcome-page .post-box p,
+    .welcome-page .results-box p,
+    .login-page .welcome-text p,
+    .login-page form p,
+    .login-page .post-box p,
+    .login-page .results-box p,
+    .Signup-page .welcome-text p,
+    .Signup-page form p,
+    .Signup-page .post-box p,
+    .Signup-page .results-box p,
+    .ride-results-page .welcome-text p,
+    .ride-results-page form p,
+    .ride-results-page .post-box p,
+    .ride-results-page .results-box p,
+    .dashboard-page .welcome-text p,
+    .dashboard-page form p,
+    .dashboard-page .post-box p,
+    .dashboard-page .results-box p {
+      margin-bottom: 10px;
+      text-align: left; }
+  .welcome-page .join-btn,
+  .welcome-page .sign-up-btn,
+  .login-page .join-btn,
+  .login-page .sign-up-btn,
+  .Signup-page .join-btn,
+  .Signup-page .sign-up-btn,
+  .ride-results-page .join-btn,
+  .ride-results-page .sign-up-btn,
+  .dashboard-page .join-btn,
+  .dashboard-page .sign-up-btn {
+    margin-top: 20px;
+    background-color: #1abc9c;
+    width: 200px;
+    padding: 10px;
+    margin-right: 10px; }
+  .welcome-page .login-btn,
+  .login-page .login-btn,
+  .Signup-page .login-btn,
+  .ride-results-page .login-btn,
+  .dashboard-page .login-btn {
+    background-color: #3498db;
+    width: 200px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 10px; }
+
+strong {
+  font-weight: 600; }
+
+footer {
+  margin-top: 60px;
+  text-align: center; }
+
+/* LOGIN PAGE */
+.login-page form,
+.login-page .search-form,
+.login-page .results-box {
+  width: 320px;
+  margin: 0 auto; }
+.login-page .login-btn, .login-page .sign-up-btn {
+  margin-top: 20px;
+  margin-right: 0px; }
+.login-page h2 {
+  margin-bottom: 20px;
+  margin-right: 10px; }
+
+.form-label,
+.password {
+  font-size: 1.2em;
+  font-family: "source-sans-pro"; }
+
+.input-box {
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  border: 0;
+  text-align: center;
+  margin-top: 6px;
+  margin-bottom: 10px; }
+
+/* 	SIGN UP PAGE */
+.Signup-page {
+  margin: 0 auto; }
+  .Signup-page .home-btn {
+    background-color: #3498db;
+    float: right;
+    margin-bottom: 40px; }
+  .Signup-page .Signup-form {
+    width: 340px;
+    margin: 0 auto; }
+    .Signup-page .Signup-form .form-label {
+      /* float: left; */
+      /* margin-top: 20px; */
+      /* clear: left;	 */ }
+    .Signup-page .Signup-form .input-box {
+      width: 200px;
+      /* float: right; */
+      /* margin-left: 10px; */ }
+
+.submit-btn {
+  background-color: #1abc9c;
+  width: 200px;
+  margin-top: 10px;
+  padding: 10px; }
+
+/* Find Car Component */
+.ride-results-page .search-form {
+  margin-bottom: 20px; }
+.ride-results-page .submit-btn {
+  margin-top: 10px; }
+.ride-results-page .results-box {
+  font-family: "source-sans-pro", helvetica, arial, sans-serif;
+  font-weight: 300;
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: #666666; }
+
+.dashboard-btn {
+  float: right;
+  margin-left: 10px; }
+
+.logout-btn {
+  background-color: #3498db;
+  float: right;
+  margin-bottom: 40px; }
+
+/* DASHBOARD */
+.dashboard-page .post-box {
+  width: 340px;
+  margin: 0 auto; }
+  .dashboard-page .post-box .type-post .input-box {
+    width: 200px; }
+  .dashboard-page .post-box .submit-btn {
+    width: 80px;
+    margin-left: 10px;
+    padding: 4px;
+    margin-top: 10px; }
+  .dashboard-page .post-box .posted-post .input-box,
+  .dashboard-page .post-box .post-comments .input-box {
+    width: 290px; }
+
+/* MEDIUM MEDIA QUERY */
+@media screen and (min-width: 800px) {
+  .welcome-page,
+  .login-page,
+  .Signup-page,
+  .ride-results-page,
+  .dashboard-page {
+    padding: 40px; }
+    .welcome-page .welcome-image,
+    .login-page .welcome-image,
+    .Signup-page .welcome-image,
+    .ride-results-page .welcome-image,
+    .dashboard-page .welcome-image {
+      max-width: 700px; }
+    .welcome-page h1,
+    .login-page h1,
+    .Signup-page h1,
+    .ride-results-page h1,
+    .dashboard-page h1 {
+      font-size: 5em; }
+    .welcome-page h2,
+    .login-page h2,
+    .Signup-page h2,
+    .ride-results-page h2,
+    .dashboard-page h2 {
+      font-size: 2.4em;
+      line-height: 1.4; }
+    .welcome-page .join-btn,
+    .login-page .join-btn,
+    .Signup-page .join-btn,
+    .ride-results-page .join-btn,
+    .dashboard-page .join-btn {
+      margin-right: 20px; }
+
+  .login-page .join-btn {
+    margin-right: 10px; }
+
+  form,
+  .search-form,
+  .results-box {
+    width: 500px; }
+
+  .dashboard-page .post-box {
+    width: 640px; }
+    .dashboard-page .post-box .type-post .input-box {
+      width: 500px; }
+    .dashboard-page .post-box .posted-post .input-box,
+    .dashboard-page .post-box .post-comments .input-box {
+      width: 590px; } }
+/* LARGE MEDIA QUERY */
+@media screen and (min-width: 1300px) {
+  .welcome-page,
+  .login-page,
+  .Signup-page,
+  .ride-results-page,
+  .dashboard-page {
+    padding: 100px; }
+
+  .type-post .input-box {
+    width: 200px; } }
+
+/*# sourceMappingURL=style.css.map */
